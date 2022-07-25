@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Screen Recorder</string>
+	<string name="app_name_firt">Screen</string>
+	<string name="app_name_second">Recorder</string>
+	<string name="menu_rate_us">私たちを評価してください</string>
+	<string name="menu_more_app">より多くのアプリ</string>
+	<string name="menu_share">シェア</string>
+	<string name="menu_language">言語</string>
+	<string name="menu_policy">個人情報保護方針</string>
+	<string name="screen_recorder">スクリーンレコーダー</string>
+	<string name="navigation_drawer_open">開いた</string>
+	<string name="navigation_drawer_close">閉じる</string>
+	<string name="no_video">ビデオは記録されていません</string>
+	<string name="video_settings">ビデオの設定</string>
+	<string name="resolution">解決</string>
+	<string name="bit_rate">ビットレート</string>
+	<string name="frame_per_second">1秒あたりのフレーム</string>
+	<string name="orientation">オリエンテーション</string>
+	<string name="audio_settings">オーディオ設定</string>
+	<string name="record_audio">レコードオーディオ</string>
+	<string name="save_options">オプションを保存します</string>
+	<string name="custom_app">カスタムアプリ</string>
+	<string name="target_app">ターゲットアプリを有効にします</string>
+	<string name="chosse_app">アプリを選択してください</string>
+	<string name="detail_target_app">録音する前にターゲットアプリを開きます</string>
+	<string name="detail_choose_app">録音中にデフォルトで起動するアプリを選択してください</string>
+	<string name="cancel">キャンセル</string>
+	<string name="ok">OK</string>
+	<string name="edit">編集する</string>
+	<string name="trim">トリム</string>
+	<string name="screenshots">スクリーンショット</string>
+	<string name="camera">カメラ</string>
+	<string name="brush">みがきます</string>
+	<string name="tools">ツール</string>
+	<string name="record">記録</string>
+	<string name="home">在宅</string>
+	<string name="exit">出口</string>
+	<string name="pause">一時停止</string>
+	<string name="resume">履歴書</string>
+	<string name="stop">やめる</string>
+	<string name="size">サイズ</string>
+	<string name="recording_finished">記録は終了しました</string>
+	<string name="screenshot_finished">スクリーンショットは終了しました</string>
+	<string name="recording">録音</string>
+	<string name="save_location">位置を保存</string>
+	<string name="file_name_fomart">ファイル名形式</string>
+	<string name="file_name_prefix">ファイル名のプレフィックス</string>
+	<string name="record_setting">録音設定</string>
+	<string name="floating_control">フローティングコントロールを使用してください</string>
+	<string name="description_floating_control">すべての画面を描画するフローティングコントロールを有効/無効にする</string>
+	<string name="count_down_timer">カウントダウン時間</string>
+	<string name="vibrate">振動する</string>
+	<string name="description_vibrate">タッチしたときに振動を有効/無効にする</string>
+	<string name="description_camera_overlay">カメラオーバーレイを有効/無効にします。</string>
+	<string name="camera_overlay">カメラのオーバーレイを表示します</string>
+	<string name="save_as_gif">GIFとして保存します</string>
+	<string name="delete">削除する</string>
+	<string name="experimental">experiment</string>
+	<string name="detail_save_as_gif">gifアニメーションとしてビデオを保存できるようにします</string>
+	<string name="shake_in_record">録音を開始/停止するように振る</string>
+	<string name="detail_shake">デバイスを振って録音を開始または停止します</string>
+	<string name="content_notification_shake">デバイスを振って録音を開始するか、この通知を押してキャンセルする</string>
+	<string name="guide_activity_title">利用アクセスを許可してください</string>
+	<string name="guide_activity_description">この機能を有効にするための使用状況アクセス許可を付与する必要があります。</string>
+	<string name="trim_video_success">成功</string>
+	<string name="trim_video_failed">失敗する</string>
+	<string name="video">ビデオ</string>
+	<string name="picture">画像</string>
+	<string name="setting">設定</string>
+	<string name="no_image">画像無し</string>
+	<string name="close">閉じる</string>
+	<string name="share">シェア</string>
+	<string name="menu_feedback">フィードバックを送信する</string>
+	<string name="start_record">レコードを開始</string>
+	<string name="record_failed">記録に失敗しました</string>
+
+	<string name="grant_app_permission">包括的な電話スキャン効果のためのアプリ使用許可を付与</string>
+	<string name="permission_needed">許可が必要</string>
+	<string name="grant_now">今すぐ付与</string>
+	<string name="record_audio_permission">マイクで録音する許可を与える</string>
+	<string name="external_storage_permission">デバイスの外部ストレージ メモリへのアクセスを許可します</string>
+	<string name="overlay_permission">他のアプリでの表示許可を与える</string>
+
+	// Bit rate
+	<string name="bitrate_0">1.0 Mbit (とても低い)</string>
+	<string name="bitrate_1">2.5 Mbit</string>
+	<string name="bitrate_2">3.5 Mbit (低)</string>
+	<string name="bitrate_3">4.5 Mbit</string>
+	<string name="bitrate_4">6.8 Mbit (良い)</string>
+	<string name="bitrate_5">9.8 Mbit</string>
+	<string name="bitrate_6">12 Mbit (優れた)</string>
+	<string name="bitrate_7">24 Mbit (警告)</string>
+	<string name="bitrate_8">48 Mbit (警告)</string>
+
+	// Resolution
+	<string name="resolution_0">360P</string>
+	<string name="resolution_1">720P</string>
+	<string name="resolution_2">1080P</string>
+	<string name="resolution_3">1440P</string>
+
+	// Frames
+	<string name="frame_0">25s</string>
+	<string name="frame_1">30s</string>
+	<string name="frame_2">35s</string>
+	<string name="frame_3">40s</string>
+	<string name="frame_4">50s</string>
+	<string name="frame_5">60s</string>
+
+	// Orientation
+	<string name="orientation_0">自動</string>
+	<string name="orientation_1">ポートレート</string>
+	<string name="orientation_2">風景</string>
+
+	// Audio title
+	<string name="audio_title_0">無し</string>
+	<string name="audio_title_1">マイク</string>
+	<string name="audio_title_2">内部</string>
+	<string name="audio_title_3">マイクと内部</string>
+
+	// Audio description
+	<string name="audio_description_0">サイレントビデオ録画.</string>
+	<string name="audio_description_1">電話の外からあなたの声と音を録音する.</string>
+	<string name="audio_description_2">android10以降のみをサポートします。アプリまたはゲームは、内部オーディオ録音もサポートする必要があります.</string>
+	<string name="audio_description_3">android10以降のみをサポートします。アプリまたはゲームは、内部オーディオ録音もサポートする必要があります.</string>
+
+	// File name format
+	<string name="name_format_0">yyyyMMdd_hhmmss</string>
+	<string name="name_format_1">ddMMyyyy_hhmmss</string>
+	<string name="name_format_2">yyMMdd_hhmmss</string>
+	<string name="name_format_3">ddMMyy_hhmmss</string>
+	<string name="name_format_4">hhMMss_yyyymmdd</string>
+	<string name="name_format_5">hhMMss_ddmmyyyy</string>
+	<string name="name_format_6">hhMMss_yymmdd</string>
+	<string name="name_format_7">hhMMss_ddmmyy</string>
+
+	// Language
+	<string name="language_0">English</string>
+	<string name="language_1">Português</string>
+	<string name="language_2">Tiếng Việt</string>
+	<string name="language_3">русский</string>
+	<string name="language_4">हिन्दी</string>
+	<string name="language_5">日本語</string>
+	<string name="language_6">한국어</string>
+	<string name="language_7">Türk</string>
+	<string name="language_8">French</string>
+	<string name="language_9">Spanish</string>
+	<string name="language_10">عربى</string>
+
+	// Timer
+	<string name="timer_0">無し</string>
+	<string name="timer_1">3s</string>
+	<string name="timer_2">5s</string>
+	<string name="timer_3">7s</string>
+	<string name="timer_4">10s</string>
+</resources>

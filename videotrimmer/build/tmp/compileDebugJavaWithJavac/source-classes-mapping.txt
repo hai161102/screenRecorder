@@ -1,0 +1,2 @@
+idv/luchafang/videotrimmer/BuildConfig.java
+ idv.luchafang.videotrimmer.BuildConfig

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:icon="@drawable/ic_rating"
+            android:id="@+id/nav_rate"
+            android:title="@string/menu_rate_us" />
+        <item
+            android:icon="@drawable/ic_feedback"
+            android:id="@+id/nav_feedback"
+            android:title="@string/menu_feedback" />
+        <item
+            android:icon="@drawable/ic_share_social"
+            android:id="@+id/nav_share"
+            android:title="@string/menu_share" />
+        <item
+            android:icon="@drawable/ic_language"
+            android:id="@+id/nav_language"
+            android:title="@string/menu_language" />
+    </group>
+</menu>

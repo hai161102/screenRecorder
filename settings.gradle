@@ -1,0 +1,6 @@
+include ':ads'
+include ':cameralibrary'
+include ':floatingview'
+include ':videotrimmer'
+include ':app'
+rootProject.name = "ScreenRecorderV2"

@@ -1,0 +1,15 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="jp.co.recruit_lifestyle.android.floatingview" >
+5
+6    <uses-sdk
+6-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\floatingview\src\main\AndroidManifest.xml:3:5-74
+7        android:minSdkVersion="14"
+7-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\floatingview\src\main\AndroidManifest.xml:3:5-74
+8        android:targetSdkVersion="29"
+8-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\floatingview\src\main\AndroidManifest.xml:3:5-74
+9        tools:overrideLibrary="android.support.dynamicanimation" />
+9-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\floatingview\src\main\AndroidManifest.xml:3:15-71
+10
+11</manifest>

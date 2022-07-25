@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">videotrimmer</string>
+    <declare-styleable name="VideoTrimmerView">
+        <attr format="reference" name="vtv_window_left_bar"/>
+        <attr format="reference" name="vtv_window_right_bar"/>
+        <attr format="dimension" name="vtv_window_bar_width"/>
+        <attr format="dimension" name="vtv_window_border_width"/>
+        <attr format="color" name="vtv_window_border_color"/>
+        <attr format="color" name="vtv_overlay_color"/>
+    </declare-styleable>
+</resources>

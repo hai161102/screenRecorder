@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Screen Recorder</string>
+	<string name="app_name_firt">Screen</string>
+	<string name="app_name_second">Recorder</string>
+	<string name="menu_rate_us">Bizi değerlendirin</string>
+	<string name="menu_more_app">Daha fazla uygulama</string>
+	<string name="menu_share">Paylaş</string>
+	<string name="menu_language">Dil</string>
+	<string name="menu_policy">Gizlilik Politikası</string>
+	<string name="screen_recorder">Ekran kaydedicisi</string>
+	<string name="navigation_drawer_open">açık</string>
+	<string name="navigation_drawer_close">kapat</string>
+	<string name="no_video">Video kaydedilmedi</string>
+	<string name="video_settings">Videolar Ayarları</string>
+	<string name="resolution">çözüm</string>
+	<string name="bit_rate">Bit hızı</string>
+	<string name="frame_per_second">Saniyede çerçeveler</string>
+	<string name="orientation">Oryantasyon</string>
+	<string name="audio_settings">Ses ayarları</string>
+	<string name="record_audio">Ses kaydı</string>
+	<string name="save_options">Seçenekleri Kaydet</string>
+	<string name="custom_app">Özel uygulama</string>
+	<string name="target_app">Hedef uygulamasını etkinleştir</string>
+	<string name="chosse_app">Uygulamayı seçin</string>
+	<string name="detail_target_app">Kaydetmeden önce hedef uygulamayı açın</string>
+	<string name="detail_choose_app">Kayıt yaparken varsayılan olarak başlamak için bir uygulama seçin</string>
+	<string name="cancel">İptal etmek</string>
+	<string name="ok">TAMAM MI</string>
+	<string name="edit">Düzenle</string>
+	<string name="trim">Süslemek</string>
+	<string name="screenshots">Ekran görüntüsü</string>
+	<string name="camera">Kamera</string>
+	<string name="brush">Fırça</string>
+	<string name="tools">Araçlar</string>
+	<string name="record">Kayıt</string>
+	<string name="home">Ev</string>
+	<string name="exit">çıkış</string>
+	<string name="pause">Duraklat</string>
+	<string name="resume">Devam et</string>
+	<string name="stop">Dur</string>
+	<string name="size">Boyut</string>
+	<string name="recording_finished">Kayıt bitti</string>
+	<string name="screenshot_finished">Ekran görüntüsü bitti</string>
+	<string name="recording">Kayıt</string>
+	<string name="save_location">Konumu kaydet</string>
+	<string name="file_name_fomart">Dosya adı formatı</string>
+	<string name="file_name_prefix">Dosya adı öneki</string>
+	<string name="record_setting">Kayıt ayarları</string>
+	<string name="floating_control">Yüzer kontrolleri kullanın</string>
+	<string name="description_floating_control">Her ekranı çeken yüzer kontrolleri etkinleştir / devre dışı bırakma</string>
+	<string name="count_down_timer">Geri sayım saatleri</string>
+	<string name="vibrate">Titremek</string>
+	<string name="description_vibrate">Dokunurken titremeyi etkinleştirin / devre dışı bırakın</string>
+	<string name="description_camera_overlay">Kamera kaplamasını etkinleştirme / devre dışı bırakma. </string>
+	<string name="camera_overlay">Kamera kaplamayı göster</string>
+	<string name="save_as_gif">GIF olarak kaydet</string>
+	<string name="delete">Silmek</string>
+	<string name="experimental">Deneysel</string>
+	<string name="detail_save_as_gif">Videoları GIF animasyonu olarak kaydetmenizi sağlar</string>
+	<string name="shake_in_record">Kaydı başlatmak / durdurmak için sallayın</string>
+	<string name="detail_shake">Kaydı başlatmak veya durdurmak için cihazınızı sallayın</string>
+	<string name="content_notification_shake">Kayıt başlatmak için cihazınızı sallayın veya iptal etmek için bu bildirime basın.</string>
+	<string name="guide_activity_title">Lütfen kullanım erişimine izin verin</string>
+	<string name="guide_activity_description">Bu özelliği etkinleştirmek için kullanım izni vermeniz gerekir.</string>
+	<string name="trim_video_success">Başarı</string>
+	<string name="trim_video_failed">Başarısız oldu</string>
+	<string name="video">Video</string>
+	<string name="picture">Görüntü</string>
+	<string name="setting">Ayar</string>
+	<string name="no_image">Resim yok</string>
+	<string name="close">Kapat</string>
+	<string name="share">Paylaş</string>
+	<string name="menu_feedback">Geribildirim yolla</string>
+	<string name="start_record">Kayıt başlatmak</string>
+	<string name="record_failed">Kayıt başarısız oldu</string>
+
+	<string name="grant_app_permission">Kapsamlı bir telefon tarama efekti için Uygulama Kullanım İzni verin</string>
+	<string name="permission_needed">İzin Gerekli</string>
+	<string name="grant_now">Şimdi Ver</string>
+	<string name="record_audio_permission">Mikrofonla kayıt yapma izni verin</string>
+	<string name="external_storage_permission">Cihazdaki harici depolama belleğine erişim izni verin</string>
+	<string name="overlay_permission">Diğer uygulamalarda görüntüleme izni verin</string>
+
+	// Bit rate
+	<string name="bitrate_0">1.0 Mbit (Çok düşük)</string>
+	<string name="bitrate_1">2.5 Mbit</string>
+	<string name="bitrate_2">3.5 Mbit (düşük)</string>
+	<string name="bitrate_3">4.5 Mbit</string>
+	<string name="bitrate_4">6.8 Mbit (İyi)</string>
+	<string name="bitrate_5">9.8 Mbit</string>
+	<string name="bitrate_6">12 Mbit (Mükemmel)</string>
+	<string name="bitrate_7">24 Mbit (Uyarı)</string>
+	<string name="bitrate_8">48 Mbit (Uyarı)</string>
+
+	// Resolution
+	<string name="resolution_0">360P</string>
+	<string name="resolution_1">720P</string>
+	<string name="resolution_2">1080P</string>
+	<string name="resolution_3">1440P</string>
+
+	// Frames
+	<string name="frame_0">25s</string>
+	<string name="frame_1">30s</string>
+	<string name="frame_2">35s</string>
+	<string name="frame_3">40s</string>
+	<string name="frame_4">50s</string>
+	<string name="frame_5">60s</string>
+
+	// Orientation
+	<string name="orientation_0">Oto</string>
+	<string name="orientation_1">Vesika</string>
+	<string name="orientation_2">Manzara</string>
+
+	// Audio title
+	<string name="audio_title_0">Yok</string>
+	<string name="audio_title_1">mikrofon</string>
+	<string name="audio_title_2">İç</string>
+	<string name="audio_title_3">Mikrofon ve Dahili</string>
+
+	// Audio description
+	<string name="audio_description_0">Sessiz video kaydı.</string>
+	<string name="audio_description_1">Sesinizi ve telefonun dışından gelen sesleri kaydedin.</string>
+	<string name="audio_description_2">Yalnızca android 10 ve üstünü destekler. Uygulamanızın veya oyununuzun dahili ses kaydını da desteklemesi gerekir.</string>
+	<string name="audio_description_3">Yalnızca android 10 ve üstünü destekler. Uygulamanızın veya oyununuzun dahili ses kaydını da desteklemesi gerekir.</string>
+
+	// File name format
+	<string name="name_format_0">yyyyMMdd_hhmmss</string>
+	<string name="name_format_1">ddMMyyyy_hhmmss</string>
+	<string name="name_format_2">yyMMdd_hhmmss</string>
+	<string name="name_format_3">ddMMyy_hhmmss</string>
+	<string name="name_format_4">hhMMss_yyyymmdd</string>
+	<string name="name_format_5">hhMMss_ddmmyyyy</string>
+	<string name="name_format_6">hhMMss_yymmdd</string>
+	<string name="name_format_7">hhMMss_ddmmyy</string>
+
+	// Language
+	<string name="language_0">English</string>
+	<string name="language_1">Português</string>
+	<string name="language_2">Tiếng Việt</string>
+	<string name="language_3">русский</string>
+	<string name="language_4">हिन्दी</string>
+	<string name="language_5">日本語</string>
+	<string name="language_6">한국어</string>
+	<string name="language_7">Türk</string>
+	<string name="language_8">French</string>
+	<string name="language_9">Spanish</string>
+	<string name="language_10">عربى</string>
+
+	// Timer
+	<string name="timer_0">Yok</string>
+	<string name="timer_1">3s</string>
+	<string name="timer_2">5s</string>
+	<string name="timer_3">7s</string>
+	<string name="timer_4">10s</string>
+</resources>

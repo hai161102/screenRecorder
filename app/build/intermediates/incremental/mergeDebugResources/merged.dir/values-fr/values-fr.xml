@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nouvelle notification</item>
+    <item quantity="other">%d nouvelles notifications</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"OK"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NON"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"OUI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="app_name">Screen Recorder</string>
+    <string name="app_name_firt">Screen</string>
+    <string name="app_name_second">Recorder</string>
+    <string name="audio_description_0">Enregistrement vidéo silencieux.</string>
+    <string name="audio_description_1">Enregistrez votre voix et vos sons depuis l\'extérieur du téléphone.</string>
+    <string name="audio_description_2">Ne prend en charge que Android 10 et supérieur. Votre application ou votre jeu doit également prendre en charge l\'enregistrement audio interne.</string>
+    <string name="audio_description_3">Ne prend en charge que Android 10 et supérieur. Votre application ou votre jeu doit également prendre en charge l\'enregistrement audio interne.</string>
+    <string name="audio_settings">Les paramètres audio</string>
+    <string name="audio_title_0">Rien</string>
+    <string name="audio_title_1">Mic</string>
+    <string name="audio_title_2">Interne</string>
+    <string name="audio_title_3">Micro et Interne</string>
+    <string name="bit_rate">Débit binaire</string>
+    <string name="bitrate_0">1.0 Mbit (Très lent)</string>
+    <string name="bitrate_1">2.5 Mbit</string>
+    <string name="bitrate_2">3.5 Mbit (faible)</string>
+    <string name="bitrate_3">4.5 Mbit</string>
+    <string name="bitrate_4">6.8 Mbit (Bien)</string>
+    <string name="bitrate_5">9.8 Mbit</string>
+    <string name="bitrate_6">12 Mbit (Excellent)</string>
+    <string name="bitrate_7">24 Mbit (Avertissement)</string>
+    <string name="bitrate_8">48 Mbit (Avertissement)</string>
+    <string name="bottomsheet_action_expand_halfway">Développer en entier</string>
+    <string name="brush">Brosser</string>
+    <string name="camera">Caméra</string>
+    <string name="camera_overlay">Afficher la superposition de la caméra</string>
+    <string name="cancel">Annuler</string>
+    <string name="character_counter_content_description">Caractères saisis %1$d sur %2$d</string>
+    <string name="character_counter_overflowed_content_description">Nombre maximal de caractères dépassé : %1$d sur %2$d</string>
+    <string name="chosse_app">Choisissez l\'application</string>
+    <string name="clear_text_end_icon_content_description">Effacer le texte</string>
+    <string name="close">Fermer</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> rencontre des problèmes avec les services Google Play. Veuillez réessayer."</string>
+    <string name="confirm_close" translatable="false">Êtes-vous sûr(e) de vouloir quitter cette activité ?</string>
+    <string name="confirm_exit">Voulez-vous réellement quitter ?</string>
+    <string name="content_notification_shake">Secouez votre appareil pour commencer l\'enregistrement ou appuyer sur cette notification pour annuler</string>
+    <string name="count_down_timer">Heures de compte à rebours</string>
+    <string name="custom_app">Application personnalisée</string>
+    <string name="delete">Effacer</string>
+    <string name="description_camera_overlay">Activer / désactiver la superposition de la caméra. </string>
+    <string name="description_floating_control">Activer / désactiver les commandes flottantes qui attire chaque écran</string>
+    <string name="description_vibrate">Activer / Désactiver Vibrer lorsque vous touchez</string>
+    <string name="detail_choose_app">Choisissez une application pour commencer par défaut lors de l\'enregistrement</string>
+    <string name="detail_save_as_gif">Permet d\'économiser des vidéos comme animation gif</string>
+    <string name="detail_shake">Agitez votre appareil pour démarrer ou arrêter l\'enregistrement</string>
+    <string name="detail_target_app">Application cible ouverte avant l\'enregistrement</string>
+    <string name="edit">Éditer</string>
+    <string name="error_icon_content_description">Erreur</string>
+    <string name="exit">Sortir</string>
+    <string name="exit_app">Quitter</string>
+    <string name="exo_controls_fastforward_description">Avance rapide</string>
+    <string name="exo_controls_fullscreen_description">Mode plein écran</string>
+    <string name="exo_controls_next_description">Titre suivant</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Lecture</string>
+    <string name="exo_controls_previous_description">Titre précédent</string>
+    <string name="exo_controls_repeat_all_description">Tout lire en boucle</string>
+    <string name="exo_controls_repeat_off_description">Ne rien lire en boucle</string>
+    <string name="exo_controls_repeat_one_description">Lire un titre en boucle</string>
+    <string name="exo_controls_rewind_description">Retour arrière</string>
+    <string name="exo_controls_shuffle_description">Aléatoire</string>
+    <string name="exo_controls_stop_description">Arrêter</string>
+    <string name="exo_controls_vr_description">Mode RV</string>
+    <string name="exo_download_completed">Téléchargement terminé</string>
+    <string name="exo_download_description">Télécharger</string>
+    <string name="exo_download_downloading">Téléchargement…</string>
+    <string name="exo_download_failed">Échec du téléchargement</string>
+    <string name="exo_download_notification_channel_name">Téléchargements</string>
+    <string name="exo_download_removing">Suppression des téléchargements…</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Piste alternative</string>
+    <string name="exo_track_role_closed_captions">Sous-titres</string>
+    <string name="exo_track_role_commentary">Commentaires</string>
+    <string name="exo_track_role_supplementary">Piste supplémentaire</string>
+    <string name="exo_track_selection_auto">Automatique</string>
+    <string name="exo_track_selection_none">Aucun</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Texte</string>
+    <string name="exo_track_selection_title_video">Vidéo</string>
+    <string name="exo_track_stereo">Stéréo</string>
+    <string name="exo_track_surround">Son surround</string>
+    <string name="exo_track_surround_5_point_1">Son surround 5.1</string>
+    <string name="exo_track_surround_7_point_1">Son surround 7.1</string>
+    <string name="exo_track_unknown">Inconnu</string>
+    <string name="experimental">Expérimental</string>
+    <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
+    <string name="external_storage_permission">Accorder l\'accès à la mémoire de stockage externe dans l\'appareil</string>
+    <string name="file_name_fomart">Format de nom de fichier</string>
+    <string name="file_name_prefix">Préfixe de nom de fichier</string>
+    <string name="floating_control">Utilisez des commandes flottantes</string>
+    <string name="frame_0">25s</string>
+    <string name="frame_1">30s</string>
+    <string name="frame_2">35s</string>
+    <string name="frame_3">40s</string>
+    <string name="frame_4">50s</string>
+    <string name="frame_5">60s</string>
+    <string name="frame_per_second">Images par seconde</string>
+    <string name="good_5_stars">Bien, 5 étoiles</string>
+    <string name="grant_app_permission">Accorder l\'autorisation d\'utilisation de l\'application pour un effet d\'analyse téléphonique complet</string>
+    <string name="grant_now">Accorder maintenant</string>
+    <string name="guide_activity_description">Vous devez accorder une autorisation d\'accès à l\'utilisation pour activer cette fonctionnalité.</string>
+    <string name="guide_activity_title">S\'il vous plaît permettre l\'accès à l\'utilisation</string>
+    <string name="home">Domicile</string>
+    <string name="icon_content_description">Icône de la boîte de dialogue</string>
+    <string name="install_app_ads">Installer</string>
+    <string name="item_view_role_description">Tabulation</string>
+    <string name="language_0">English</string>
+    <string name="language_1">Português</string>
+    <string name="language_10">عربى</string>
+    <string name="language_2">Tiếng Việt</string>
+    <string name="language_3">русский</string>
+    <string name="language_4">हिन्दी</string>
+    <string name="language_5">日本語</string>
+    <string name="language_6">한국어</string>
+    <string name="language_7">Türk</string>
+    <string name="language_8">French</string>
+    <string name="language_9">Spanish</string>
+    <string name="material_clock_toggle_content_description">Sélectionner le format AM ou PM</string>
+    <string name="material_hour_selection">Sélectionnez une heure</string>
+    <string name="material_hour_suffix">%1$s h</string>
+    <string name="material_minute_selection">Sélectionner des minutes</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Passer en mode horloge pour la saisie de l\'heure.</string>
+    <string name="material_timepicker_hour">Heure</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Sélectionner l\'heure</string>
+    <string name="material_timepicker_text_input_mode_description">Passer en mode saisie de texte pour la saisie de l\'heure.</string>
+    <string name="menu_feedback">Envoyer des commentaires</string>
+    <string name="menu_language">Langue</string>
+    <string name="menu_more_app">Plus d\'application</string>
+    <string name="menu_policy">Politique de confidentialité</string>
+    <string name="menu_rate_us">Évaluez nous</string>
+    <string name="menu_share">Partager</string>
+    <string name="message_dialog_feed_back">Demander la réparation d\'un dysfonctionnement et l\'installation de nouvelles caractéristiques par mail
+</string>
+    <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Plus de %1$d nouvelles notifications</string>
+    <string name="mtrl_picker_a11y_next_month">Passer au mois suivant</string>
+    <string name="mtrl_picker_a11y_prev_month">Passer au mois précédent</string>
+    <string name="mtrl_picker_announce_current_selection">Sélection actuelle : %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Sélectionnez une date</string>
+    <string name="mtrl_picker_date_header_unselected">Date sélectionnée</string>
+    <string name="mtrl_picker_day_of_week_column_header">Colonne du jour de la semaine : %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format incorrect.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemple : %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Utiliser %1$s</string>
+    <string name="mtrl_picker_invalid_range">Plage non valide.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Accéder à l\'année %1$s</string>
+    <string name="mtrl_picker_out_of_range">Hors de portée : %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Date de début – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Date de fin</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Sélectionnez une période</string>
+    <string name="mtrl_picker_range_header_unselected">Date de début – Date de fin</string>
+    <string name="mtrl_picker_save">Enregistrer</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Date de fin</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Date de début</string>
+    <string name="mtrl_picker_text_input_day_abbr">j</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Passer au mode de saisie Agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Appuyer pour sélectionner un jour</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passer au mode de saisie Texte</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Appuyer pour sélectionner une année</string>
+    <string name="name_format_0">yyyyMMdd_hhmmss</string>
+    <string name="name_format_1">ddMMyyyy_hhmmss</string>
+    <string name="name_format_2">yyMMdd_hhmmss</string>
+    <string name="name_format_3">ddMMyy_hhmmss</string>
+    <string name="name_format_4">hhMMss_yyyymmdd</string>
+    <string name="name_format_5">hhMMss_ddmmyyyy</string>
+    <string name="name_format_6">hhMMss_yymmdd</string>
+    <string name="name_format_7">hhMMss_ddmmyy</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Remonter"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Ouvrir le panneau de navigation"</string>
+    <string name="navigation_drawer_close">Fermer</string>
+    <string name="navigation_drawer_open">ouvert</string>
+    <string name="no">Non</string>
+    <string name="no_image">Pas d\'image</string>
+    <string name="no_video">Aucune vidéo n\'a été enregistrée</string>
+    <string name="not_good">Pas bien</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"Appuyez pour ouvrir l\'annonce"</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"Afficher l\'annonce que vous avez enregistrée lorsque vous n\'aviez pas accès à Internet"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"OK"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Vous recevrez une notification contenant le lien lorsque vous serez à nouveau connecté à Internet"</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Non, merci"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"Nous vous enverrons une notification contenant un lien vers le site de l\'annonceur."</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"Ouvrez l\'annonce lorsque vous serez à nouveau connecté à Internet."</string>
+    <string name="ok">d\'accord</string>
+    <string name="orientation">Orientation</string>
+    <string name="orientation_0">Auto</string>
+    <string name="orientation_1">Portrait</string>
+    <string name="orientation_2">Paysage</string>
+    <string name="overlay_permission">Accorder la permission d\'afficher sur d\'autres applications</string>
+    <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string name="pause">Pause</string>
+    <string name="permission_needed">Autorisation requise</string>
+    <string name="picture">Image</string>
+    <string name="rate_app">Evaluer l\'application</string>
+    <string name="rate_msg">Notre équipe travaille très dur pour vous donner la meilleure application gratuite. Votre note de 5 étoiles vaut plus que l\'argent. Laissez s\'il vous plaît un avis positif sur Google Play pour nous encourager</string>
+    <string name="record">Enregistrer</string>
+    <string name="record_audio">Enregistrement audio</string>
+    <string name="record_audio_permission">Accorder la permission d\'enregistrer avec le micro</string>
+    <string name="record_failed">Échec de l\'enregistrement</string>
+    <string name="record_setting">Paramètres d\'enregistrement</string>
+    <string name="recording">Enregistrement</string>
+    <string name="recording_finished">L\'enregistrement est terminé</string>
+    <string name="remind_later">Me le rappeler plus tard</string>
+    <string name="resolution">Résolution</string>
+    <string name="resolution_0">360P</string>
+    <string name="resolution_1">720P</string>
+    <string name="resolution_2">1080P</string>
+    <string name="resolution_3">1440P</string>
+    <string name="resume">Reprendre</string>
+    <string msgid="368094699078615544" name="s1">"Enregistrer l\'image"</string>
+    <string msgid="4550830452390689489" name="s2">"Autoriser l\'annonce à stocker l\'image dans la galerie d\'images ?"</string>
+    <string msgid="2435407834265420668" name="s3">"Accepter"</string>
+    <string msgid="9167523597401839819" name="s4">"Refuser"</string>
+    <string msgid="1566682516266724847" name="s5">"Créer un événement d\'agenda"</string>
+    <string msgid="5996672174517137271" name="s6">"Autoriser l\'annonce à créer un événement d\'agenda ?"</string>
+    <string msgid="7163549807207034258" name="s7">"Annonce test"</string>
+    <string name="save_as_gif">Enregistrer comme gif</string>
+    <string name="save_location">Enregistrer l\'emplacement</string>
+    <string name="save_options">Enregistrer les options</string>
+    <string name="screen_recorder">Enregistreur d\'écran</string>
+    <string name="screenshot_finished">Capture d\'écran Terminé</string>
+    <string name="screenshots">Capture d\'écran</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="setting">Réglage</string>
+    <string name="shake_in_record">Secouer pour commencer / arrêter l\'enregistrement</string>
+    <string name="share">Partager</string>
+    <string name="size">Taille</string>
+    <string name="start_record">Enregistrement de démarrage</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">Arrêter</string>
+    <string name="target_app">Activer l\'application cible</string>
+    <string name="timer_0">Rien</string>
+    <string name="timer_1">3s</string>
+    <string name="timer_2">5s</string>
+    <string name="timer_3">7s</string>
+    <string name="timer_4">10s</string>
+    <string name="title_dialog_feed_back">Envoyer un avis</string>
+    <string name="tools">Outils</string>
+    <string name="trim">Garniture</string>
+    <string name="trim_video_failed">Manqué</string>
+    <string name="trim_video_success">Succès</string>
+    <string name="vibrate">Vibrer</string>
+    <string name="video">Vidéo</string>
+    <string name="video_settings">Paramètres de vidéos</string>
+    <string name="yes">Oui</string>
+</resources>

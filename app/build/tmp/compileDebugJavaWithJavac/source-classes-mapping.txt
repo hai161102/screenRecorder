@@ -1,0 +1,345 @@
+com/example/screenrecorderv2/databinding/LayoutToolsBinding.java
+ com.example.screenrecorderv2.databinding.LayoutToolsBinding
+com/example/screenrecorderv2/service/base/BaseFloatingManager.java
+ com.example.screenrecorderv2.service.base.BaseFloatingManager
+com/example/screenrecorderv2/databinding/LayoutNotificationMainBinding.java
+ com.example.screenrecorderv2.databinding.LayoutNotificationMainBinding
+com/example/screenrecorderv2/ui/screenshot/ScreenShotActivity.java
+ com.example.screenrecorderv2.ui.screenshot.ScreenShotActivity
+com/example/screenrecorderv2/utils/PreferencesHelper.java
+ com.example.screenrecorderv2.utils.PreferencesHelper
+com/example/screenrecorderv2/databinding/FloatingViewMainBinding.java
+ com.example.screenrecorderv2.databinding.FloatingViewMainBinding
+com/example/screenrecorderv2/utils/media/MediaScreenEncoder.java
+ com.example.screenrecorderv2.utils.media.MediaScreenEncoder
+ com.example.screenrecorderv2.utils.media.MediaScreenEncoder$1
+ com.example.screenrecorderv2.utils.media.MediaScreenEncoder$DrawTask
+ com.example.screenrecorderv2.utils.media.MediaScreenEncoder$DrawTask$1
+ com.example.screenrecorderv2.utils.media.MediaScreenEncoder$DrawTask$2
+com/example/screenrecorderv2/ui/editvideo/ItemEdit.java
+ com.example.screenrecorderv2.ui.editvideo.ItemEdit
+com/example/screenrecorderv2/utils/media/MediaMuxerWrapper.java
+ com.example.screenrecorderv2.utils.media.MediaMuxerWrapper
+com/example/screenrecorderv2/databinding/ItemSelectedBinding.java
+ com.example.screenrecorderv2.databinding.ItemSelectedBinding
+com/example/screenrecorderv2/databinding/ActivityMainBinding.java
+ com.example.screenrecorderv2.databinding.ActivityMainBinding
+com/example/screenrecorderv2/ui/editvideo/EditVideoFragment.java
+ com.example.screenrecorderv2.ui.editvideo.EditVideoFragment
+ com.example.screenrecorderv2.ui.editvideo.EditVideoFragment$1
+com/example/screenrecorderv2/ui/trimvideo/VideoTrimActivity.java
+ com.example.screenrecorderv2.ui.trimvideo.VideoTrimActivity
+ com.example.screenrecorderv2.ui.trimvideo.VideoTrimActivity$1
+ com.example.screenrecorderv2.ui.trimvideo.VideoTrimActivity$2
+ com.example.screenrecorderv2.ui.trimvideo.VideoTrimActivity$2$1
+ com.example.screenrecorderv2.ui.trimvideo.VideoTrimActivity$3
+com/example/screenrecorderv2/BuildConfig.java
+ com.example.screenrecorderv2.BuildConfig
+com/example/screenrecorderv2/base/rx/CallBackRxBus.java
+ com.example.screenrecorderv2.base.rx.CallBackRxBus
+com/example/screenrecorderv2/ui/trimvideo/trimlib/VideoFile.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.VideoFile
+com/example/screenrecorderv2/utils/ScreenRecordHelper.java
+ com.example.screenrecorderv2.utils.ScreenRecordHelper
+ com.example.screenrecorderv2.utils.ScreenRecordHelper$1
+ com.example.screenrecorderv2.utils.ScreenRecordHelper$2
+ com.example.screenrecorderv2.utils.ScreenRecordHelper$CallBackRecordHelper
+ com.example.screenrecorderv2.utils.ScreenRecordHelper$MediaProjectionCallback
+ com.example.screenrecorderv2.utils.ScreenRecordHelper$Resolution
+ com.example.screenrecorderv2.utils.ScreenRecordHelper$State
+com/example/screenrecorderv2/databinding/FloatingViewRecordBinding.java
+ com.example.screenrecorderv2.databinding.FloatingViewRecordBinding
+com/example/screenrecorderv2/ui/setting/SelectedAdapter.java
+ com.example.screenrecorderv2.ui.setting.SelectedAdapter
+ com.example.screenrecorderv2.ui.setting.SelectedAdapter$ViewHolder
+com/example/screenrecorderv2/databinding/LayoutSaveOptionsBinding.java
+ com.example.screenrecorderv2.databinding.LayoutSaveOptionsBinding
+com/example/screenrecorderv2/ui/setting/ListAppAdapter.java
+ com.example.screenrecorderv2.ui.setting.ListAppAdapter
+ com.example.screenrecorderv2.ui.setting.ListAppAdapter$ViewHolder
+com/example/screenrecorderv2/base/BaseFragment.java
+ com.example.screenrecorderv2.base.BaseFragment
+com/example/screenrecorderv2/ui/setting/DialogInput.java
+ com.example.screenrecorderv2.ui.setting.DialogInput
+ com.example.screenrecorderv2.ui.setting.DialogInput$CallBackDialog
+com/example/screenrecorderv2/ui/tools/ToolsActivity.java
+ com.example.screenrecorderv2.ui.tools.ToolsActivity
+com/example/screenrecorderv2/databinding/LayoutMainBlurBinding.java
+ com.example.screenrecorderv2.databinding.LayoutMainBlurBinding
+com/example/screenrecorderv2/databinding/LayoutMainBrushBinding.java
+ com.example.screenrecorderv2.databinding.LayoutMainBrushBinding
+com/example/screenrecorderv2/databinding/ItemAppBinding.java
+ com.example.screenrecorderv2.databinding.ItemAppBinding
+com/example/screenrecorderv2/databinding/DialogLoadingBinding.java
+ com.example.screenrecorderv2.databinding.DialogLoadingBinding
+com/example/screenrecorderv2/databinding/DialogInputBinding.java
+ com.example.screenrecorderv2.databinding.DialogInputBinding
+com/example/screenrecorderv2/databinding/FragmentEditVideoBinding.java
+ com.example.screenrecorderv2.databinding.FragmentEditVideoBinding
+com/example/screenrecorderv2/ui/main/DialogAskPermission.java
+ com.example.screenrecorderv2.ui.main.DialogAskPermission
+ com.example.screenrecorderv2.ui.main.DialogAskPermission$SuccessListener
+com/example/screenrecorderv2/databinding/LayoutExperimentalBinding.java
+ com.example.screenrecorderv2.databinding.LayoutExperimentalBinding
+com/example/screenrecorderv2/databinding/ItemColorBinding.java
+ com.example.screenrecorderv2.databinding.ItemColorBinding
+com/example/screenrecorderv2/ui/adapter/ColorAdapter.java
+ com.example.screenrecorderv2.ui.adapter.ColorAdapter
+ com.example.screenrecorderv2.ui.adapter.ColorAdapter$ViewHolder
+com/example/screenrecorderv2/databinding/LayoutRecordingSettingBinding.java
+ com.example.screenrecorderv2.databinding.LayoutRecordingSettingBinding
+com/example/screenrecorderv2/utils/Storage.java
+ com.example.screenrecorderv2.utils.Storage
+ com.example.screenrecorderv2.utils.Storage$VideoValue
+com/example/screenrecorderv2/ui/adapter/VideoAdapter.java
+ com.example.screenrecorderv2.ui.adapter.VideoAdapter
+ com.example.screenrecorderv2.ui.adapter.VideoAdapter$CallBackVideo
+ com.example.screenrecorderv2.ui.adapter.VideoAdapter$HeaderViewHolder
+ com.example.screenrecorderv2.ui.adapter.VideoAdapter$VideoViewHolder
+com/example/screenrecorderv2/databinding/DialogSingleSelectedBinding.java
+ com.example.screenrecorderv2.databinding.DialogSingleSelectedBinding
+com/example/screenrecorderv2/base/rx/RxBusType.java
+ com.example.screenrecorderv2.base.rx.RxBusType
+com/example/screenrecorderv2/ui/setting/Apps.java
+ com.example.screenrecorderv2.ui.setting.Apps
+com/example/screenrecorderv2/databinding/ContentMainBinding.java
+ com.example.screenrecorderv2.databinding.ContentMainBinding
+com/example/screenrecorderv2/service/base/BaseLayoutWindowManager.java
+ com.example.screenrecorderv2.service.base.BaseLayoutWindowManager
+com/example/screenrecorderv2/databinding/ItemDateBinding.java
+ com.example.screenrecorderv2.databinding.ItemDateBinding
+com/example/screenrecorderv2/databinding/LayoutPreviewMediaFileBinding.java
+ com.example.screenrecorderv2.databinding.LayoutPreviewMediaFileBinding
+com/example/screenrecorderv2/ui/main/MainActivity.java
+ com.example.screenrecorderv2.ui.main.MainActivity
+ com.example.screenrecorderv2.ui.main.MainActivity$1
+ com.example.screenrecorderv2.ui.main.MainActivity$2
+com/example/screenrecorderv2/utils/mp4parser/Merge.java
+ com.example.screenrecorderv2.utils.mp4parser.Merge
+com/example/screenrecorderv2/service/floating/FloatingRecordManager.java
+ com.example.screenrecorderv2.service.floating.FloatingRecordManager
+ com.example.screenrecorderv2.service.floating.FloatingRecordManager$1
+ com.example.screenrecorderv2.service.floating.FloatingRecordManager$2
+ com.example.screenrecorderv2.service.floating.FloatingRecordManager$3
+ com.example.screenrecorderv2.service.floating.FloatingRecordManager$4
+com/example/screenrecorderv2/base/rx/RxBusHelper.java
+ com.example.screenrecorderv2.base.rx.RxBusHelper
+com/example/screenrecorderv2/databinding/LayoutNotificationMainRtlBinding.java
+ com.example.screenrecorderv2.databinding.LayoutNotificationMainRtlBinding
+com/example/screenrecorderv2/ui/trimvideo/trimlib/CustomRangeSeekBar.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.CustomRangeSeekBar
+com/example/screenrecorderv2/service/layout/LayoutBlurManager.java
+ com.example.screenrecorderv2.service.layout.LayoutBlurManager
+ com.example.screenrecorderv2.service.layout.LayoutBlurManager$Callback
+com/example/screenrecorderv2/widget/LoadingDialog.java
+ com.example.screenrecorderv2.widget.LoadingDialog
+com/example/screenrecorderv2/utils/ViewUtils.java
+ com.example.screenrecorderv2.utils.ViewUtils
+com/example/screenrecorderv2/base/BaseViewHolder.java
+ com.example.screenrecorderv2.base.BaseViewHolder
+com/example/screenrecorderv2/databinding/NavHeaderMainBinding.java
+ com.example.screenrecorderv2.databinding.NavHeaderMainBinding
+com/example/screenrecorderv2/databinding/LayoutAudioSettingsBinding.java
+ com.example.screenrecorderv2.databinding.LayoutAudioSettingsBinding
+com/example/screenrecorderv2/databinding/LayoutNotificationRecordingRtlBinding.java
+ com.example.screenrecorderv2.databinding.LayoutNotificationRecordingRtlBinding
+com/example/screenrecorderv2/service/floating/FloatingScreenShotManager.java
+ com.example.screenrecorderv2.service.floating.FloatingScreenShotManager
+com/example/screenrecorderv2/databinding/ActivityVideoTrimBinding.java
+ com.example.screenrecorderv2.databinding.ActivityVideoTrimBinding
+com/example/screenrecorderv2/ui/setting/DialogAppPicker.java
+ com.example.screenrecorderv2.ui.setting.DialogAppPicker
+ com.example.screenrecorderv2.ui.setting.DialogAppPicker$1
+ com.example.screenrecorderv2.ui.setting.DialogAppPicker$2
+com/example/screenrecorderv2/databinding/LayoutFloatingMainLeftBinding.java
+ com.example.screenrecorderv2.databinding.LayoutFloatingMainLeftBinding
+com/example/screenrecorderv2/service/layout/LayoutRecordRightManager.java
+ com.example.screenrecorderv2.service.layout.LayoutRecordRightManager
+ com.example.screenrecorderv2.service.layout.LayoutRecordRightManager$Callback
+com/example/screenrecorderv2/databinding/LayoutFloatingRecordingLeftBinding.java
+ com.example.screenrecorderv2.databinding.LayoutFloatingRecordingLeftBinding
+com/example/screenrecorderv2/databinding/LayoutVideoSettingsBinding.java
+ com.example.screenrecorderv2.databinding.LayoutVideoSettingsBinding
+com/example/screenrecorderv2/ui/trimvideo/trimlib/TileView.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.TileView
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.TileView$1
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.TileView$2
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.TileView$MainThreadExecutor
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.TileView$MainThreadExecutor$1
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.TileView$MainThreadExecutor$Token
+com/example/screenrecorderv2/service/layout/LayoutMainLeftManager.java
+ com.example.screenrecorderv2.service.layout.LayoutMainLeftManager
+ com.example.screenrecorderv2.service.layout.LayoutMainLeftManager$CallBack
+com/example/screenrecorderv2/service/layout/LayoutMainRightManager.java
+ com.example.screenrecorderv2.service.layout.LayoutMainRightManager
+ com.example.screenrecorderv2.service.layout.LayoutMainRightManager$Callback
+com/example/screenrecorderv2/service/MyService.java
+ com.example.screenrecorderv2.service.MyService
+ com.example.screenrecorderv2.service.MyService$1
+com/example/screenrecorderv2/databinding/FloatingViewBrushBinding.java
+ com.example.screenrecorderv2.databinding.FloatingViewBrushBinding
+com/example/screenrecorderv2/utils/keyboard/KeyboardHeightProvider.java
+ com.example.screenrecorderv2.utils.keyboard.KeyboardHeightProvider
+com/example/screenrecorderv2/databinding/FragmentVideoBinding.java
+ com.example.screenrecorderv2.databinding.FragmentVideoBinding
+com/example/screenrecorderv2/ui/trimvideo/trimlib/OnVideoTrimListener.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.OnVideoTrimListener
+com/example/screenrecorderv2/service/layout/LayoutRecordLeftManager.java
+ com.example.screenrecorderv2.service.layout.LayoutRecordLeftManager
+ com.example.screenrecorderv2.service.layout.LayoutRecordLeftManager$Callback
+com/example/screenrecorderv2/utils/Config.java
+ com.example.screenrecorderv2.utils.Config
+com/example/screenrecorderv2/databinding/FloatingViewCaptureBinding.java
+ com.example.screenrecorderv2.databinding.FloatingViewCaptureBinding
+com/example/screenrecorderv2/utils/encoder/GifEncoder.java
+ com.example.screenrecorderv2.utils.encoder.GifEncoder
+ com.example.screenrecorderv2.utils.encoder.LZWEncoder
+ com.example.screenrecorderv2.utils.encoder.NeuQuant
+com/example/screenrecorderv2/service/floating/FloatingMainManager.java
+ com.example.screenrecorderv2.service.floating.FloatingMainManager
+ com.example.screenrecorderv2.service.floating.FloatingMainManager$1
+ com.example.screenrecorderv2.service.floating.FloatingMainManager$2
+com/example/screenrecorderv2/ui/guide/GuidePermissionOverlayActivity.java
+ com.example.screenrecorderv2.ui.guide.GuidePermissionOverlayActivity
+com/example/screenrecorderv2/utils/ShakeEventManager.java
+ com.example.screenrecorderv2.utils.ShakeEventManager
+ com.example.screenrecorderv2.utils.ShakeEventManager$ShakeListener
+com/example/screenrecorderv2/ui/trimvideo/trimlib/TrimVideoUtils.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.TrimVideoUtils
+com/example/screenrecorderv2/utils/media/MediaAudioEncoder.java
+ com.example.screenrecorderv2.utils.media.MediaAudioEncoder
+ com.example.screenrecorderv2.utils.media.MediaAudioEncoder$1
+ com.example.screenrecorderv2.utils.media.MediaAudioEncoder$AudioThread
+ com.example.screenrecorderv2.utils.media.MediaAudioEncoder$AudioThread2
+com/example/screenrecorderv2/ui/trimvideo/trimlib/BackgroundTask.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.BackgroundTask
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.BackgroundTask$Task
+com/example/screenrecorderv2/databinding/AppBarMainBinding.java
+ com.example.screenrecorderv2.databinding.AppBarMainBinding
+com/example/screenrecorderv2/service/layout/LayoutPreviewMediaManager.java
+ com.example.screenrecorderv2.service.layout.LayoutPreviewMediaManager
+com/example/screenrecorderv2/databinding/LayoutToolsArBinding.java
+ com.example.screenrecorderv2.databinding.LayoutToolsArBinding
+com/example/screenrecorderv2/databinding/ItemPictureBinding.java
+ com.example.screenrecorderv2.databinding.ItemPictureBinding
+com/example/screenrecorderv2/ui/cameraview/CameraActivity.java
+ com.example.screenrecorderv2.ui.cameraview.CameraActivity
+com/example/screenrecorderv2/databinding/LayoutFloatingRecordingRightBinding.java
+ com.example.screenrecorderv2.databinding.LayoutFloatingRecordingRightBinding
+com/example/screenrecorderv2/base/BaseRecyclerAdapter.java
+ com.example.screenrecorderv2.base.BaseRecyclerAdapter
+ com.example.screenrecorderv2.base.BaseRecyclerAdapter$CallBackAdapter
+com/example/screenrecorderv2/service/floating/FloatingBrushManager.java
+ com.example.screenrecorderv2.service.floating.FloatingBrushManager
+com/example/screenrecorderv2/databinding/DialogListAppBinding.java
+ com.example.screenrecorderv2.databinding.DialogListAppBinding
+com/example/screenrecorderv2/utils/keyboard/KeyboardHeightObserver.java
+ com.example.screenrecorderv2.utils.keyboard.KeyboardHeightObserver
+com/example/screenrecorderv2/base/BaseDialog.java
+ com.example.screenrecorderv2.base.BaseDialog
+com/example/screenrecorderv2/databinding/ItemVideosBinding.java
+ com.example.screenrecorderv2.databinding.ItemVideosBinding
+com/example/screenrecorderv2/ui/setting/SettingFragment.java
+ com.example.screenrecorderv2.ui.setting.SettingFragment
+ com.example.screenrecorderv2.ui.setting.SettingFragment$1
+com/example/screenrecorderv2/databinding/LayoutLanguageBinding.java
+ com.example.screenrecorderv2.databinding.LayoutLanguageBinding
+com/example/screenrecorderv2/ui/video/VideoFragment.java
+ com.example.screenrecorderv2.ui.video.VideoFragment
+ com.example.screenrecorderv2.ui.video.VideoFragment$1
+ com.example.screenrecorderv2.ui.video.VideoFragment$2
+com/example/screenrecorderv2/ui/splash/SplashActivity.java
+ com.example.screenrecorderv2.ui.splash.SplashActivity
+com/example/screenrecorderv2/utils/encoder/Mp4toGIFConverter.java
+ com.example.screenrecorderv2.utils.encoder.Mp4toGIFConverter
+ com.example.screenrecorderv2.utils.encoder.Mp4toGIFConverter$TaskSaveGIF
+com/example/screenrecorderv2/service/layout/LayoutBrushManager.java
+ com.example.screenrecorderv2.service.layout.LayoutBrushManager
+ com.example.screenrecorderv2.service.layout.LayoutBrushManager$1
+com/example/screenrecorderv2/base/BaseActivity.java
+ com.example.screenrecorderv2.base.BaseActivity
+com/example/screenrecorderv2/ui/picture/PictureFragment.java
+ com.example.screenrecorderv2.ui.picture.PictureFragment
+ com.example.screenrecorderv2.ui.picture.PictureFragment$1
+com/example/screenrecorderv2/databinding/FragmentPictureBinding.java
+ com.example.screenrecorderv2.databinding.FragmentPictureBinding
+com/example/screenrecorderv2/databinding/FloatingCameraViewBinding.java
+ com.example.screenrecorderv2.databinding.FloatingCameraViewBinding
+com/example/screenrecorderv2/ui/setting/DialogSingleSelected.java
+ com.example.screenrecorderv2.ui.setting.DialogSingleSelected
+ com.example.screenrecorderv2.ui.setting.DialogSingleSelected$CallBackDialog
+com/example/screenrecorderv2/databinding/ActivityGuidePermissionOverlayBinding.java
+ com.example.screenrecorderv2.databinding.ActivityGuidePermissionOverlayBinding
+com/example/screenrecorderv2/utils/media/MediaEncoder.java
+ com.example.screenrecorderv2.utils.media.MediaEncoder
+ com.example.screenrecorderv2.utils.media.MediaEncoder$MediaEncoderListener
+com/example/screenrecorderv2/utils/Toolbox.java
+ com.example.screenrecorderv2.utils.Toolbox
+com/example/screenrecorderv2/base/rx/CallbackEventView.java
+ com.example.screenrecorderv2.base.rx.CallbackEventView
+com/example/screenrecorderv2/ui/setting/ItemSelected.java
+ com.example.screenrecorderv2.ui.setting.ItemSelected
+com/example/screenrecorderv2/service/floating/FloatingCameraViewManager.java
+ com.example.screenrecorderv2.service.floating.FloatingCameraViewManager
+ com.example.screenrecorderv2.service.floating.FloatingCameraViewManager$1
+ com.example.screenrecorderv2.service.floating.FloatingCameraViewManager$2
+ com.example.screenrecorderv2.service.floating.FloatingCameraViewManager$3
+com/example/screenrecorderv2/databinding/DialogAskPermissionBinding.java
+ com.example.screenrecorderv2.databinding.DialogAskPermissionBinding
+com/example/screenrecorderv2/service/layout/LayoutTimerManager.java
+ com.example.screenrecorderv2.service.layout.LayoutTimerManager
+ com.example.screenrecorderv2.service.layout.LayoutTimerManager$1
+ com.example.screenrecorderv2.service.layout.LayoutTimerManager$CallBack
+com/example/screenrecorderv2/databinding/LayoutFloatingMainRightBinding.java
+ com.example.screenrecorderv2.databinding.LayoutFloatingMainRightBinding
+com/example/screenrecorderv2/databinding/LayoutOptionsBrushBinding.java
+ com.example.screenrecorderv2.databinding.LayoutOptionsBrushBinding
+com/example/screenrecorderv2/databinding/ItemEditBinding.java
+ com.example.screenrecorderv2.databinding.ItemEditBinding
+com/example/screenrecorderv2/databinding/LayoutNotificationRecordingBinding.java
+ com.example.screenrecorderv2.databinding.LayoutNotificationRecordingBinding
+com/example/screenrecorderv2/ui/main/MyTab.java
+ com.example.screenrecorderv2.ui.main.MyTab
+com/example/screenrecorderv2/ui/trimvideo/trimlib/OnRangeSeekBarChangeListener.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.OnRangeSeekBarChangeListener
+com/example/screenrecorderv2/ui/trimvideo/trimlib/BarThumb.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.BarThumb
+com/example/screenrecorderv2/ui/main/MainViewPagerAdapter.java
+ com.example.screenrecorderv2.ui.main.MainViewPagerAdapter
+com/example/screenrecorderv2/ui/trimvideo/trimlib/Utility.java
+ com.example.screenrecorderv2.ui.trimvideo.trimlib.Utility
+com/example/screenrecorderv2/ui/record/RecordActivity.java
+ com.example.screenrecorderv2.ui.record.RecordActivity
+com/example/screenrecorderv2/base/rx/BusEvent.java
+ com.example.screenrecorderv2.base.rx.BusEvent
+com/example/screenrecorderv2/databinding/LayoutCustomAppBinding.java
+ com.example.screenrecorderv2.databinding.LayoutCustomAppBinding
+com/example/screenrecorderv2/databinding/LayoutTimerBinding.java
+ com.example.screenrecorderv2.databinding.LayoutTimerBinding
+com/example/screenrecorderv2/ui/adapter/EditAdapter.java
+ com.example.screenrecorderv2.ui.adapter.EditAdapter
+ com.example.screenrecorderv2.ui.adapter.EditAdapter$ViewHolder
+com/example/screenrecorderv2/ui/adapter/PictureAdapter.java
+ com.example.screenrecorderv2.ui.adapter.PictureAdapter
+ com.example.screenrecorderv2.ui.adapter.PictureAdapter$ViewHolder
+com/example/screenrecorderv2/databinding/FragmentSettingBinding.java
+ com.example.screenrecorderv2.databinding.FragmentSettingBinding
+com/example/screenrecorderv2/databinding/ActivitySplashBinding.java
+ com.example.screenrecorderv2.databinding.ActivitySplashBinding
+com/example/screenrecorderv2/service/layout/LayoutToolsManager.java
+ com.example.screenrecorderv2.service.layout.LayoutToolsManager
+com/example/screenrecorderv2/MyApp.java
+ com.example.screenrecorderv2.MyApp
+com/example/screenrecorderv2/utils/ScreenShotHelper.java
+ com.example.screenrecorderv2.utils.ScreenShotHelper
+ com.example.screenrecorderv2.utils.ScreenShotHelper$1
+ com.example.screenrecorderv2.utils.ScreenShotHelper$ImageAvailableListener
+com/example/screenrecorderv2/utils/LocaleManager.java
+ com.example.screenrecorderv2.utils.LocaleManager
+com/example/screenrecorderv2/base/rx/RxBus.java
+ com.example.screenrecorderv2.base.rx.RxBus
+com/example/screenrecorderv2/utils/media/MediaVideoEncoderBase.java
+ com.example.screenrecorderv2.utils.media.MediaVideoEncoderBase
+com/example/screenrecorderv2/utils/notification/ServiceNotificationManager.java
+ com.example.screenrecorderv2.utils.notification.ServiceNotificationManager
+ com.example.screenrecorderv2.utils.notification.ServiceNotificationManager$1

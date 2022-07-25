@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\ads\\build\\intermediates\\packaged_res\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,43",
+                        "endOffsets": "101,145"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\9cfbe4e49999c3f85c76ff1ab845aeb1\\appcompat-1.3.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "150",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "422"
+                    }
+                }
+            ]
+        }
+    ]
+}

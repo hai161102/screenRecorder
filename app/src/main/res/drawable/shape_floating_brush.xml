@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="@dimen/_58sdp"
+        android:height="@dimen/_58sdp"
+        android:drawable="@drawable/shape_floating"
+        android:gravity="center" />
+    <item
+        android:width="@dimen/_20sdp"
+        android:height="@dimen/_20sdp"
+        android:drawable="@drawable/ic_brush"
+        android:gravity="center" />
+</layer-list>

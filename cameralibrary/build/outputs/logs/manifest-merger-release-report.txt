@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:7:5-60
+	android:name
+		ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:7:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:8:5-10:36
+	android:required
+		ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:10:9-33
+	android:name
+		ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:9:9-57
+application
+ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:12:5-20
+uses-sdk
+INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+		ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+		ADDED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml

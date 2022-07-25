@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">مسجل الشاشة</string>
+    <string name="app_name_firt">شاشة</string>
+    <string name="app_name_second">مسجل</string>
+    <string name="menu_rate_us">قيمنا</string>
+    <string name="menu_share">يشارك</string>
+    <string name="menu_language">لغة</string>
+    <string name="menu_policy">سياسة الخصوصية</string>
+    <string name="screen_recorder">مسجل الشاشة</string>
+    <string name="navigation_drawer_open">افتح</string>
+    <string name="navigation_drawer_close">قريب</string>
+    <string name="no_video">لم يتم تسجيل أي فيديو</string>
+    <string name="video_settings">إعدادات الفيديو</string>
+    <string name="resolution">الدقة</string>
+    <string name="bit_rate">معدل البت</string>
+    <string name="frame_per_second">لقطة في الثانية</string>
+    <string name="orientation">اتجاه</string>
+    <string name="audio_settings">إعدادات الصوت</string>
+    <string name="record_audio">تسجيل صوتي</string>
+    <string name="save_options">حفظ الخيارات</string>
+    <string name="custom_app">تطبيق مخصص</string>
+    <string name="target_app">تفعيل التطبيق الهدف</string>
+    <string name="chosse_app">اختر التطبيق</string>
+    <string name="detail_target_app">افتح التطبيق المستهدف قبل التسجيل</string>
+    <string name="detail_choose_app">اختر تطبيقًا لبدء التشغيل افتراضيًا أثناء التسجيل</string>
+    <string name="cancel">يلغي</string>
+    <string name="ok">حسنا</string>
+    <string name="edit">يحرر</string>
+    <string name="trim">تقليم</string>
+    <string name="screenshots">لقطة شاشة</string>
+    <string name="camera">آلة تصوير</string>
+    <string name="brush">فرشاة</string>
+    <string name="tools">أدوات</string>
+    <string name="record">سجل</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="exit">مخرج</string>
+    <string name="pause">وقفة</string>
+    <string name="resume">سيرة ذاتية</string>
+    <string name="stop">قف</string>
+    <string name="size">مقاس</string>
+    <string name="recording_finished">انتهى التسجيل</string>
+    <string name="screenshot_finished">تم الانتهاء من لقطة الشاشة</string>
+    <string name="recording">تسجيل</string>
+    <string name="save_location">حفظ الموقع</string>
+    <string name="file_name_fomart">تنسيق اسم الملف</string>
+    <string name="file_name_prefix">بادئة اسم الملف</string>
+    <string name="record_setting">إعدادات التسجيل</string>
+    <string name="floating_control">استخدم عناصر التحكم العائمة</string>
+    <string name="description_floating_control">تمكين / تعطيل عناصر التحكم العائمة التي ترسم على كل شاشة</string>
+    <string name="count_down_timer">العد التنازلي</string>
+    <string name="vibrate">تذبذب</string>
+    <string name="description_vibrate">تمكين / تعطيل الاهتزاز عند اللمس</string>
+    <string name="description_camera_overlay">تمكين / تعطيل تراكب الكاميرا. يمكنك التبديل بين الكاميرا الأمامية والخلفية</string>
+    <string name="camera_overlay">إظهار تراكب الكاميرا</string>
+    <string name="save_as_gif">حفظ بصيغة GIF</string>
+    <string name="delete">حذف</string>
+    <string name="experimental">تجريبي</string>
+    <string name="detail_save_as_gif">تمكن من حفظ مقاطع الفيديو كرسوم متحركة بتنسيق GIF</string>
+    <string name="shake_in_record">اهتز لبدء / إيقاف التسجيل</string>
+    <string name="detail_shake">هز جهازك لبدء أو إيقاف التسجيل</string>
+    <string name="content_notification_shake">هز جهازك لبدء التسجيل أو اضغط على هذا الإشعار للإلغاء</string>
+    <string name="guide_activity_title">الرجاء السماح بالوصول إلى الاستخدام</string>
+    <string name="guide_activity_description">تحتاج إلى منح إذن الوصول إلى الاستخدام لتمكين هذه الميزة</string>
+    <string name="trim_video_success">النجاح</string>
+    <string name="trim_video_failed">باءت بالفشل</string>
+    <string name="video">فيديو</string>
+    <string name="picture">صورة</string>
+    <string name="setting">جلسة</string>
+    <string name="no_image">لا توجد صورة</string>
+    <string name="close">يغلق</string>
+    <string name="share">يشارك</string>
+    <string name="menu_feedback">ارسل رأيك</string>
+    <string name="start_record">بدء التسجيل</string>
+    <string name="record_failed">فشل التسجيل</string>
+    <string name="grant_app_permission">امنح إذن استخدام التطبيق للحصول على تأثير مسح شامل للهاتف</string>
+    <string name="permission_needed">إذن مطلوب</string>
+    <string name="grant_now">امنح الآن</string>
+    <string name="record_audio_permission">امنح الإذن للتسجيل بالميكروفون</string>
+    <string name="external_storage_permission">منح الوصول إلى ذاكرة التخزين الخارجية في الجهاز</string>
+    <string name="overlay_permission">منح الإذن للعرض على التطبيقات الأخرى</string>
+    <string name="not_open_video">لا يمكن فتح الفيديو</string>
+
+    // Bit rate
+    <string name="bitrate_0">1.0 ميجابت (منخفض جدًا)</string>
+    <string name="bitrate_1">2.5 ميجابت</string>
+    <string name="bitrate_2">3.5 ميجابت (منخفض)</string>
+    <string name="bitrate_3">4.5 ميجابت</string>
+    <string name="bitrate_4">6.8 ميجابت (جيد)</string>
+    <string name="bitrate_5">9.8 ميجابت</string>
+    <string name="bitrate_6">12 ميجابت (ممتاز)</string>
+    <string name="bitrate_7">24 ميجابت (تحذير)</string>
+    <string name="bitrate_8">48 ميجابت (تحذير)</string>
+
+    // Resolution
+    <string name="resolution_0">360P</string>
+    <string name="resolution_1">720P</string>
+    <string name="resolution_2">1080P</string>
+    <string name="resolution_3">1440P</string>
+
+    // Frames
+    <string name="frame_0">25s</string>
+    <string name="frame_1">30s</string>
+    <string name="frame_2">35s</string>
+    <string name="frame_3">40s</string>
+    <string name="frame_4">50s</string>
+    <string name="frame_5">60s</string>
+
+    // Orientation
+    <string name="orientation_0">آلي</string>
+    <string name="orientation_1">لوحة</string>
+    <string name="orientation_2">المناظر الطبيعيه</string>
+
+    // Audio title
+    <string name="audio_title_0">لا أحد</string>
+    <string name="audio_title_1">ميكروفون</string>
+    <string name="audio_title_2">داخلي</string>
+    <string name="audio_title_3">هيئة التصنيع العسكري والداخلي</string>
+
+    // Audio description
+    <string name="audio_description_0">تسجيل فيديو صامت.</string>
+    <string name="audio_description_1">سجل صوتك وأصواتك من خارج الهاتف.</string>
+    <string name="audio_description_2">دعم فقط android 10 وما فوق. يحتاج تطبيقك أو لعبتك أيضًا إلى دعم تسجيل الصوت الداخلي.</string>
+    <string name="audio_description_3">دعم فقط android 10 وما فوق. يحتاج تطبيقك أو لعبتك أيضًا إلى دعم تسجيل الصوت الداخلي.</string>
+
+    // File name format
+    <string name="name_format_0">yyyyMMdd_hhmmss</string>
+    <string name="name_format_1">ddMMyyyy_hhmmss</string>
+    <string name="name_format_2">yyMMdd_hhmmss</string>
+    <string name="name_format_3">ddMMyy_hhmmss</string>
+    <string name="name_format_4">hhMMss_yyyymmdd</string>
+    <string name="name_format_5">hhMMss_ddmmyyyy</string>
+    <string name="name_format_6">hhMMss_yymmdd</string>
+    <string name="name_format_7">hhMMss_ddmmyy</string>
+
+    // Language
+    <string name="language_0">English</string>
+    <string name="language_1">Português</string>
+    <string name="language_2">Tiếng Việt</string>
+    <string name="language_3">русский</string>
+    <string name="language_4">हिन्दी</string>
+    <string name="language_5">日本語</string>
+    <string name="language_6">한국어</string>
+    <string name="language_7">Türk</string>
+    <string name="language_8">French</string>
+    <string name="language_9">Spanish</string>
+    <string name="language_10">عربى</string>
+
+    // Timer
+    <string name="timer_0">لا أحد</string>
+    <string name="timer_1">3s</string>
+    <string name="timer_2">5s</string>
+    <string name="timer_3">7s</string>
+    <string name="timer_4">10s</string>
+    <string name="cant_trim_video">لا يمكن قص هذا الفيديو</string>
+    <string name="menu_more_app">المزيد من التطبيق</string>
+
+</resources>

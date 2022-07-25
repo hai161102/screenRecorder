@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.master.cameralibrary" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="26" />
+7-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:5:5-65
+9-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:5:22-62
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:7:5-60
+11-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:7:19-57
+12    <uses-feature
+12-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:8:5-10:36
+13        android:name="android.hardware.camera.autofocus"
+13-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:9:9-57
+14        android:required="false" />
+14-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:10:9-33
+15
+16    <application />
+16-->D:\Lam Viec\LUBUTEAM\Screen Recoder\screenrecorder_v2\cameralibrary\src\main\AndroidManifest.xml:12:5-20
+17
+18</manifest>

@@ -1,0 +1,11 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="idv.luchafang.videotrimmer" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+8
+9</manifest>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Screen Recorder</string>
+	<string name="app_name_firt">Screen</string>
+	<string name="app_name_second">Recorder</string>
+	<string name="menu_rate_us">우리를 평가하십시오</string>
+	<string name="menu_more_app">더 많은 앱</string>
+	<string name="menu_share">공유</string>
+	<string name="menu_language">언어</string>
+	<string name="menu_policy">개인 정보 정책</string>
+	<string name="screen_recorder">화면 녹화기</string>
+	<string name="navigation_drawer_open">열다</string>
+	<string name="navigation_drawer_close">닫기</string>
+	<string name="no_video">비디오가 기록되지 않았습니다</string>
+	<string name="video_settings">비디오 설정</string>
+	<string name="resolution">해결</string>
+	<string name="bit_rate">비트 요금</string>
+	<string name="frame_per_second">초당 프레임</string>
+	<string name="orientation">정위</string>
+	<string name="audio_settings">오디오 설정</string>
+	<string name="record_audio">오디오를 기록하십시오</string>
+	<string name="save_options">저장 옵션</string>
+	<string name="custom_app">맞춤 앱</string>
+	<string name="target_app">대상 응용 프로그램 사용</string>
+	<string name="chosse_app">앱을 선택하십시오</string>
+	<string name="detail_target_app">녹음하기 전에 대상 앱을 엽니 다</string>
+	<string name="detail_choose_app">녹음 중에 기본적으로 시작하려면 앱을 선택하십시오</string>
+	<string name="cancel">취소</string>
+	<string name="ok">확인</string>
+	<string name="edit">편집하다</string>
+	<string name="trim">손질</string>
+	<string name="screenshots">스크린 샷</string>
+	<string name="camera">카메라</string>
+	<string name="brush">브러시</string>
+	<string name="tools">도구</string>
+	<string name="record">기록</string>
+	<string name="home">집</string>
+	<string name="exit">출구</string>
+	<string name="pause">중지</string>
+	<string name="resume">이력서</string>
+	<string name="stop">중지</string>
+	<string name="size">크기</string>
+	<string name="recording_finished">녹음이 완료되었습니다</string>
+	<string name="screenshot_finished">스크린 샷이 완료되었습니다</string>
+	<string name="recording">녹음</string>
+	<string name="save_location">위치 저장</string>
+	<string name="file_name_fomart">파일 이름 형식</string>
+	<string name="file_name_prefix">파일 이름 접두사</string>
+	<string name="record_setting">녹화 설정</string>
+	<string name="floating_control">부동 컨트롤을 사용하십시오</string>
+	<string name="description_floating_control">모든 화면을 끌어 올리는 플로팅 컨트롤 사용 / 비활성화</string>
+	<string name="count_down_timer">카운트 다운 시간</string>
+	<string name="vibrate">떨리다</string>
+	<string name="description_vibrate">터치 할 때 활성화 / 비활성화</string>
+	<string name="description_camera_overlay">카메라 오버레이를 활성화 / 비활성화합니다. </string>
+	<string name="camera_overlay">카메라 오버레이 쇼</string>
+	<string name="save_as_gif">GIF로 저장하십시오</string>
+	<string name="delete">지우다</string>
+	<string name="experimental">실험</string>
+	<string name="detail_save_as_gif">GIF 애니메이션으로 비디오를 저장할 수 있습니다</string>
+	<string name="shake_in_record">녹음을 시작 / 중지하려면 흔들어</string>
+	<string name="detail_shake">기기를 흔들거나 녹음을 시작하거나 중지하십시오</string>
+	<string name="content_notification_shake">장치를 흔들어 녹음을 시작 하거나이 알림을 눌러 취소하십시오.</string>
+	<string name="guide_activity_title">사용을 허용하십시오</string>
+	<string name="guide_activity_description">이 기능을 사용하려면 사용 액세스 권한을 부여해야합니다.</string>
+	<string name="trim_video_success">성공</string>
+	<string name="trim_video_failed">실패한</string>
+	<string name="video">비디오</string>
+	<string name="picture">그림</string>
+	<string name="setting">환경</string>
+	<string name="no_image">이미지가 없음</string>
+	<string name="close">닫기</string>
+	<string name="share">공유</string>
+	<string name="menu_feedback">피드백 보내기</string>
+	<string name="start_record">기록 시작</string>
+	<string name="record_failed">기록 실패</string>
+
+	<string name="grant_app_permission">포괄적 인 전화 스캔 효과를 위해 앱 사용 권한 부여</string>
+	<string name="permission_needed">필요한 권한</string>
+	<string name="grant_now">지금 부여</string>
+	<string name="record_audio_permission">마이크로 녹음 할 수있는 권한 부여</string>
+	<string name="external_storage_permission">장치의 외부 저장 메모리에 대한 액세스 권한 부여</string>
+	<string name="overlay_permission">다른 애플리케이션에 표시 할 수있는 권한 부여</string>
+
+	// Bit rate
+	<string name="bitrate_0">1.0 Mbit (매우 낮은)</string>
+	<string name="bitrate_1">2.5 Mbit</string>
+	<string name="bitrate_2">3.5 Mbit (낮은)</string>
+	<string name="bitrate_3">4.5 Mbit</string>
+	<string name="bitrate_4">6.8 Mbit (좋은)</string>
+	<string name="bitrate_5">9.8 Mbit</string>
+	<string name="bitrate_6">12 Mbit (우수한)</string>
+	<string name="bitrate_7">24 Mbit (경고)</string>
+	<string name="bitrate_8">48 Mbit (경고)</string>
+
+	// Resolution
+	<string name="resolution_0">360P</string>
+	<string name="resolution_1">720P</string>
+	<string name="resolution_2">1080P</string>
+	<string name="resolution_3">1440P</string>
+
+	// Frames
+	<string name="frame_0">25s</string>
+	<string name="frame_1">30s</string>
+	<string name="frame_2">35s</string>
+	<string name="frame_3">40s</string>
+	<string name="frame_4">50s</string>
+	<string name="frame_5">60s</string>
+
+	// Orientation
+	<string name="orientation_0">자동</string>
+	<string name="orientation_1">초상화</string>
+	<string name="orientation_2">경치</string>
+
+	// Audio title
+	<string name="audio_title_0">없음</string>
+	<string name="audio_title_1">마이크</string>
+	<string name="audio_title_2">내부의</string>
+	<string name="audio_title_3">마이크 및 내부</string>
+
+	// Audio description
+	<string name="audio_description_0">무음 비디오 녹화.</string>
+	<string name="audio_description_1">전화기 외부에서 음성 및 소리 녹음.</string>
+	<string name="audio_description_2">Android 10 이상 만 지원합니다. 앱 또는 게임은 내부 오디오 녹음도 지원해야합니다..</string>
+	<string name="audio_description_3">Android 10 이상 만 지원합니다. 앱 또는 게임은 내부 오디오 녹음도 지원해야합니다..</string>
+
+	// File name format
+	<string name="name_format_0">yyyyMMdd_hhmmss</string>
+	<string name="name_format_1">ddMMyyyy_hhmmss</string>
+	<string name="name_format_2">yyMMdd_hhmmss</string>
+	<string name="name_format_3">ddMMyy_hhmmss</string>
+	<string name="name_format_4">hhMMss_yyyymmdd</string>
+	<string name="name_format_5">hhMMss_ddmmyyyy</string>
+	<string name="name_format_6">hhMMss_yymmdd</string>
+	<string name="name_format_7">hhMMss_ddmmyy</string>
+
+	// Language
+	<string name="language_0">English</string>
+	<string name="language_1">Português</string>
+	<string name="language_2">Tiếng Việt</string>
+	<string name="language_3">русский</string>
+	<string name="language_4">हिन्दी</string>
+	<string name="language_5">日本語</string>
+	<string name="language_6">한국어</string>
+	<string name="language_7">Türk</string>
+	<string name="language_8">French</string>
+	<string name="language_9">Spanish</string>
+	<string name="language_10">عربى</string>
+
+	// Timer
+	<string name="timer_0">없음</string>
+	<string name="timer_1">3s</string>
+	<string name="timer_2">5s</string>
+	<string name="timer_3">7s</string>
+	<string name="timer_4">10s</string>
+</resources>

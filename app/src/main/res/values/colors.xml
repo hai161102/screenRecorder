@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#FF7325</color>
+    <color name="color_primary_dark">#FF7325</color>
+    <color name="color_accent">#FF7325</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="color_29FFFFFF">#29FFFFFF</color>
+    <color name="color_11111">#111111</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_8A111111">#8A111111</color>
+    <color name="color_80000000">#80000000</color>
+    <color name="color_66000000">#66000000</color>
+    <color name="color_1A000000">#1A000000</color>
+    <color name="color_32000000">#32000000</color>
+    <color name="color_51000000">#51000000</color>
+    <color name="color_8A000000">#8A000000</color>
+    <color name="color_65000000">#65000000</color>
+    <color name="color_00FFFFFF">#00FFFFFF</color>
+    <color name="color_615EFF">#615EFF</color>
+    <color name="color_19615EFF">#19615EFF</color>
+    <color name="color_706ECD">#706ECD</color>
+    <color name="color_19000000">#19000000</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+    <color name="color_DDDDDD">#DDDDDD</color>
+    <color name="color_9AFFFFFF">#9AFFFFFF</color>
+    <color name="color_333333">#333333</color>
+
+    <color name="color_F88647">#F88647</color>
+    <color name="color_FE792D">#FE792D</color>
+    <color name="color_8AFF7325">#F6C5AB</color>
+    <color name="color_2CBF33">#2CBF33</color>
+    <color name="color_F6243D">#F6243D</color>
+    <color name="color_06DAD3">#06DAD3</color>
+    <color name="color_9292EA">#9292EA</color>
+    <color name="color_3C42EF">#3C42EF</color>
+    <color name="color_D13A63">#D13A63</color>
+    <color name="color_43E0A6">#43E0A6</color>
+    <color name="color_159238">#159238</color>
+    <color name="color_12BD42">#12BD42</color>
+    <color name="color_828282">#828282</color>
+    <color name="color_FF7525">#FF7525</color>
+
+    <color name="text_color">#000000</color>
+    <color name="seekbar_color">#3be3e3</color>
+    <color name="line_color">#FF15FF00</color>
+    <color name="shadow_color">#00000000</color>
+    <color name="color_FF000E">#FF000E</color>
+    <color name="color_c4c4c4">#C4C4C4</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_0379ff">#0379ff</color>
+</resources>

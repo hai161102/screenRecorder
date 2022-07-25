@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Screen Recorder</string>
+	<string name="app_name_firt">Screen</string>
+	<string name="app_name_second">Recorder</string>
+	<string name="menu_rate_us">Оцените нас</string>
+	<string name="menu_more_app">Больше приложений</string>
+	<string name="menu_share">доля</string>
+	<string name="menu_language">Язык</string>
+	<string name="menu_policy">Политика конфиденциальности</string>
+	<string name="screen_recorder">Регистратор экрана</string>
+	<string name="navigation_drawer_open">открыто</string>
+	<string name="navigation_drawer_close">Закрыть</string>
+	<string name="no_video">Видео не было записано</string>
+	<string name="video_settings">Видео настроек</string>
+	<string name="resolution">разрешение</string>
+	<string name="bit_rate">Битовая скорость</string>
+	<string name="frame_per_second">Кадров в секунду</string>
+	<string name="orientation">Ориентация</string>
+	<string name="audio_settings">Настройки звука</string>
+	<string name="record_audio">Запись аудио</string>
+	<string name="save_options">Сохранить опции</string>
+	<string name="custom_app">Пользовательское приложение</string>
+	<string name="target_app">Включить целевое приложение</string>
+	<string name="chosse_app">Выберите приложение</string>
+	<string name="detail_target_app">Откройте целевое приложение перед записью</string>
+	<string name="detail_choose_app">Выберите приложение для начала по умолчанию во время записи</string>
+	<string name="cancel">Отмена</string>
+	<string name="ok">ОК</string>
+	<string name="edit">Редактировать</string>
+	<string name="trim">Отделка</string>
+	<string name="screenshots">Скриншот</string>
+	<string name="camera">Камера</string>
+	<string name="brush">Щетка</string>
+	<string name="tools">Инструменты</string>
+	<string name="record">Записывать</string>
+	<string name="home">Дом</string>
+	<string name="exit">Выход</string>
+	<string name="pause">Пауза</string>
+	<string name="resume">Резюме</string>
+	<string name="stop">Стоп</string>
+	<string name="size">Размер</string>
+	<string name="recording_finished">Запись закончена</string>
+	<string name="screenshot_finished">Скриншот закончил</string>
+	<string name="recording">Запись</string>
+	<string name="save_location">Сохранить местоположение</string>
+	<string name="file_name_fomart">Имя файла Формат</string>
+	<string name="file_name_prefix">Имя файла Префикс</string>
+	<string name="record_setting">Настройки записи</string>
+	<string name="floating_control">Используйте плавающие элементы управления</string>
+	<string name="description_floating_control">Включить / отключить плавающие элементы управления, которые рисуют на каждом экране</string>
+	<string name="count_down_timer">Часы отсчета</string>
+	<string name="vibrate">Вибрировать</string>
+	<string name="description_vibrate">Включить / отключить вибрацию при прикосновении</string>
+	<string name="description_camera_overlay">Включить / отключить наложение камеры. </string>
+	<string name="camera_overlay">Показать наложение камеры</string>
+	<string name="save_as_gif">Сохранить как GIF</string>
+	<string name="delete">Удалить</string>
+	<string name="experimental">Экспериментальный</string>
+	<string name="detail_save_as_gif">Позволяет сохранить видео в качестве анимации GIF</string>
+	<string name="shake_in_record">Встряхнуть, чтобы начать / остановить запись</string>
+	<string name="detail_shake">Встряхните свое устройство, чтобы начать или остановить запись</string>
+	<string name="content_notification_shake">Встряхните свое устройство, чтобы начать запись или нажмите это уведомление, чтобы отменить</string>
+	<string name="guide_activity_title">Пожалуйста, позвольте получить доступ для использования</string>
+	<string name="guide_activity_description">Вам необходимо предоставить разрешение на использование доступа к включению этой функции</string>
+	<string name="trim_video_success">Успех</string>
+	<string name="trim_video_failed">Не смогли</string>
+	<string name="video">видео</string>
+	<string name="picture">Изображение</string>
+	<string name="setting">Параметр</string>
+	<string name="no_image">Нет изображения</string>
+	<string name="close">Закрывать</string>
+	<string name="share">доля</string>
+	<string name="menu_feedback">Отправить отзыв</string>
+	<string name="start_record">Начать запись</string>
+	<string name="record_failed">Запись не удалась</string>
+
+	<string name="grant_app_permission">Предоставьте разрешение на использование приложения для комплексного эффекта сканирования телефона</string>
+	<string name="permission_needed">Требуется разрешение</string>
+	<string name="grant_now">Грант сейчас</string>
+	<string name="record_audio_permission">Разрешить запись с микрофоном</string>
+	<string name="external_storage_permission">Разрешить доступ к внешней памяти устройства</string>
+	<string name="overlay_permission">Предоставить разрешение на отображение в других приложениях</string>
+
+	// Bit rate
+	<string name="bitrate_0">1.0 Mbit (Очень низкий)</string>
+	<string name="bitrate_1">2.5 Mbit</string>
+	<string name="bitrate_2">3.5 Mbit (низкий)</string>
+	<string name="bitrate_3">4.5 Mbit</string>
+	<string name="bitrate_4">6.8 Mbit (Хорошо)</string>
+	<string name="bitrate_5">9.8 Mbit</string>
+	<string name="bitrate_6">12 Mbit (Отлично)</string>
+	<string name="bitrate_7">24 Mbit (Предупреждение)</string>
+	<string name="bitrate_8">48 Mbit (Предупреждение)</string>
+
+	// Resolution
+	<string name="resolution_0">360P</string>
+	<string name="resolution_1">720P</string>
+	<string name="resolution_2">1080P</string>
+	<string name="resolution_3">1440P</string>
+
+	// Frames
+	<string name="frame_0">25s</string>
+	<string name="frame_1">30s</string>
+	<string name="frame_2">35s</string>
+	<string name="frame_3">40s</string>
+	<string name="frame_4">50s</string>
+	<string name="frame_5">60s</string>
+
+	// Orientation
+	<string name="orientation_0">Авто</string>
+	<string name="orientation_1">Портрет</string>
+	<string name="orientation_2">Пейзаж</string>
+
+	// Audio title
+	<string name="audio_title_0">Никто</string>
+	<string name="audio_title_1">Микрофон</string>
+	<string name="audio_title_2">Внутренний</string>
+	<string name="audio_title_3">Микрофон и внутренний</string>
+
+	// Audio description
+	<string name="audio_description_0">Беззвучная видеозапись.</string>
+	<string name="audio_description_1">Записывайте свой голос и звуки вне телефона.</string>
+	<string name="audio_description_2">Поддерживает только Android 10 и выше. Ваше приложение или игра также должны поддерживать внутреннюю аудиозапись.</string>
+	<string name="audio_description_3">Поддерживает только Android 10 и выше. Ваше приложение или игра также должны поддерживать внутреннюю аудиозапись.</string>
+
+	// File name format
+	<string name="name_format_0">yyyyMMdd_hhmmss</string>
+	<string name="name_format_1">ddMMyyyy_hhmmss</string>
+	<string name="name_format_2">yyMMdd_hhmmss</string>
+	<string name="name_format_3">ddMMyy_hhmmss</string>
+	<string name="name_format_4">hhMMss_yyyymmdd</string>
+	<string name="name_format_5">hhMMss_ddmmyyyy</string>
+	<string name="name_format_6">hhMMss_yymmdd</string>
+	<string name="name_format_7">hhMMss_ddmmyy</string>
+
+	// Language
+	<string name="language_0">English</string>
+	<string name="language_1">Português</string>
+	<string name="language_2">Tiếng Việt</string>
+	<string name="language_3">русский</string>
+	<string name="language_4">हिन्दी</string>
+	<string name="language_5">日本語</string>
+	<string name="language_6">한국어</string>
+	<string name="language_7">Türk</string>
+	<string name="language_8">French</string>
+	<string name="language_9">Spanish</string>
+	<string name="language_10">عربى</string>
+
+	// Timer
+	<string name="timer_0">Никто</string>
+	<string name="timer_1">3s</string>
+	<string name="timer_2">5s</string>
+	<string name="timer_3">7s</string>
+	<string name="timer_4">10s</string>
+</resources>

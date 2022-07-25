@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScreenRecorderV2.iml" filepath="$PROJECT_DIR$/.idea/modules/ScreenRecorderV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads/ScreenRecorderV2.ads.iml" filepath="$PROJECT_DIR$/.idea/modules/ads/ScreenRecorderV2.ads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ScreenRecorderV2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ScreenRecorderV2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cameralibrary/ScreenRecorderV2.cameralibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/cameralibrary/ScreenRecorderV2.cameralibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/floatingview/ScreenRecorderV2.floatingview.iml" filepath="$PROJECT_DIR$/.idea/modules/floatingview/ScreenRecorderV2.floatingview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/videotrimmer/ScreenRecorderV2.videotrimmer.iml" filepath="$PROJECT_DIR$/.idea/modules/videotrimmer/ScreenRecorderV2.videotrimmer.iml" />
+    </modules>
+  </component>
+</project>

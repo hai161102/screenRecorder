@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Screen Recorder</string>
+	<string name="app_name_firt">Screen</string>
+	<string name="app_name_second">Recorder</string>
+	<string name="menu_rate_us">Đánh giá chúng tôi</string>
+	<string name="menu_more_app">Nhiều ứng dụng hơn</string>
+	<string name="menu_share">Chia sẻ</string>
+	<string name="menu_language">Ngôn ngữ</string>
+	<string name="menu_policy">Chính sách bảo mật</string>
+	<string name="screen_recorder">Máy ghi màn hình</string>
+	<string name="navigation_drawer_open">mở</string>
+	<string name="navigation_drawer_close">đóng</string>
+	<string name="no_video">Không có video đã được ghi lại</string>
+	<string name="video_settings">Cài đặt video</string>
+	<string name="resolution">Giải pháp</string>
+	<string name="bit_rate">Tỷ lệ bit</string>
+	<string name="frame_per_second">Khung hình mỗi giây</string>
+	<string name="orientation">Sự định hướng</string>
+	<string name="audio_settings">Cài đặt âm thanh</string>
+	<string name="record_audio">Ghi âm</string>
+	<string name="save_options">Lưu tùy chọn</string>
+	<string name="custom_app">Ứng dụng tùy chỉnh</string>
+	<string name="target_app">Kích hoạt ứng dụng đích</string>
+	<string name="chosse_app">Chọn ứng dụng</string>
+	<string name="detail_target_app">Mở ứng dụng mục tiêu trước khi ghi âm</string>
+	<string name="detail_choose_app">Chọn một ứng dụng để bắt đầu theo mặc định trong khi ghi âm</string>
+	<string name="cancel">Hủy bỏ</string>
+	<string name="ok">đồng ý</string>
+	<string name="edit">Biên tập</string>
+	<string name="trim">Trang trí</string>
+	<string name="screenshots">Ảnh chụp màn hình.</string>
+	<string name="camera">Máy ảnh</string>
+	<string name="brush">Chải</string>
+	<string name="tools">Công cụ</string>
+	<string name="record">Ghi lại</string>
+	<string name="home">Trang Chủ</string>
+	<string name="exit">Lối ra</string>
+	<string name="pause">Tạm ngừng</string>
+	<string name="resume">Sơ yếu lý lịch</string>
+	<string name="stop">Dừng lại</string>
+	<string name="size">Kích thước</string>
+	<string name="recording_finished">Ghi lại đã kết thúc</string>
+	<string name="screenshot_finished">Ảnh chụp màn hình đã hoàn thành</string>
+	<string name="recording">ghi âm</string>
+	<string name="save_location">Lưu vị trí</string>
+	<string name="file_name_fomart">Định dạng tên tệp</string>
+	<string name="file_name_prefix">Tên tệp tiền tố</string>
+	<string name="record_setting">Cài đặt ghi âm</string>
+	<string name="floating_control">Sử dụng các điều khiển nổi</string>
+	<string name="description_floating_control">Kích hoạt / Vô hiệu hóa các điều khiển nổi vẽ trên mỗi màn hình</string>
+	<string name="count_down_timer">Số giờ đếm ngược</string>
+	<string name="vibrate">Rung</string>
+	<string name="description_vibrate">Bật / Tắt Rung khi chạm vào</string>
+	<string name="description_camera_overlay">Kích hoạt / Vô hiệu hóa lớp phủ camera. </string>
+	<string name="camera_overlay">Hiển thị lớp phủ camera</string>
+	<string name="save_as_gif">Lưu dưới dạng GIF.</string>
+	<string name="delete">Xóa bỏ</string>
+	<string name="experimental">Thực nghiệm</string>
+	<string name="detail_save_as_gif">Cho phép lưu video dưới dạng hoạt hình GIF</string>
+	<string name="shake_in_record">Lắc để bắt đầu / dừng ghi âm</string>
+	<string name="detail_shake">Lắc thiết bị của bạn để bắt đầu hoặc dừng ghi âm</string>
+	<string name="content_notification_shake">Lắc thiết bị của bạn để bắt đầu ghi hoặc nhấn thông báo này để hủy</string>
+	<string name="guide_activity_title">Vui lòng cho phép truy cập việc sử dụng</string>
+	<string name="guide_activity_description">Bạn cần cấp quyền truy cập sử dụng để kích hoạt tính năng này</string>
+	<string name="trim_video_success">Sự thành công</string>
+	<string name="trim_video_failed">Thất bại</string>
+	<string name="video">Video</string>
+	<string name="picture">Hình ảnh</string>
+	<string name="setting">Cài đặt</string>
+	<string name="no_image">Không có hình ảnh</string>
+	<string name="close">Đóng</string>
+	<string name="share">Chia sẻ</string>
+	<string name="menu_feedback">Gửi thông tin phản hồi</string>
+	<string name="start_record">Bắt đầu hồ sơ</string>
+	<string name="record_failed">Ghi lại thất bại</string>
+
+	<string name="grant_app_permission">Cấp quyền sử dụng ứng dụng để có hiệu ứng quét điện thoại toàn diện</string>
+	<string name="permission_needed">Quyền cần thiết</string>
+	<string name="grant_now">Cấp ngay</string>
+	<string name="record_audio_permission">Cấp quyền ghi âm bằng micrô</string>
+	<string name="external_storage_permission">Cấp quyền truy cập vào bộ nhớ lưu trữ bên ngoài trong thiết bị</string>
+	<string name="overlay_permission">Cấp quyền hiển thị trên các ứng dụng khác</string>
+
+	// Bit rate
+	<string name="bitrate_0">1.0 Mbit (Rất chậm)</string>
+	<string name="bitrate_1">2.5 Mbit</string>
+	<string name="bitrate_2">3.5 Mbit (Chậm)</string>
+	<string name="bitrate_3">4.5 Mbit</string>
+	<string name="bitrate_4">6.8 Mbit (Tốt)</string>
+	<string name="bitrate_5">9.8 Mbit</string>
+	<string name="bitrate_6">12 Mbit (Tuyệt vời)</string>
+	<string name="bitrate_7">24 Mbit (Cảnh báo)</string>
+	<string name="bitrate_8">48 Mbit (Cảnh báo)</string>
+
+	// Resolution
+	<string name="resolution_0">360P</string>
+	<string name="resolution_1">720P</string>
+	<string name="resolution_2">1080P</string>
+	<string name="resolution_3">1440P</string>
+
+	// Frames
+	<string name="frame_0">25s</string>
+	<string name="frame_1">30s</string>
+	<string name="frame_2">35s</string>
+	<string name="frame_3">40s</string>
+	<string name="frame_4">50s</string>
+	<string name="frame_5">60s</string>
+
+	// Orientation
+	<string name="orientation_0">Tự động</string>
+	<string name="orientation_1">Dọc</string>
+	<string name="orientation_2">Ngang</string>
+
+	// Audio title
+	<string name="audio_title_0">Tắt tiếng</string>
+	<string name="audio_title_1">Micro</string>
+	<string name="audio_title_2">Âm thanh nội bộ</string>
+	<string name="audio_title_3">Bên trong và micro</string>
+
+	// Audio description
+	<string name="audio_description_0">Ghi video im lặng.</string>
+	<string name="audio_description_1">Ghi lại giọng nói của bạn và âm thanh bên ngoài điện thoại.</string>
+	<string name="audio_description_2">Chỉ hỗ trợ android 10 trở lên. Ứng dụng hoặc trò chơi của bạn cũng cần hỗ trợ ghi âm thanh nội bộ.</string>
+	<string name="audio_description_3">Chỉ hỗ trợ android 10 trở lên. Ứng dụng hoặc trò chơi của bạn cũng cần hỗ trợ ghi âm thanh nội bộ.</string>
+
+	// File name format
+	<string name="name_format_0">yyyyMMdd_hhmmss</string>
+	<string name="name_format_1">ddMMyyyy_hhmmss</string>
+	<string name="name_format_2">yyMMdd_hhmmss</string>
+	<string name="name_format_3">ddMMyy_hhmmss</string>
+	<string name="name_format_4">hhMMss_yyyymmdd</string>
+	<string name="name_format_5">hhMMss_ddmmyyyy</string>
+	<string name="name_format_6">hhMMss_yymmdd</string>
+	<string name="name_format_7">hhMMss_ddmmyy</string>
+
+	// Language
+	<string name="language_0">English</string>
+	<string name="language_1">Português</string>
+	<string name="language_2">Tiếng Việt</string>
+	<string name="language_3">русский</string>
+	<string name="language_4">हिन्दी</string>
+	<string name="language_5">日本語</string>
+	<string name="language_6">한국어</string>
+	<string name="language_7">Türk</string>
+	<string name="language_8">French</string>
+	<string name="language_9">Spanish</string>
+	<string name="language_10">عربى</string>
+
+	// Timer
+	<string name="timer_0">Không</string>
+	<string name="timer_1">3s</string>
+	<string name="timer_2">5s</string>
+	<string name="timer_3">7s</string>
+	<string name="timer_4">10s</string>
+
+</resources>

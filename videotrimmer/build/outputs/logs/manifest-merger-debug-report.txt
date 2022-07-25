@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml:1:1-2:49
+INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml:1:1-2:49
+INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml:1:1-2:49
+	package
+		ADDED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml:2:11-47
+		INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+		INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+		ADDED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+		INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+		ADDED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml
+		INJECTED from D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\videotrimmer\src\main\AndroidManifest.xml

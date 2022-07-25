@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Screen Recorder</string>
+	<string name="app_name_firt">Screen</string>
+	<string name="app_name_second">Recorder</string>
+	<string name="menu_rate_us">Nos avalie</string>
+	<string name="menu_more_app">Mais aplicações</string>
+	<string name="menu_share">Compartilhar</string>
+	<string name="menu_language">Língua</string>
+	<string name="menu_policy">Política de Privacidade</string>
+	<string name="screen_recorder">Gravador de ecrã</string>
+	<string name="navigation_drawer_open">abrir</string>
+	<string name="navigation_drawer_close">perto</string>
+	<string name="no_video">Nenhum vídeo foi gravado</string>
+	<string name="video_settings">Configurações de vídeos</string>
+	<string name="resolution">Resolução</string>
+	<string name="bit_rate">Taxa de bits.</string>
+	<string name="frame_per_second">Quadros por segundo</string>
+	<string name="orientation">Orientação</string>
+	<string name="audio_settings">Configurações de áudio</string>
+	<string name="record_audio">Gravar audio</string>
+	<string name="save_options">Salvar opções</string>
+	<string name="custom_app">Aplicativo personalizado</string>
+	<string name="target_app">Ativar aplicativo de destino</string>
+	<string name="chosse_app">Escolha app.</string>
+	<string name="detail_target_app">Aberto de destino aberto antes da gravação</string>
+	<string name="detail_choose_app">Escolha um aplicativo para iniciar por padrão durante a gravação</string>
+	<string name="cancel">Cancelar</string>
+	<string name="ok">OK</string>
+	<string name="edit">Editar</string>
+	<string name="trim">Aparar</string>
+	<string name="screenshots">Screenshot.</string>
+	<string name="camera">Câmera</string>
+	<string name="brush">Escovar</string>
+	<string name="tools">Ferramentas</string>
+	<string name="record">Registro</string>
+	<string name="home">Casa</string>
+	<string name="exit">Saída</string>
+	<string name="pause">Pausa</string>
+	<string name="resume">Retomar</string>
+	<string name="stop">Pare</string>
+	<string name="size">Tamanho</string>
+	<string name="recording_finished">A gravação é concluída</string>
+	<string name="screenshot_finished">Captura de tela terminada</string>
+	<string name="recording">Gravação</string>
+	<string name="save_location">Salvar localização</string>
+	<string name="file_name_fomart">Formato do nome do arquivo</string>
+	<string name="file_name_prefix">Prefixo de nome de arquivo</string>
+	<string name="record_setting">Configurações de gravação</string>
+	<string name="floating_control">Use controles flutuantes</string>
+	<string name="description_floating_control">Ativar / desativar os controles flutuantes que se desenha sobre cada tela</string>
+	<string name="count_down_timer">Horas de contagem regressiva</string>
+	<string name="vibrate">Vibrar</string>
+	<string name="description_vibrate">Ativar / desativar vibrar quando o toque</string>
+	<string name="description_camera_overlay">Ativar / desativar a sobreposição da câmera. </string>
+	<string name="camera_overlay">Mostrar sobreposição da câmera</string>
+	<string name="save_as_gif">Salvar como gif.</string>
+	<string name="delete">Excluir</string>
+	<string name="experimental">Experimental</string>
+	<string name="detail_save_as_gif">Permite salvar vídeos como animação GIF</string>
+	<string name="shake_in_record">Agite para iniciar / parar a gravação</string>
+	<string name="detail_shake">Agite seu dispositivo para iniciar ou parar a gravação</string>
+	<string name="content_notification_shake">Agite seu dispositivo para iniciar a gravação ou pressione esta notificação para cancelar</string>
+	<string name="guide_activity_title">Por favor, permita o acesso de uso</string>
+	<string name="guide_activity_description">Você precisa conceder permissão de acesso de uso para ativar esse recurso</string>
+	<string name="trim_video_success">Sucesso</string>
+	<string name="trim_video_failed">Fracassado</string>
+	<string name="video">Vídeo</string>
+	<string name="picture">Imagem</string>
+	<string name="setting">Contexto</string>
+	<string name="no_image">Sem imagem</string>
+	<string name="close">Perto</string>
+	<string name="share">Compartilhar</string>
+	<string name="menu_feedback">Enviar comentários</string>
+	<string name="start_record">Iniciar registro</string>
+	<string name="record_failed">Registro falhou</string>
+
+	<string name="grant_app_permission">Conceda permissão de uso do aplicativo para um efeito abrangente de leitura do telefone</string>
+	<string name="permission_needed">Permissão necessária</string>
+	<string name="grant_now">Conceder agora</string>
+	<string name="record_audio_permission">Conceda permissão para gravar com microfone</string>
+	<string name="external_storage_permission">Conceda acesso à memória de armazenamento externo no dispositivo</string>
+	<string name="overlay_permission">Conceda permissão para exibição em outros aplicativos</string>
+
+	// Bit rate
+	<string name="bitrate_0">1.0 Mbit (Muito baixo)</string>
+	<string name="bitrate_1">2.5 Mbit</string>
+	<string name="bitrate_2">3.5 Mbit (baixa)</string>
+	<string name="bitrate_3">4.5 Mbit</string>
+	<string name="bitrate_4">6.8 Mbit (Boa)</string>
+	<string name="bitrate_5">9.8 Mbit</string>
+	<string name="bitrate_6">12 Mbit (Excelente)</string>
+	<string name="bitrate_7">24 Mbit (Aviso)</string>
+	<string name="bitrate_8">48 Mbit (Aviso)</string>
+
+	// Resolution
+	<string name="resolution_0">360P</string>
+	<string name="resolution_1">720P</string>
+	<string name="resolution_2">1080P</string>
+	<string name="resolution_3">1440P</string>
+
+	// Frames
+	<string name="frame_0">25s</string>
+	<string name="frame_1">30s</string>
+	<string name="frame_2">35s</string>
+	<string name="frame_3">40s</string>
+	<string name="frame_4">50s</string>
+	<string name="frame_5">60s</string>
+
+	// Orientation
+	<string name="orientation_0">Auto</string>
+	<string name="orientation_1">Retrato</string>
+	<string name="orientation_2">Panorama</string>
+
+	// Audio title
+	<string name="audio_title_0">Nenhum</string>
+	<string name="audio_title_1">Microfone</string>
+	<string name="audio_title_2">Interna</string>
+	<string name="audio_title_3">Mic e interno</string>
+
+	// Audio description
+	<string name="audio_description_0">Gravação de vídeo silencioso.</string>
+	<string name="audio_description_1">Grave sua voz e sons de fora do telefone.</string>
+	<string name="audio_description_2">Suporta apenas Android 10 e superior. Seu aplicativo ou jogo também precisa ser compatível com a gravação de áudio interna.</string>
+	<string name="audio_description_3">Suporta apenas Android 10 e superior. Seu aplicativo ou jogo também precisa ser compatível com a gravação de áudio interna.</string>
+
+	// File name format
+	<string name="name_format_0">yyyyMMdd_hhmmss</string>
+	<string name="name_format_1">ddMMyyyy_hhmmss</string>
+	<string name="name_format_2">yyMMdd_hhmmss</string>
+	<string name="name_format_3">ddMMyy_hhmmss</string>
+	<string name="name_format_4">hhMMss_yyyymmdd</string>
+	<string name="name_format_5">hhMMss_ddmmyyyy</string>
+	<string name="name_format_6">hhMMss_yymmdd</string>
+	<string name="name_format_7">hhMMss_ddmmyy</string>
+
+	// Language
+	<string name="language_0">English</string>
+	<string name="language_1">Português</string>
+	<string name="language_2">Tiếng Việt</string>
+	<string name="language_3">русский</string>
+	<string name="language_4">हिन्दी</string>
+	<string name="language_5">日本語</string>
+	<string name="language_6">한국어</string>
+	<string name="language_7">Türk</string>
+	<string name="language_8">French</string>
+	<string name="language_9">Spanish</string>
+	<string name="language_10">عربى</string>
+
+	// Timer
+	<string name="timer_0">Nenhum</string>
+	<string name="timer_1">3s</string>
+	<string name="timer_2">5s</string>
+	<string name="timer_3">7s</string>
+	<string name="timer_4">10s</string>
+</resources>

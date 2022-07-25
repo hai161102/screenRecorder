@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+attr? vtv_overlay_color
+attr? vtv_window_bar_width
+attr? vtv_window_border_color
+attr? vtv_window_border_width
+attr? vtv_window_left_bar
+attr? vtv_window_right_bar
+drawable trimmer_left_bar
+drawable trimmer_right_bar
+id slidingWindowView
+id videoFrameListView
+layout layout_video_trimmer
+string app_name
+styleable VideoTrimmerView vtv_window_left_bar vtv_window_right_bar vtv_window_bar_width vtv_window_border_width vtv_window_border_color vtv_overlay_color

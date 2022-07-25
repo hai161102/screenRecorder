@@ -1,0 +1,51 @@
+com/master/cameralibrary/Size.java
+ com.master.cameralibrary.Size
+com/master/cameralibrary/SizeMap.java
+ com.master.cameralibrary.SizeMap
+com/master/cameralibrary/SurfaceViewPreview.java
+ com.master.cameralibrary.SurfaceViewPreview
+ com.master.cameralibrary.SurfaceViewPreview$1
+com/master/cameralibrary/Camera1.java
+ com.master.cameralibrary.Camera1
+ com.master.cameralibrary.Camera1$1
+ com.master.cameralibrary.Camera1$2
+ com.master.cameralibrary.Camera1$3
+com/master/cameralibrary/Constants.java
+ com.master.cameralibrary.Constants
+com/master/cameralibrary/DisplayOrientationDetector.java
+ com.master.cameralibrary.DisplayOrientationDetector
+ com.master.cameralibrary.DisplayOrientationDetector$1
+com/master/cameralibrary/Camera2.java
+ com.master.cameralibrary.Camera2
+ com.master.cameralibrary.Camera2$1
+ com.master.cameralibrary.Camera2$2
+ com.master.cameralibrary.Camera2$3
+ com.master.cameralibrary.Camera2$4
+ com.master.cameralibrary.Camera2$5
+ com.master.cameralibrary.Camera2$6
+ com.master.cameralibrary.Camera2$PictureCaptureCallback
+com/master/cameralibrary/AspectRatio.java
+ com.master.cameralibrary.AspectRatio
+ com.master.cameralibrary.AspectRatio$1
+com/master/cameralibrary/Camera2Api23.java
+ com.master.cameralibrary.Camera2Api23
+com/master/cameralibrary/PreviewImpl.java
+ com.master.cameralibrary.PreviewImpl
+ com.master.cameralibrary.PreviewImpl$Callback
+com/master/cameralibrary/CameraView.java
+ com.master.cameralibrary.CameraView
+ com.master.cameralibrary.CameraView$1
+ com.master.cameralibrary.CameraView$Callback
+ com.master.cameralibrary.CameraView$CallbackBridge
+ com.master.cameralibrary.CameraView$Facing
+ com.master.cameralibrary.CameraView$Flash
+ com.master.cameralibrary.CameraView$SavedState
+ com.master.cameralibrary.CameraView$SavedState$1
+com/master/cameralibrary/TextureViewPreview.java
+ com.master.cameralibrary.TextureViewPreview
+ com.master.cameralibrary.TextureViewPreview$1
+com/master/cameralibrary/CameraViewImpl.java
+ com.master.cameralibrary.CameraViewImpl
+ com.master.cameralibrary.CameraViewImpl$Callback
+com/master/cameralibrary/BuildConfig.java
+ com.master.cameralibrary.BuildConfig
