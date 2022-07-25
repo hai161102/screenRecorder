@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Normāls</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="zero">Pārtīt uz priekšu par %d sekundēm</item>
+    <item quantity="one">Pārtīt uz priekšu par %d sekundi</item>
+    <item quantity="other">Pārtīt uz priekšu par %d sekundēm</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="zero">Attīt atpakaļ par %d sekundēm</item>
+    <item quantity="one">Attīt atpakaļ par %d sekundi</item>
+    <item quantity="other">Attīt atpakaļ par %d sekundēm</item>
+  </plurals>
     <plurals name="mtrl_badge_content_description">
     <item quantity="zero">%d jaunu paziņojumu</item>
     <item quantity="one">%d jauns paziņojums</item>
@@ -36,19 +55,47 @@
     <string name="character_counter_content_description">Ievadītās rakstzīmes: %1$d no %2$d</string>
     <string name="character_counter_overflowed_content_description">Pārsniegts rakstzīmju skaita ierobežojums (%1$d no %2$d)</string>
     <string name="clear_text_end_icon_content_description">Notīrīt tekstu</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Iespējot"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir jāiespējo Google Play pakalpojumi."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play pakalpojumu iespējošana"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalēt"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ierīcē ir jāinstalē Google Play pakalpojumi."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play pakalpojumu iegūšana"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play pakalpojumu pieejamība"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play pakalpojumu kļūda"</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Lietotnē <ns1:g id="APP_NAME">%1$s</ns1:g> ir radusies problēma ar Google Play pakalpojumu darbību. Lūdzu, mēģiniet vēlreiz."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir nepieciešami Google Play pakalpojumi, taču jūsu ierīce tos neatbalsta."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Atjaunināt"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, jums ir jāatjaunina Google Play pakalpojumi."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play pakalpojumu atjaunināšana"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Lai lietotne <ns1:g id="APP_NAME">%1$s</ns1:g> darbotos, ir jāinstalē Google Play pakalpojumi. Pašlaik notiek to atjaunināšana."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Ir nepieciešama jauna Google Play pakalpojumu versija. Drīzumā tā tiks instalēta."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Atvērt tālrunī"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Pierakstīties"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Pierakstīties ar Google kontu"</string>
     <string name="error_icon_content_description">Kļūda</string>
+    <string name="exo_controls_cc_disabled_description">Iespējot subtitrus</string>
+    <string name="exo_controls_cc_enabled_description">Atspējot subtitrus</string>
     <string name="exo_controls_fastforward_description">Pārtīt uz priekšu</string>
-    <string name="exo_controls_fullscreen_description">Pilnekrāna režīms</string>
-    <string name="exo_controls_next_description">Nākamais ieraksts</string>
+    <string name="exo_controls_fullscreen_enter_description">Atvērt pilnekrāna režīmu</string>
+    <string name="exo_controls_fullscreen_exit_description">Aizvērt pilnekrāna režīmu</string>
+    <string name="exo_controls_hide">Slēpt atskaņotāja vadīklas</string>
+    <string name="exo_controls_next_description">Nākamais</string>
+    <string name="exo_controls_overflow_hide_description">Slēpt papildu iestatījumus</string>
+    <string name="exo_controls_overflow_show_description">Rādīt papildu iestatījumus</string>
     <string name="exo_controls_pause_description">Pauzēt</string>
     <string name="exo_controls_play_description">Atskaņot</string>
-    <string name="exo_controls_previous_description">Iepriekšējais ieraksts</string>
-    <string name="exo_controls_repeat_all_description">Atkārtot visu</string>
-    <string name="exo_controls_repeat_off_description">Neatkārtot nevienu</string>
-    <string name="exo_controls_repeat_one_description">Atkārtot vienu</string>
+    <string name="exo_controls_playback_speed">Ātrums</string>
+    <string name="exo_controls_previous_description">Iepriekšējais</string>
+    <string name="exo_controls_repeat_all_description">Iesl.: atkārtot visu. Pārslēdziet režīmu.</string>
+    <string name="exo_controls_repeat_off_description">Iesl.: neatkārtot nevienu. Pārslēdziet režīmu.</string>
+    <string name="exo_controls_repeat_one_description">Iesl.: atkārtot vienu. Pārslēdziet režīmu.</string>
     <string name="exo_controls_rewind_description">Attīt atpakaļ</string>
-    <string name="exo_controls_shuffle_description">Atskaņot jauktā secībā</string>
+    <string name="exo_controls_seek_bar_description">Atskaņošanas norise</string>
+    <string name="exo_controls_settings_description">Iestatījumi</string>
+    <string name="exo_controls_show">Rādīt atskaņotāja vadīklas</string>
+    <string name="exo_controls_shuffle_off_description">Iespējot atskaņošanu jauktā secībā</string>
+    <string name="exo_controls_shuffle_on_description">Atspējot atskaņošanu jauktā secībā</string>
     <string name="exo_controls_stop_description">Apturēt</string>
     <string name="exo_controls_vr_description">VR režīms</string>
     <string name="exo_download_completed">Lejupielāde ir pabeigta</string>
@@ -56,6 +103,9 @@
     <string name="exo_download_downloading">Notiek lejupielāde</string>
     <string name="exo_download_failed">Lejupielāde neizdevās</string>
     <string name="exo_download_notification_channel_name">Lejupielādes</string>
+    <string name="exo_download_paused">Lejupielādes ir pārtrauktas.</string>
+    <string name="exo_download_paused_for_network">Lejupielādes gaida savienojumu ar tīklu.</string>
+    <string name="exo_download_paused_for_wifi">Lejupielādes gaida savienojumu ar Wi-Fi.</string>
     <string name="exo_download_removing">Notiek lejupielāžu noņemšana</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mb/s</string>
@@ -125,21 +175,21 @@
     <string name="mtrl_picker_toggle_to_year_selection">Pieskarties, lai pārslēgtos uz gada atlasīšanu</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Pārvietoties augšup"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Atvērt navigācijas atvilktni"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"Pieskarieties, lai atvērtu reklāmu"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"Skatiet reklāmu, ko saglabājāt bezsaistē"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"Labi"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"Jūs saņemsiet paziņojumu ar saiti, kad atkal būsiet tiešsaistē."</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"Nē, paldies"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"Mēs nosūtīsim jums paziņojumu ar saiti uz reklāmdevēja vietni."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"Atveriet reklāmu, kad būsiet atkal tiešsaistē."</string>
+    <string name="offline_notification_text">Pieskarieties, lai atvērtu reklāmu</string>
+    <string name="offline_notification_title">Skatiet reklāmu, ko saglabājāt bezsaistē</string>
+    <string name="offline_opt_in_confirm">Labi</string>
+    <string name="offline_opt_in_confirmation">Jūs saņemsiet paziņojumu ar saiti, kad atkal būsiet tiešsaistē.</string>
+    <string name="offline_opt_in_decline">Nē, paldies</string>
+    <string name="offline_opt_in_message">Mēs nosūtīsim jums paziņojumu ar saiti uz reklāmdevēja vietni.</string>
+    <string name="offline_opt_in_title">Atveriet reklāmu, kad būsiet atkal tiešsaistē.</string>
     <string name="password_toggle_content_description">Rādīt paroli</string>
-    <string msgid="368094699078615544" name="s1">"Attēla saglabāšana"</string>
-    <string msgid="4550830452390689489" name="s2">"Vai atļaut reklāmai saglabāt attēlu galerijā?"</string>
-    <string msgid="2435407834265420668" name="s3">"Piekrist"</string>
-    <string msgid="9167523597401839819" name="s4">"Noraidīt"</string>
-    <string msgid="1566682516266724847" name="s5">"Kalendāra pasākuma izveide"</string>
-    <string msgid="5996672174517137271" name="s6">"Vai atļaut reklāmai izveidot kalendāra pasākumu?"</string>
-    <string msgid="7163549807207034258" name="s7">"Testa reklāma"</string>
+    <string name="s1">Attēla saglabāšana</string>
+    <string name="s2">Vai atļaut reklāmai saglabāt attēlu galerijā?</string>
+    <string name="s3">Piekrist</string>
+    <string name="s4">Noraidīt</string>
+    <string name="s5">Kalendāra pasākuma izveide</string>
+    <string name="s6">Vai atļaut reklāmai izveidot kalendāra pasākumu?</string>
+    <string name="s7">Testa reklāma</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Meklēt"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

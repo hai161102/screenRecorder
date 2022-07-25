@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.raed.drawingview:drawingview:1.1-beta@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afc9f9cbbc3b479507e6ab94f126b317/jetified-drawingview-1.1-beta/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afc9f9cbbc3b479507e6ab94f126b317/jetified-drawingview-1.1-beta/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afc9f9cbbc3b479507e6ab94f126b317/jetified-drawingview-1.1-beta/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/898d340497ad35af2fe76195e813a6b0/jetified-drawingview-1.1-beta/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/898d340497ad35af2fe76195e813a6b0/jetified-drawingview-1.1-beta/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/898d340497ad35af2fe76195e813a6b0/jetified-drawingview-1.1-beta/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

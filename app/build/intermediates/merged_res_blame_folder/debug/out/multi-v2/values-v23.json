@@ -4,7 +4,26 @@
             "outputFile": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\9cfbe4e49999c3f85c76ff1ab845aeb1\\appcompat-1.3.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\af0539f5260a426ffda1f4f9f88daf61\\material-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
+                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                    },
+                    "to": {
+                        "startLines": "55,58,61,66,70,73,76,79,84,87,91",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3803,4019,4229,4549,4786,4993,5200,5403,5735,5937,6202",
+                        "endLines": "57,60,65,69,72,75,78,83,86,90,94",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "4014,4224,4544,4781,4988,5195,5398,5730,5932,6197,6470"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\6dcf885e1803387a20ae7a26c1594ae9\\appcompat-1.4.2\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,26 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\d089e29880b4913c79f7da3ef07b1073\\material-1.3.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,6",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,320",
-                        "endLines": "5,9",
-                        "endColumns": "10,10",
-                        "endOffsets": "315,588"
-                    },
-                    "to": {
-                        "startLines": "55,59",
-                        "startColumns": "4,4",
-                        "startOffsets": "3803,4068",
-                        "endLines": "58,62",
-                        "endColumns": "10,10",
-                        "endOffsets": "4063,4336"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\36eecea45c7cf34259bab43fbadc31da\\work-runtime-2.1.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\30d288f87bf30372029ea44ea80dd0e1\\work-runtime-2.7.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -52,7 +52,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\8fd462f163767c6e3111c82ba624414e\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\vipvl\\.gradle\\caches\\transforms-2\\files-2.1\\ffa596c1f9a25afa265e12d5403be142\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

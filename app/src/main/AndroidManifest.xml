@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.screenrecorderv2"
+    package="com.mtg.screenrecorder"
     android:versionCode="1"
     android:versionName="1.0.0">
 
@@ -15,18 +15,18 @@
 
     <uses-feature
         android:name="android.hardware.camera"
-        android:required="false" />
+        />
     <uses-feature
         android:name="android.hardware.camera2"
-        android:required="false" />
+        />
     <uses-feature
         android:name="android.hardware.camera.autofocus"
-        android:required="false" />
+        />
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:name=".MyApp"
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
@@ -39,9 +39,10 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".ui.splash.SplashActivity"
+            android:name=".view.splash.SplashActivity"
             android:launchMode="singleInstance"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -49,38 +50,38 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/admob_app_id" />
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--            android:value="@string/admob_app_id" />-->
 
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".view.main.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.cameraview.CameraActivity"
+            android:name=".view.cameraview.CameraActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:theme="@style/Theme_Transparent" />
         <activity
-            android:name=".ui.guide.GuidePermissionOverlayActivity"
+            android:name=".view.guide.GuidePermissionOverlayActivity"
             android:theme="@style/Theme_Guide" />
         <activity
-            android:name=".ui.trimvideo.VideoTrimActivity" />
+            android:name=".view.trimvideo.VideoTrimActivity" />
 
         <activity
-            android:name=".ui.record.RecordActivity"
+            android:name=".view.record.RecordActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:theme="@style/Theme_Transparent" />
 
         <activity
-            android:name=".ui.screenshot.ScreenShotActivity"
+            android:name=".view.screenshot.ScreenShotActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:theme="@style/Theme_Transparent" />
 
         <activity
-            android:name=".ui.tools.ToolsActivity"
+            android:name=".view.tools.ToolsActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:theme="@style/Theme_Transparent" />
@@ -94,7 +95,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.screenrecorderv2.provider"
+            android:authorities="com.mtg.screenrecorder.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

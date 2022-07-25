@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>ປົກກະຕິ</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">ເລື່ອນໄປໜ້າ %d ວິນາທີ</item>
+    <item quantity="other">ເລື່ອນໄປໜ້າ %d ວິນາທີ</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">ຖອຍຫຼັງ %d ວິນາທີ</item>
+    <item quantity="other">ຖອຍຫຼັງ %d ວິນາທີ</item>
+  </plurals>
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
     <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
@@ -35,19 +52,47 @@
     <string name="character_counter_content_description">ຕົວອັກສອນທີ່ປ້ອນເຂົ້າ %1$d ຕົວຈາກທັງໝົດ %2$d ຕົວ</string>
     <string name="character_counter_overflowed_content_description">ຂີດຈຳກັດຕົວອັກສອນເກີນ %1$d ຈາກທັງໝົດ %2$d</string>
     <string name="clear_text_end_icon_content_description">ລຶບລ້າງຂໍ້ຄວາມ</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"ເປີດນຳໃຊ້"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ຈະບໍ່ສາມາດໃຊ້ງານໄດ້ຈົນກວ່າທ່ານຈະເປີດໃຊ້ງານ​ການ​ບໍ​ລິ​ການ Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"ເປີດໃຊ້ການ​ບໍ​ລິ​ການ Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"ຕິດຕັ້ງ"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ຈະບໍ່ສາມາດເປີດໃຊ້ໄດ້ຫາກບໍ່ມີການບໍລິການ Google Play ເຊິ່ງແທັບເລັດຂອງທ່ານບໍ່ມີ."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"ຕິດຕັ້ງບໍລິການ Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"ສະຖານະບໍລິການ Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play Services ​ເກີດ​ຄວາມ​ຜິດ​ພາດ"</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ກຳລັງມີບັນຫາກັບບໍລິການ Google Play. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ຈະບໍ່ສາມາດໃຊ້ໄດ້ຫາກບໍ່ມີບໍລິການ Google Play ເຊິ່ງອຸປະກອນຂອງທ່ານບໍ່ຮອງຮັບ."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"ອັບເດດ"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ຈົນກວ່າທ່ານຈະອັບເດດການ​ບໍ​ລິ​ການ Google Play"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"ອັບເດດການ​ບໍ​ລິ​ການ Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ຈະບໍ່ສາມາດໃຊ້ງານໄດ້ໂດຍທີ່ບໍ່ມີການ​ບໍ​ລິ​ການ Google Play, ເຊິ່ງ​ກຳ​ລັງ​ອັບ​ເດດ​ຢູ່​ໃນ​ປະ​ຈຸ​ບັນ."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"ຈຳ​ເປັນ​ຕ້ອງ​ມີ​ກາ​ນ​ບໍ​ລິ​ການ Google Play ເວີ​ຊັນ​ໃໝ່. ມັນ​ຈະ​ອັບ​ເດດ​ຕົວ​ເອງ​ໄວໆ​ນີ້."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"​ເປີດ​ໃນ​ໂທ​ລະ​ສັບ"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ເຂົ້າສູ່ລະບົບ"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"ລົງຊື່ເຂົ້າໃຊ້ດ້ວຍ Google"</string>
     <string name="error_icon_content_description">ຜິດພາດ</string>
+    <string name="exo_controls_cc_disabled_description">ເປີດການນຳໃຊ້ຄຳແປ</string>
+    <string name="exo_controls_cc_enabled_description">ປິດການນຳໃຊ້ຄຳແປ</string>
     <string name="exo_controls_fastforward_description">ເລື່ອນໄປໜ້າ</string>
-    <string name="exo_controls_fullscreen_description">ໂໝດເຕັມຈໍ</string>
-    <string name="exo_controls_next_description">ເພງຕໍ່ໄປ</string>
+    <string name="exo_controls_fullscreen_enter_description">ເຂົ້າສູ່ໂໝດເຕັມຈໍ</string>
+    <string name="exo_controls_fullscreen_exit_description">ອອກຈາກເຕັມຈໍ</string>
+    <string name="exo_controls_hide">ເຊື່ອງຕົວຄວບ​ຄຸມ​ເຄື່ອງ​ຫຼິ້ນ</string>
+    <string name="exo_controls_next_description">ຕໍ່ໄປ</string>
+    <string name="exo_controls_overflow_hide_description">ເຊື່ອງການຕັ້ງຄ່າເພີ່ມເຕີມ</string>
+    <string name="exo_controls_overflow_show_description">ສະແດງການຕັ້ງຄ່າເພີ່ມເຕີມ</string>
     <string name="exo_controls_pause_description">ຢຸດຊົ່ວຄາວ</string>
     <string name="exo_controls_play_description">ຫຼິ້ນ</string>
-    <string name="exo_controls_previous_description">ເພງກ່ອນໜ້າ</string>
-    <string name="exo_controls_repeat_all_description">ຫຼິ້ນຊ້ຳທັງໝົດ</string>
-    <string name="exo_controls_repeat_off_description">ບໍ່ຫຼິ້ນຊ້ຳ</string>
-    <string name="exo_controls_repeat_one_description">ຫຼິ້ນຊໍ້າ</string>
+    <string name="exo_controls_playback_speed">ຄວາມໄວ</string>
+    <string name="exo_controls_previous_description">ກ່ອນໜ້າ</string>
+    <string name="exo_controls_repeat_all_description">ໂໝດປັດຈຸບັນ: ເປີດຊ້ຳທັງໝົດ. ສະຫຼັບໂໝດເປີດຊ້ຳ.</string>
+    <string name="exo_controls_repeat_off_description">ໂໝດປັດຈຸບັນ: ບໍ່ເປີດຊ້ຳ. ສະຫຼັບໂໝດເປີດຊ້ຳ.</string>
+    <string name="exo_controls_repeat_one_description">ໂໝດປັດຈຸບັນ: ເປີດຊ້ຳອັນດຽວ. ສະຫຼັບໂໝດເປີດຊ້ຳ.</string>
     <string name="exo_controls_rewind_description">ຍ້ອນກັບ</string>
-    <string name="exo_controls_shuffle_description">ຫຼີ້ນແບບສຸ່ມ</string>
+    <string name="exo_controls_seek_bar_description">ສະຖານະການຫຼິ້ນ</string>
+    <string name="exo_controls_settings_description">ຕັ້ງຄ່າ</string>
+    <string name="exo_controls_show">ສະ​ແດງຕົວຄວບ​ຄຸມ​ເຄື່ອງ​ຫຼິ້ນ</string>
+    <string name="exo_controls_shuffle_off_description">ເປີດການນຳໃຊ້ໂໝດສັບ</string>
+    <string name="exo_controls_shuffle_on_description">ປິດການນຳໃຊ້ໂໝດສັບ</string>
     <string name="exo_controls_stop_description">ຢຸດ</string>
     <string name="exo_controls_vr_description">ໂໝດ VR</string>
     <string name="exo_download_completed">ດາວໂຫລດສຳເລັດແລ້ວ</string>
@@ -55,6 +100,9 @@
     <string name="exo_download_downloading">ກຳລັງດາວໂຫລດ</string>
     <string name="exo_download_failed">ດາວໂຫຼດບໍ່ສຳເລັດ</string>
     <string name="exo_download_notification_channel_name">ດາວໂຫລດ</string>
+    <string name="exo_download_paused">ຢຸດດາວໂຫຼດຊົ່ວຄາວແລ້ວ</string>
+    <string name="exo_download_paused_for_network">ການດາວໂຫຼດກຳລັງລໍຖ້າເຄືອຂ່າຍຢູ່</string>
+    <string name="exo_download_paused_for_wifi">ການດາວໂຫຼດກຳລັງລໍຖ້າ WiFi ຢູ່</string>
     <string name="exo_download_removing">ກຳລັງລຶບການດາວໂຫລດອອກ</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mbps</string>
@@ -124,21 +172,21 @@
     <string name="mtrl_picker_toggle_to_year_selection">ແຕະເພື່ອປ່ຽນເປັນການເລືອກປີ</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ເລື່ອນຂຶ້ນເທິງ"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ເປີດແຖບການນຳທາງ"</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"ແຕະເພື່ອເປີດໂຄສະນາ"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"ເບິ່ງໂຄສະນາທີ່ທ່ານບັນທຶກໄວ້ຕອນທ່ານອອບລາຍ"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"ຕົກລົງ"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"ທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນພ້ອມກັບລິ້ງເມື່ອທ່ານກັບມາອອນລາຍ"</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"ບໍ່, ຂອບໃຈ"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"ພວກເຮົາຈະສົ່ງການແຈ້ງເຕືອນພ້ອມກັບລິ້ງຫາເວັບໄຊຜູ້ລົງໂຄສະນາໃຫ້ທ່ານ."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"ເປີດໂຄສະນາເມື່ອທ່ານກັບມາອອນລາຍ."</string>
+    <string name="offline_notification_text">ແຕະເພື່ອເປີດໂຄສະນາ</string>
+    <string name="offline_notification_title">ເບິ່ງໂຄສະນາທີ່ທ່ານບັນທຶກໄວ້ຕອນທ່ານອອບລາຍ</string>
+    <string name="offline_opt_in_confirm">ຕົກລົງ</string>
+    <string name="offline_opt_in_confirmation">ທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນພ້ອມກັບລິ້ງເມື່ອທ່ານກັບມາອອນລາຍ</string>
+    <string name="offline_opt_in_decline">ບໍ່, ຂອບໃຈ</string>
+    <string name="offline_opt_in_message">ພວກເຮົາຈະສົ່ງການແຈ້ງເຕືອນພ້ອມກັບລິ້ງຫາເວັບໄຊຜູ້ລົງໂຄສະນາໃຫ້ທ່ານ.</string>
+    <string name="offline_opt_in_title">ເປີດໂຄສະນາເມື່ອທ່ານກັບມາອອນລາຍ.</string>
     <string name="password_toggle_content_description">ສະແດງລະຫັດຜ່ານ</string>
-    <string msgid="368094699078615544" name="s1">"ບັນທຶກຮູບພາບ"</string>
-    <string msgid="4550830452390689489" name="s2">"ອະນຸຍາດໃຫ້ໂຄສະນາບັນທຶກຮູບພາບໃສ່ຫ້ອງສະໝຸດພາບໄດ້ບໍ່?"</string>
-    <string msgid="2435407834265420668" name="s3">"ຍອມຮັບ"</string>
-    <string msgid="9167523597401839819" name="s4">"ປະຕິເສດ"</string>
-    <string msgid="1566682516266724847" name="s5">"ສ້າງນັດໝາຍປະຕິທິນ"</string>
-    <string msgid="5996672174517137271" name="s6">"ອະນຸຍາດໃຫ້ໂຄສະນາສ້າງນັດໝາຍປະຕິທິນໄດ້ບໍ?"</string>
-    <string msgid="7163549807207034258" name="s7">"ໂຄສະນາທົດສອບ"</string>
+    <string name="s1">ບັນທຶກຮູບພາບ</string>
+    <string name="s2">ອະນຸຍາດໃຫ້ໂຄສະນາບັນທຶກຮູບພາບໃສ່ຫ້ອງສະໝຸດພາບໄດ້ບໍ່?</string>
+    <string name="s3">ຍອມຮັບ</string>
+    <string name="s4">ປະຕິເສດ</string>
+    <string name="s5">ສ້າງນັດໝາຍປະຕິທິນ</string>
+    <string name="s6">ອະນຸຍາດໃຫ້ໂຄສະນາສ້າງນັດໝາຍປະຕິທິນໄດ້ບໍ?</string>
+    <string name="s7">ໂຄສະນາທົດສອບ</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ຊອກຫາ"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

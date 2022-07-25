@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>أسرع بـ 0.25 مرة</item>
+    <item>أسرع بـ 0.5 مرات</item>
+    <item>أسرع بـ 0.75 مرة</item>
+    <item>عادية</item>
+    <item>أسرع بـ 1.25 مرة</item>
+    <item>أسرع بـ 1.5 مرة</item>
+    <item>أسرع بمرتين</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+    <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+    <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+    <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+    <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+    <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+    <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+    <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+    <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+  </plurals>
     <plurals name="mtrl_badge_content_description">
     <item quantity="zero">%d إشعار جديد</item>
     <item quantity="one">إشعار جديد واحد (%d)</item>
@@ -15,7 +40,7 @@
     <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
     <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
     <string msgid="4215997306490295099" name="abc_capital_off">"إيقاف"</string>
-    <string msgid="884982626291842264" name="abc_capital_on">"تفعيل"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"مفعّلة"</string>
     <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
     <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
     <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"حذف"</string>
@@ -68,7 +93,24 @@
     <string name="chosse_app">اختر التطبيق</string>
     <string name="clear_text_end_icon_content_description">محو النص</string>
     <string name="close">يغلق</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
     <string name="confirm_close">هل انت متاكد انك تريد غلق هذا النشاط ؟</string>
     <string name="confirm_exit">هل حقا تريد الخروج؟</string>
     <string name="content_notification_shake">هز جهازك لبدء التسجيل أو اضغط على هذا الإشعار للإلغاء</string>
@@ -86,25 +128,39 @@
     <string name="error_icon_content_description">خطأ</string>
     <string name="exit">مخرج</string>
     <string name="exit_app">الخروج من التطبيق</string>
+    <string name="exo_controls_cc_disabled_description">تفعيل الترجمة</string>
+    <string name="exo_controls_cc_enabled_description">إيقاف الترجمة</string>
     <string name="exo_controls_fastforward_description">تقديم سريع</string>
-    <string name="exo_controls_fullscreen_description">وضع ملء الشاشة</string>
-    <string name="exo_controls_next_description">المقطع الصوتي التالي</string>
+    <string name="exo_controls_fullscreen_enter_description">دخول إلى وضع ملء الشاشة</string>
+    <string name="exo_controls_fullscreen_exit_description">خروج من وضع ملء الشاشة</string>
+    <string name="exo_controls_hide">إخفاء عناصر التحكم بالمشغّل</string>
+    <string name="exo_controls_next_description">التالي</string>
+    <string name="exo_controls_overflow_hide_description">إخفاء الإعدادات الإضافية</string>
+    <string name="exo_controls_overflow_show_description">عرض الإعدادات الإضافية</string>
     <string name="exo_controls_pause_description">إيقاف مؤقت</string>
     <string name="exo_controls_play_description">تشغيل</string>
-    <string name="exo_controls_previous_description">المقطع الصوتي السابق</string>
-    <string name="exo_controls_repeat_all_description">تكرار الكل</string>
-    <string name="exo_controls_repeat_off_description">عدم التكرار</string>
-    <string name="exo_controls_repeat_one_description">تكرار مقطع صوتي واحد</string>
-    <string name="exo_controls_rewind_description">إرجاع</string>
-    <string name="exo_controls_shuffle_description">ترتيب عشوائي</string>
+    <string name="exo_controls_playback_speed">السرعة</string>
+    <string name="exo_controls_previous_description">السابق</string>
+    <string name="exo_controls_repeat_all_description">الوضع الحالي: تكرار الكل. تبديل وضع التكرار</string>
+    <string name="exo_controls_repeat_off_description">الوضع الحالي: عدم التكرار. تبديل وضع التكرار</string>
+    <string name="exo_controls_repeat_one_description">الوضع الحالي: التكرار مرة واحدة. تبديل وضع التكرار</string>
+    <string name="exo_controls_rewind_description">ترجيع</string>
+    <string name="exo_controls_seek_bar_description">مستوى تقدُّم التشغيل</string>
+    <string name="exo_controls_settings_description">الإعدادات</string>
+    <string name="exo_controls_show">عرض عناصر التحكم بالمشغّل</string>
+    <string name="exo_controls_shuffle_off_description">تفعيل وضع الترتيب العشوائي</string>
+    <string name="exo_controls_shuffle_on_description">إيقاف وضع الترتيب العشوائي</string>
     <string name="exo_controls_stop_description">إيقاف</string>
     <string name="exo_controls_vr_description">وضع VR</string>
     <string name="exo_download_completed">اكتمل التنزيل</string>
     <string name="exo_download_description">تنزيل</string>
     <string name="exo_download_downloading">جارٍ التنزيل.</string>
     <string name="exo_download_failed">تعذّر التنزيل</string>
-    <string name="exo_download_notification_channel_name">التنزيلات</string>
-    <string name="exo_download_removing">جارٍ إزالة التنزيلات</string>
+    <string name="exo_download_notification_channel_name">عمليات التنزيل</string>
+    <string name="exo_download_paused">تمّ إيقاف عمليات التنزيل مؤقتًا.</string>
+    <string name="exo_download_paused_for_network">عمليات التنزيل في انتظار الاتصال بالشبكة</string>
+    <string name="exo_download_paused_for_wifi">عمليات التنزيل في انتظار اتصال Wi-Fi.</string>
+    <string name="exo_download_removing">تجري إزالة المحتوى الذي تم تنزيله</string>
     <string name="exo_item_list">%1$s، %2$s</string>
     <string name="exo_track_bitrate">%1$.2f ميغابت في الثانية</string>
     <string name="exo_track_mono">قناة أحادية</string>
@@ -225,13 +281,13 @@
     <string name="no_video">لم يتم تسجيل أي فيديو</string>
     <string name="not_good">ليست جيدة</string>
     <string name="not_open_video">لا يمكن فتح الفيديو</string>
-    <string msgid="4014704848104544569" name="offline_notification_text">"انقر لفتح الإعلان"</string>
-    <string msgid="6989673690118446590" name="offline_notification_title">"عرض الإعلان الذي حفظته عند عدم الاتصال بالإنترنت"</string>
-    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"حسنًا"</string>
-    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"ستتلقّى إشعارًا يحتوي على الرابط عند إعادة الاتصال بالإنترنت."</string>
-    <string msgid="1070677888032715836" name="offline_opt_in_decline">"لا، شكرًا"</string>
-    <string msgid="5998527443747404848" name="offline_opt_in_message">"سنرسل إليك إشعارًا يحتوي على رابط إلى الموقع الإلكتروني للمعلِن."</string>
-    <string msgid="4928666061183236333" name="offline_opt_in_title">"فتح العنوان عند إعادة الاتصال بالإنترنت"</string>
+    <string name="offline_notification_text">انقر لفتح الإعلان</string>
+    <string name="offline_notification_title">عرض الإعلان الذي حفظته عند عدم الاتصال بالإنترنت</string>
+    <string name="offline_opt_in_confirm">حسنًا</string>
+    <string name="offline_opt_in_confirmation">ستتلقّى إشعارًا يحتوي على الرابط عند إعادة الاتصال بالإنترنت.</string>
+    <string name="offline_opt_in_decline">لا، شكرًا</string>
+    <string name="offline_opt_in_message">سنرسل إليك إشعارًا يحتوي على رابط إلى الموقع الإلكتروني للمعلِن.</string>
+    <string name="offline_opt_in_title">فتح العنوان عند إعادة الاتصال بالإنترنت</string>
     <string name="ok">حسنا</string>
     <string name="orientation">اتجاه</string>
     <string name="orientation_0">آلي</string>
@@ -258,13 +314,13 @@
     <string name="resolution_2">1080P</string>
     <string name="resolution_3">1440P</string>
     <string name="resume">سيرة ذاتية</string>
-    <string msgid="368094699078615544" name="s1">"حفظ الصورة"</string>
-    <string msgid="4550830452390689489" name="s2">"هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟"</string>
-    <string msgid="2435407834265420668" name="s3">"قبول"</string>
-    <string msgid="9167523597401839819" name="s4">"رفض"</string>
-    <string msgid="1566682516266724847" name="s5">"إنشاء حدث في التقويم"</string>
-    <string msgid="5996672174517137271" name="s6">"هل تريد السماح للإعلان بإنشاء حدث في التقويم؟"</string>
-    <string msgid="7163549807207034258" name="s7">"إعلان تجريبي"</string>
+    <string name="s1">حفظ الصورة</string>
+    <string name="s2">هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟</string>
+    <string name="s3">قبول</string>
+    <string name="s4">رفض</string>
+    <string name="s5">إنشاء حدث تقويم</string>
+    <string name="s6">هل تريد السماح للإعلان بإنشاء حدث تقويم؟</string>
+    <string name="s7">إعلان تجريبي</string>
     <string name="save_as_gif">حفظ بصيغة GIF</string>
     <string name="save_location">حفظ الموقع</string>
     <string name="save_options">حفظ الخيارات</string>

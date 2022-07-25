@@ -36,7 +36,7 @@
     <string name="rate_app">Rate App</string>
     <string name="rate_msg">Our team are working very hard to give you the best free application. Your 5-star review is worth more than all money. Please write a nice review in Google Play to encourage me.</string>
     <string name="remind_later">Remind later</string>
-    <string name="store">my_store</string>
+    <string name="store" translatable="false">my_store</string>
     <string name="title_dialog_feed_back">Send a feed back</string>
     <string name="yes">Yes</string>
     <style name="AdsAppTheme" parent="Theme.AppCompat.Light"/>

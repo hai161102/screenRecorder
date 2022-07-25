@@ -1,18 +1,20 @@
 plugins {
     id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 32
 
     buildFeatures {
         viewBinding true
     }
 
     defaultConfig {
-        applicationId "com.example.screenrecorderv2"
+        applicationId "com.mtg.screenrecorder"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 32
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
     }
@@ -37,11 +39,11 @@ android {
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.3.0'
-    implementation 'com.google.android.material:material:1.3.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    implementation 'androidx.navigation:navigation-fragment:2.3.5'
-    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.0'
     implementation project(path: ':videotrimmer')
     implementation project(path: ':floatingview')
     implementation project(':cameralibrary')
@@ -58,6 +60,7 @@ dependencies {
 
     /*https://github.com/bumptech/glide*/
     implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'com.google.firebase:firebase-firestore:24.2.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 
     /*https://github.com/pungrue26/SelectableRoundedImageView*/
@@ -72,21 +75,24 @@ dependencies {
     implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
 
     /*https://github.com/airbnb/lottie-android*/
-    implementation 'com.airbnb.android:lottie:3.7.0'
+    implementation 'com.airbnb.android:lottie:5.0.3'
 
     /*https://github.com/vinc3m1/RoundedImageView*/
     implementation 'com.makeramen:roundedimageview:2.3.0'
 
     implementation 'com.googlecode.mp4parser:isoparser:1.1.20'
 
-    implementation 'com.google.android.exoplayer:exoplayer:2.10.1'
+    implementation 'com.google.android.exoplayer:exoplayer:2.5.0'
 
     implementation 'com.android.support:multidex:1.0.3'
+
 
     // Drawview
     implementation 'com.raed.drawingview:drawingview:1.1-beta'
 
     implementation 'com.yqritc:android-scalablevideoview:1.0.4'
+
+    implementation 'com.github.MTGLibs:CommonLibs:1.2.2'
 
     implementation 'com.github.wseemann:FFmpegMediaMetadataRetriever-core:1.0.15'
     implementation 'com.github.wseemann:FFmpegMediaMetadataRetriever-native:1.0.15'
