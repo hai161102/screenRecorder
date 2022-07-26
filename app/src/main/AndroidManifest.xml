@@ -39,7 +39,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".view.splash.SplashActivity"
+            android:name=".view.activity.splash.SplashActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
             android:exported="true">
@@ -55,33 +55,33 @@
 <!--            android:value="@string/admob_app_id" />-->
 
         <activity
-            android:name=".view.main.MainActivity"
+            android:name=".view.activity.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.cameraview.CameraActivity"
+            android:name=".view.activity.cameraview.CameraActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:theme="@style/Theme_Transparent" />
         <activity
-            android:name=".view.guide.GuidePermissionOverlayActivity"
+            android:name=".view.activity.guide.GuidePermissionOverlayActivity"
             android:theme="@style/Theme_Guide" />
         <activity
-            android:name=".view.trimvideo.VideoTrimActivity" />
+            android:name=".view.activity.VideoTrimActivity" />
 
         <activity
-            android:name=".view.record.RecordActivity"
+            android:name=".view.activity.record.RecordActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:theme="@style/Theme_Transparent" />
 
         <activity
-            android:name=".view.screenshot.ScreenShotActivity"
+            android:name=".view.activity.screenshot.ScreenShotActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:theme="@style/Theme_Transparent" />
 
         <activity
-            android:name=".view.tools.ToolsActivity"
+            android:name=".view.activity.tools.ToolsActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:theme="@style/Theme_Transparent" />

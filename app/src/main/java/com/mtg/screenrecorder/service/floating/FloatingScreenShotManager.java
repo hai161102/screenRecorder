@@ -8,7 +8,7 @@ import android.os.Build;
 import com.mtg.screenrecorder.R;
 import com.mtg.screenrecorder.base.rx.RxBusHelper;
 import com.mtg.screenrecorder.service.base.BaseFloatingManager;
-import com.mtg.screenrecorder.view.screenshot.ScreenShotActivity;
+import com.mtg.screenrecorder.view.activity.screenshot.ScreenShotActivity;
 import com.mtg.screenrecorder.utils.PreferencesHelper;
 import com.mtg.screenrecorder.utils.ScreenRecordHelper;
 import com.mtg.screenrecorder.utils.ScreenShotHelper;

@@ -236,6 +236,7 @@ public class FloatingRecordManager extends BaseFloatingManager {
     public void removeAllView() {
         clearStateShowMainLayout();
         removeFloatingView();
+        PreferencesHelper.putBoolean(PreferencesHelper.KEY_SHAKE, false);
     }
 
     private void clearStateShowMainLayout() {

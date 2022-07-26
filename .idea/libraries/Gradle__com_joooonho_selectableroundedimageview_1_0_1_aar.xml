@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.joooonho:selectableroundedimageview:1.0.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e8c87cc2f3704ddb29306a525fdab50/jetified-selectableroundedimageview-1.0.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e8c87cc2f3704ddb29306a525fdab50/jetified-selectableroundedimageview-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e8c87cc2f3704ddb29306a525fdab50/jetified-selectableroundedimageview-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/568681e6cec9bd703ff8780f1e5fea4f/jetified-selectableroundedimageview-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/568681e6cec9bd703ff8780f1e5fea4f/jetified-selectableroundedimageview-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/568681e6cec9bd703ff8780f1e5fea4f/jetified-selectableroundedimageview-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joooonho/selectableroundedimageview/1.0.1/f57a957671f19826ddbd55500614a68c303e7298/selectableroundedimageview-1.0.1-javadoc.jar!/" />

@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import com.mtg.screenrecorder.base.BaseRecyclerAdapter;
 import com.mtg.screenrecorder.base.BaseViewHolder;
 import com.mtg.screenrecorder.databinding.ItemEditBinding;
-import com.mtg.screenrecorder.view.editvideo.ItemEdit;
+import com.mtg.screenrecorder.utils.editvideo.ItemEdit;
 import com.mtg.screenrecorder.utils.ViewUtils;
 
 import java.util.List;

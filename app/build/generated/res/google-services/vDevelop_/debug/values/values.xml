@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">417412278363-74jm5qm37jcklloqamlldpqs3s9707rp.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">417412278363</string>
+    <string name="google_api_key" translatable="false">AIzaSyCJ0o_Of05qDxm0AhYIem3Nn1MoHMFs6qY</string>
+    <string name="google_app_id" translatable="false">1:417412278363:android:27a352f62a971c699a377e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCJ0o_Of05qDxm0AhYIem3Nn1MoHMFs6qY</string>
+    <string name="google_storage_bucket" translatable="false">screen-recorder-cc569.appspot.com</string>
+    <string name="project_id" translatable="false">screen-recorder-cc569</string>
+</resources>

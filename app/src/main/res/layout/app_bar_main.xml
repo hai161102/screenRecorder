@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,7 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/bgr_header_main"
-        android:theme="@style/Theme.ScreenRecorderV2.AppBarOverlay">
+        android:theme="@style/Theme.ScreenRecorderV2.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -38,26 +41,32 @@
                 android:textStyle="bold"
                 tools:text="My App" />
         </RelativeLayout>
-
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tablayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            app:tabGravity="fill"
-            app:tabIconTint="@color/white"
-            app:tabIndicatorColor="@color/white"
-            app:tabIndicatorHeight="@dimen/_2sdp"
-            app:tabMode="fixed"
-            app:tabSelectedTextColor="@color/white"
-            app:tabTextAppearance="@style/CustomTextAppearance"
-            app:tabTextColor="@color/white" />
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <include
         android:id="@+id/content_main"
-        layout="@layout/content_main" />
+        layout="@layout/content_main"
+        app:layout_constraintTop_toBottomOf="@id/appbar"
+        app:layout_constraintBottom_toTopOf="@id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintVertical_weight="1"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:tabGravity="fill"
+        app:tabIconTint="#94979D"
+        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorHeight="@dimen/_2sdp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#FB8500"
+        app:tabTextAppearance="@style/CustomTextAppearance"
+        app:tabTextColor="#94979D" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 

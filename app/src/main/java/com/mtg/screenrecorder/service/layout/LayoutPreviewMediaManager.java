@@ -11,15 +11,14 @@ import android.widget.TextView;
 
 import androidx.core.content.FileProvider;
 
-import com.ads.control.AdmobHelp;
 import com.bumptech.glide.Glide;
 import com.mtg.screenrecorder.R;
 import com.mtg.screenrecorder.base.rx.RxBusHelper;
 import com.mtg.screenrecorder.service.base.BaseLayoutWindowManager;
-import com.mtg.screenrecorder.view.trimvideo.VideoTrimActivity;
 import com.mtg.screenrecorder.utils.Config;
 import com.mtg.screenrecorder.utils.ViewUtils;
 import com.mtg.screenrecorder.utils.notification.ServiceNotificationManager;
+import com.mtg.screenrecorder.view.activity.VideoTrimActivity;
 
 import java.io.File;
 

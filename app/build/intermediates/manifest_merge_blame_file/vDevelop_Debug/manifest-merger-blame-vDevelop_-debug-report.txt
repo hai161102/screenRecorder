@@ -1,0 +1,567 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mtg.screenrecorder"
+4    android:versionCode="1"
+5    android:versionName="develop" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:8:5-66
+11-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:8:22-63
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:9:5-81
+12-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:10:5-80
+13-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:10:22-77
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:11:5-67
+14-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+15-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:12:5-78
+15-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:12:22-75
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:13:5-77
+16-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:13:22-74
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:14:5-65
+17-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:14:22-62
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:16:5-18:11
+19-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:17:9-47
+20    <uses-feature android:name="android.hardware.camera2" />
+20-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:19:5-21:11
+20-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:20:9-48
+21    <uses-feature android:name="android.hardware.camera.autofocus" />
+21-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:22:5-24:11
+21-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:23:9-57
+22
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:26:5-71
+23-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:26:22-68
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:10:5-79
+24-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:10:22-76
+25    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+25-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:25:5-79
+25-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:25:22-76
+26    <queries>
+26-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:28:5-44:15
+27
+28        <!-- For browser content -->
+29        <intent>
+29-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:31:9-37:18
+30            <action android:name="android.intent.action.VIEW" />
+30-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:32:13-65
+30-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:32:21-62
+31
+32            <category android:name="android.intent.category.BROWSABLE" />
+32-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:34:13-74
+32-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:34:23-71
+33
+34            <data android:scheme="https" />
+34-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:36:13-44
+34-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:36:19-41
+35        </intent>
+36        <!-- End of browser content -->
+37        <!-- For CustomTabsService -->
+38        <intent>
+38-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:40:9-42:18
+39            <action android:name="android.support.customtabs.action.CustomTabsService" />
+39-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:41:13-90
+39-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:41:21-87
+40        </intent>
+41        <!-- End of CustomTabsService -->
+42    </queries>
+43
+44    <uses-permission android:name="android.permission.WAKE_LOCK" />
+44-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\b18dd16db4c97f4427d829d35fff5f76\jetified-play-services-measurement-sdk-api-18.0.3\AndroidManifest.xml:25:5-68
+44-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\b18dd16db4c97f4427d829d35fff5f76\jetified-play-services-measurement-sdk-api-18.0.3\AndroidManifest.xml:25:22-65
+45    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+45-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
+45-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
+46
+47    <application
+47-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:28:5-105:19
+48        android:name="com.mtg.screenrecorder.App"
+48-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:29:9-28
+49        android:allowBackup="true"
+49-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:30:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.8.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\eca383ba45055ba4bfa64d1152549ffb\core-1.8.0\AndroidManifest.xml:24:18-86
+51        android:debuggable="true"
+52        android:hardwareAccelerated="true"
+52-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:37:9-43
+53        android:icon="@drawable/logo"
+53-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:31:9-38
+54        android:label="@string/app_name"
+54-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:32:9-41
+55        android:largeHeap="true"
+55-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:36:9-33
+56        android:requestLegacyExternalStorage="true"
+56-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:33:9-52
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:34:9-54
+58        android:supportsRtl="true"
+58-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:35:9-35
+59        android:testOnly="true"
+60        android:theme="@style/Theme.ScreenRecorderV2.NoActionBar.Overlay"
+60-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:38:9-74
+61        android:usesCleartextTraffic="true" >
+61-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:39:9-44
+62        <activity
+62-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:41:9-51:20
+63            android:name="com.mtg.screenrecorder.view.activity.splash.SplashActivity"
+63-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:42:13-64
+64            android:exported="true"
+64-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:45:13-36
+65            android:launchMode="singleInstance"
+65-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:43:13-48
+66            android:screenOrientation="portrait" >
+66-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:44:13-49
+67            <intent-filter>
+67-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:46:13-50:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:47:17-69
+68-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:47:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:49:17-77
+70-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:49:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <!-- <meta-data -->
+75        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+76        <!-- android:value="@string/admob_app_id" /> -->
+77
+78        <activity
+78-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:57:9-59:52
+79            android:name="com.mtg.screenrecorder.view.activity.MainActivity"
+79-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:58:13-55
+80            android:screenOrientation="portrait" />
+80-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:59:13-49
+81        <activity
+81-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:60:9-64:56
+82            android:name="com.mtg.screenrecorder.view.activity.cameraview.CameraActivity"
+82-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:61:13-68
+83            android:excludeFromRecents="true"
+83-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:62:13-46
+84            android:launchMode="singleInstance"
+84-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:63:13-48
+85            android:theme="@style/Theme_Transparent" />
+85-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:64:13-53
+86        <activity
+86-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:65:9-67:50
+87            android:name="com.mtg.screenrecorder.view.activity.guide.GuidePermissionOverlayActivity"
+87-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:66:13-79
+88            android:theme="@style/Theme_Guide" />
+88-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:67:13-47
+89        <activity android:name="com.mtg.screenrecorder.view.activity.VideoTrimActivity" />
+89-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:68:9-69:63
+89-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:69:13-60
+90        <activity
+90-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:71:9-75:56
+91            android:name="com.mtg.screenrecorder.view.activity.record.RecordActivity"
+91-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:72:13-64
+92            android:excludeFromRecents="true"
+92-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:73:13-46
+93            android:launchMode="singleInstance"
+93-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:74:13-48
+94            android:theme="@style/Theme_Transparent" />
+94-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:75:13-53
+95        <activity
+95-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:77:9-81:56
+96            android:name="com.mtg.screenrecorder.view.activity.screenshot.ScreenShotActivity"
+96-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:78:13-72
+97            android:excludeFromRecents="true"
+97-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:79:13-46
+98            android:launchMode="singleInstance"
+98-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:80:13-48
+99            android:theme="@style/Theme_Transparent" />
+99-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:81:13-53
+100        <activity
+100-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:83:9-87:56
+101            android:name="com.mtg.screenrecorder.view.activity.tools.ToolsActivity"
+101-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:84:13-62
+102            android:excludeFromRecents="true"
+102-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:85:13-46
+103            android:launchMode="singleInstance"
+103-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:86:13-48
+104            android:theme="@style/Theme_Transparent" />
+104-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:87:13-53
+105
+106        <service
+106-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:89:9-94:35
+107            android:name="com.mtg.screenrecorder.service.MyService"
+107-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:90:13-46
+108            android:enabled="true"
+108-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:91:13-35
+109            android:exported="false"
+109-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:92:13-37
+110            android:foregroundServiceType="mediaProjection" />
+110-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:93:13-60
+111
+112        <provider
+112-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:96:9-104:20
+113            android:name="androidx.core.content.FileProvider"
+113-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:97:13-62
+114            android:authorities="com.mtg.screenrecorder.provider"
+114-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:98:13-66
+115            android:exported="false"
+115-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:99:13-37
+116            android:grantUriPermissions="true" >
+116-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:100:13-47
+117            <meta-data
+117-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:101:13-103:54
+118                android:name="android.support.FILE_PROVIDER_PATHS"
+118-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:102:17-67
+119                android:resource="@xml/file_paths" />
+119-->D:\Screen Recored By LubuTeam\screenrecorder_v2\screenrecorder_v2\app\src\main\AndroidManifest.xml:103:17-51
+120        </provider>
+121
+122        <activity
+122-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:13:9-16:50
+123            android:name="com.common.control.dialog.PermissionStorageDialog"
+123-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:14:13-77
+124            android:launchMode="singleTask"
+124-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:15:13-44
+125            android:theme="@style/Transparent" />
+125-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:16:13-47
+126        <activity
+126-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:17:9-20:50
+127            android:name="com.common.control.dialog.PermissionSystemDialog"
+127-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:18:13-76
+128            android:launchMode="singleTask"
+128-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:19:13-44
+129            android:theme="@style/Transparent" />
+129-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:20:13-47
+130        <activity
+130-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:21:9-24:50
+131            android:name="com.common.control.dialog.PrepareLoadingAdsDialog"
+131-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:22:13-77
+132            android:launchMode="singleTask"
+132-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:23:13-44
+133            android:theme="@style/Transparent" />
+133-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:24:13-47
+134
+135        <meta-data
+135-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:26:9-28:70
+136            android:name="com.google.android.gms.ads.APPLICATION_ID"
+136-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:27:13-69
+137            android:value="ca-app-pub-3940256099942544~3347511713" />
+137-->[com.github.MTGLibs:CommonLibs:1.2.2] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\0ef76fd2d29111df343e02dd928d89cc\jetified-CommonLibs-1.2.2\AndroidManifest.xml:28:13-67
+138
+139        <uses-library
+139-->[androidx.window:window:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\32b8a443d91a5456f82d31d1b2812241\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+140            android:name="androidx.window.extensions"
+140-->[androidx.window:window:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\32b8a443d91a5456f82d31d1b2812241\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+141            android:required="false" />
+141-->[androidx.window:window:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\32b8a443d91a5456f82d31d1b2812241\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+142        <uses-library
+142-->[androidx.window:window:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\32b8a443d91a5456f82d31d1b2812241\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+143            android:name="androidx.window.sidecar"
+143-->[androidx.window:window:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\32b8a443d91a5456f82d31d1b2812241\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+144            android:required="false" />
+144-->[androidx.window:window:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\32b8a443d91a5456f82d31d1b2812241\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+145
+146        <service
+146-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\572f7af45fa62f4d75b071c7390ff664\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:17:9-23:19
+147            android:name="com.google.firebase.components.ComponentDiscoveryService"
+147-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\572f7af45fa62f4d75b071c7390ff664\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:18:13-84
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-common:20.1.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\3917f960cf4dc8fc49a0d975bf49dd23\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\572f7af45fa62f4d75b071c7390ff664\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:19:13-37
+150            <meta-data
+150-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\572f7af45fa62f4d75b071c7390ff664\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:20:13-22:85
+151                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+151-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\572f7af45fa62f4d75b071c7390ff664\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:21:17-111
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\572f7af45fa62f4d75b071c7390ff664\jetified-firebase-firestore-24.2.1\AndroidManifest.xml:22:17-82
+153        </service>
+154
+155        <activity
+155-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\5d075581da835b5e72e6441edf721b23\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+156            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+156-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\5d075581da835b5e72e6441edf721b23\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+157            android:exported="false"
+157-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\5d075581da835b5e72e6441edf721b23\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+158-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\5d075581da835b5e72e6441edf721b23\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+159
+160        <provider
+160-->[com.google.firebase:firebase-common:20.1.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\3917f960cf4dc8fc49a0d975bf49dd23\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+161            android:name="com.google.firebase.provider.FirebaseInitProvider"
+161-->[com.google.firebase:firebase-common:20.1.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\3917f960cf4dc8fc49a0d975bf49dd23\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+162            android:authorities="com.mtg.screenrecorder.firebaseinitprovider"
+162-->[com.google.firebase:firebase-common:20.1.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\3917f960cf4dc8fc49a0d975bf49dd23\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+163            android:directBootAware="true"
+163-->[com.google.firebase:firebase-common:20.1.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\3917f960cf4dc8fc49a0d975bf49dd23\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+164            android:exported="false"
+164-->[com.google.firebase:firebase-common:20.1.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\3917f960cf4dc8fc49a0d975bf49dd23\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+165            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+165-->[com.google.firebase:firebase-common:20.1.1] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\3917f960cf4dc8fc49a0d975bf49dd23\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+166        <activity
+166-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:49:9-53:64
+167            android:name="com.google.android.gms.ads.AdActivity"
+167-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:50:13-65
+168            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+168-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:51:13-122
+169            android:exported="false"
+169-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:52:13-37
+170            android:theme="@android:style/Theme.Translucent" />
+170-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:53:13-61
+171
+172        <provider
+172-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:55:9-59:39
+173            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+173-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:56:13-76
+174            android:authorities="com.mtg.screenrecorder.mobileadsinitprovider"
+174-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:57:13-73
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:58:13-37
+176            android:initOrder="100" />
+176-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:59:13-36
+177
+178        <service
+178-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:61:9-64:40
+179            android:name="com.google.android.gms.ads.AdService"
+179-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:62:13-64
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:63:13-35
+181            android:exported="false" />
+181-->[com.google.android.gms:play-services-ads-lite:20.6.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\298da05fefa9bffe401f354c5a9bda9d\jetified-play-services-ads-lite-20.6.0\AndroidManifest.xml:64:13-37
+182
+183        <meta-data
+183-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\af5d89d0215b494d4992abf90d8c851a\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+184            android:name="com.google.android.gms.version"
+184-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\af5d89d0215b494d4992abf90d8c851a\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+185            android:value="@integer/google_play_services_version" />
+185-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\af5d89d0215b494d4992abf90d8c851a\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+186
+187        <provider
+187-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\522057847614442b77c4bed070406ee8\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+188            android:name="androidx.startup.InitializationProvider"
+188-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\522057847614442b77c4bed070406ee8\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+189            android:authorities="com.mtg.screenrecorder.androidx-startup"
+189-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\522057847614442b77c4bed070406ee8\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+190            android:exported="false" >
+190-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\522057847614442b77c4bed070406ee8\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+191            <meta-data
+191-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\522057847614442b77c4bed070406ee8\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+192                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+192-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\522057847614442b77c4bed070406ee8\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+193                android:value="androidx.startup" />
+193-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\522057847614442b77c4bed070406ee8\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+194            <meta-data
+194-->[androidx.lifecycle:lifecycle-process:2.5.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\049e3ef31d47418122a68864b1b98fbc\jetified-lifecycle-process-2.5.0\AndroidManifest.xml:31:13-33:52
+195                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+195-->[androidx.lifecycle:lifecycle-process:2.5.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\049e3ef31d47418122a68864b1b98fbc\jetified-lifecycle-process-2.5.0\AndroidManifest.xml:32:17-78
+196                android:value="androidx.startup" />
+196-->[androidx.lifecycle:lifecycle-process:2.5.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\049e3ef31d47418122a68864b1b98fbc\jetified-lifecycle-process-2.5.0\AndroidManifest.xml:33:17-49
+197            <meta-data
+197-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+198                android:name="androidx.work.WorkManagerInitializer"
+198-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+199                android:value="androidx.startup" />
+199-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+200        </provider>
+201
+202        <service
+202-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+203            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+203-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+204            android:directBootAware="false"
+204-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+205            android:enabled="@bool/enable_system_alarm_service_default"
+205-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+206            android:exported="false" />
+206-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+207        <service
+207-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+208            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+208-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+209            android:directBootAware="false"
+209-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+210            android:enabled="@bool/enable_system_job_service_default"
+210-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+211            android:exported="true"
+211-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+212            android:permission="android.permission.BIND_JOB_SERVICE" />
+212-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+213        <service
+213-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+214            android:name="androidx.work.impl.foreground.SystemForegroundService"
+214-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+215            android:directBootAware="false"
+215-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+216            android:enabled="@bool/enable_system_foreground_service_default"
+216-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+217            android:exported="false" />
+217-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+218
+219        <receiver
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+220            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+220-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+221            android:directBootAware="false"
+221-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+222            android:enabled="true"
+222-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+223            android:exported="false" />
+223-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+224        <receiver
+224-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+225            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+225-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+226            android:directBootAware="false"
+226-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+227            android:enabled="false"
+227-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+228            android:exported="false" >
+228-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+229            <intent-filter>
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+230                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+231                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+231-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+231-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+232            </intent-filter>
+233        </receiver>
+234        <receiver
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+235            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+235-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+236            android:directBootAware="false"
+236-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+237            android:enabled="false"
+237-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+238            android:exported="false" >
+238-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+239            <intent-filter>
+239-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+240                <action android:name="android.intent.action.BATTERY_OKAY" />
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+241                <action android:name="android.intent.action.BATTERY_LOW" />
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+242            </intent-filter>
+243        </receiver>
+244        <receiver
+244-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+245            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+246            android:directBootAware="false"
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+247            android:enabled="false"
+247-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+248            android:exported="false" >
+248-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+249            <intent-filter>
+249-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+250                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+251                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+252            </intent-filter>
+253        </receiver>
+254        <receiver
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+255            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+256            android:directBootAware="false"
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+257            android:enabled="false"
+257-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+258            android:exported="false" >
+258-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+259            <intent-filter>
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+260                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+261            </intent-filter>
+262        </receiver>
+263        <receiver
+263-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+264            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+264-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+265            android:directBootAware="false"
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+266            android:enabled="false"
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+267            android:exported="false" >
+267-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+268            <intent-filter>
+268-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+269                <action android:name="android.intent.action.BOOT_COMPLETED" />
+269-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+269-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+270                <action android:name="android.intent.action.TIME_SET" />
+270-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+270-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+271                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+271-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+271-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+272            </intent-filter>
+273        </receiver>
+274        <receiver
+274-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+275            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+276            android:directBootAware="false"
+276-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+277            android:enabled="@bool/enable_system_alarm_service_default"
+277-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+278            android:exported="false" >
+278-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+279            <intent-filter>
+279-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+280                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+280-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+280-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+281            </intent-filter>
+282        </receiver>
+283        <receiver
+283-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+284            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+284-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+285            android:directBootAware="false"
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+286            android:enabled="true"
+286-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+287            android:exported="true"
+287-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+288            android:permission="android.permission.DUMP" >
+288-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+289            <intent-filter>
+289-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+290                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+290-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+290-->[androidx.work:work-runtime:2.7.0] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\8ff2b79954dbe256b2dee0b023a11c71\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+291            </intent-filter>
+292        </receiver>
+293
+294        <service
+294-->[androidx.room:room-runtime:2.2.5] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\98086c5e6fd2f08abd2a8968372397dc\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+295            android:name="androidx.room.MultiInstanceInvalidationService"
+295-->[androidx.room:room-runtime:2.2.5] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\98086c5e6fd2f08abd2a8968372397dc\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+296            android:directBootAware="true"
+296-->[androidx.room:room-runtime:2.2.5] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\98086c5e6fd2f08abd2a8968372397dc\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+297            android:exported="false" />
+297-->[androidx.room:room-runtime:2.2.5] C:\Users\vipvl\.gradle\caches\transforms-2\files-2.1\98086c5e6fd2f08abd2a8968372397dc\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+298    </application>
+299
+300</manifest>

@@ -391,7 +391,7 @@ public class Toolbox {
             mContext.startActivity(mIntent);
         } else {
             try {
-                PendingIntent.getActivity(mContext, (int) (Math.random() * 9999.0d), mIntent, PendingIntent.FLAG_UPDATE_CURRENT).send();
+                PendingIntent.getActivity(mContext, (int) (Math.random() * 9999.0d), mIntent, PendingIntent.FLAG_IMMUTABLE).send();
             } catch (PendingIntent.CanceledException e) {
                 e.printStackTrace();
                 mContext.startActivity(mIntent);

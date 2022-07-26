@@ -13,7 +13,7 @@ import com.mtg.screenrecorder.base.BaseRecyclerAdapter;
 import com.mtg.screenrecorder.base.BaseViewHolder;
 import com.mtg.screenrecorder.databinding.ItemDateBinding;
 import com.mtg.screenrecorder.databinding.ItemVideosBinding;
-import com.mtg.screenrecorder.view.trimvideo.trimlib.VideoFile;
+import com.mtg.screenrecorder.utils.trimlib.VideoFile;
 import com.mtg.screenrecorder.utils.Toolbox;
 import java.util.List;
 

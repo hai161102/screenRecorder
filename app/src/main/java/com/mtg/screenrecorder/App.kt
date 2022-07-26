@@ -5,7 +5,7 @@ import com.common.control.MyApplication
 import com.mtg.screenrecorder.base.rx.RxBusHelper
 import com.mtg.screenrecorder.utils.Config
 import com.mtg.screenrecorder.utils.PreferencesHelper
-import com.mtg.screenrecorder.view.setting.Apps
+import com.mtg.screenrecorder.utils.setting.Apps
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.core.SingleEmitter

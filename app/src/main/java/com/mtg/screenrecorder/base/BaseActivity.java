@@ -1,6 +1,7 @@
 package com.mtg.screenrecorder.base;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
@@ -23,7 +24,7 @@ import com.akexorcist.localizationactivity.ui.LocalizationActivity;
 import com.mtg.screenrecorder.base.rx.CallBackRxBus;
 import com.mtg.screenrecorder.base.rx.CallbackEventView;
 import com.mtg.screenrecorder.base.rx.RxBus;
-import com.mtg.screenrecorder.view.main.DialogAskPermission;
+import com.mtg.screenrecorder.view.dialog.DialogAskPermission;
 
 import java.util.concurrent.Callable;
 
@@ -184,6 +185,7 @@ public abstract class BaseActivity<B extends ViewBinding> extends LocalizationAc
         }
     }
 
+    @SuppressLint("NewApi")
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

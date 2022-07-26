@@ -2,11 +2,13 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'com.google.firebase.crashlytics'
+    id 'com.google.gms.google-services'
 }
 
 android {
     compileSdkVersion 32
-
+    flavorDimensions "dimen"
     buildFeatures {
         viewBinding true
     }
@@ -19,10 +21,80 @@ android {
         multiDexEnabled true
     }
 
+    productFlavors {
+        vDevelop_ {
+            applicationId "com.mtg.screenrecorder"
+            buildConfigField "boolean", "TEST_AD", "false"
+            buildConfigField "boolean", "PURCHASED", "false"
+            dimension "dimen"
+            versionName "develop"
+
+
+            def addConstantTo = { target, constantName, constantValue ->
+                target.manifestPlaceholders += [(constantName): constantValue]
+                target.buildConfigField "String", "${constantName}", "\"${constantValue}\""
+            }
+            addConstantTo(owner, "APP_ID", "ca-app-pub-3940256099942544~3347511713")
+
+//            addConstantTo(owner, "inter_splash", "ca-app-pub-3940256099942544/8691691433")
+//            addConstantTo(owner, "inter_move_screen", "ca-app-pub-3940256099942544/1033173712")
+//            addConstantTo(owner, "inter_detail_daily", "ca-app-pub-3270179691816977/7782826835")
+//            addConstantTo(owner, "native_hourly_weather", "ca-app-pub-3940256099942544/2247696110")
+//            addConstantTo(owner, "native_daily_weather", "ca-app-pub-3940256099942544/2247696110")
+//            addConstantTo(owner, "native_location", "ca-app-pub-3940256099942544/2247696110")
+//            addConstantTo(owner, "native_detail_daily_weather", "ca-app-pub-3940256099942544/2247696110")
+//
+//            addConstantTo(owner, "open_app", "ca-app-pub-3940256099942544/3419835294")
+//
+//            addConstantTo(owner, "banner_main", "ca-app-pub-3940256099942544/6300978111")
+//            addConstantTo(owner, "banner_aqi", "ca-app-pub-3940256099942544/6300978111")
+//            addConstantTo(owner, "banner_hourly_weather", "ca-app-pub-3940256099942544/6300978111")
+//            addConstantTo(owner, "banner_daily_weather", "ca-app-pub-3940256099942544/6300978111")
+
+        }
+
+        vOfficial_ {
+            applicationId "com.mtg.screenrecorder"
+
+            buildConfigField "boolean", "TEST_AD", "false"
+            buildConfigField "boolean", "PURCHASED", "false"
+            dimension "dimen"
+
+            def addConstantTo = { target, constantName, constantValue ->
+                target.manifestPlaceholders += [(constantName): constantValue]
+                target.buildConfigField "String", "${constantName}", "\"${constantValue}\""
+            }
+            addConstantTo(owner, "APP_ID", "ca-app-pub-3940256099942544~3347511713")
+
+//            addConstantTo(owner, "inter_splash", "ca-app-pub-3940256099942544/8691691433")
+//            addConstantTo(owner, "inter_move_screen", "ca-app-pub-3940256099942544/1033173712")
+//            addConstantTo(owner, "inter_detail_daily", "ca-app-pub-3270179691816977/7782826835")
+//            addConstantTo(owner, "native_hourly_weather", "ca-app-pub-3940256099942544/2247696110")
+//            addConstantTo(owner, "native_daily_weather", "ca-app-pub-3940256099942544/2247696110")
+//            addConstantTo(owner, "native_location", "ca-app-pub-3940256099942544/2247696110")
+//            addConstantTo(owner, "native_detail_daily_weather", "ca-app-pub-3940256099942544/2247696110")
+//
+//            addConstantTo(owner, "open_app", "ca-app-pub-3940256099942544/3419835294")
+//
+//            addConstantTo(owner, "banner_main", "ca-app-pub-3940256099942544/6300978111")
+//            addConstantTo(owner, "banner_aqi", "ca-app-pub-3940256099942544/6300978111")
+//            addConstantTo(owner, "banner_hourly_weather", "ca-app-pub-3940256099942544/6300978111")
+//            addConstantTo(owner, "banner_daily_weather", "ca-app-pub-3940256099942544/6300978111")
+        }
+    }
+//    signingConfigs {
+//        release {
+//            storeFile file('key/release.jks')
+//            storePassword 'com.dailyweather.accuweather.forecast.thermometer'
+//            keyAlias 'release'
+//            keyPassword 'com.dailyweather.accuweather.forecast.thermometer'
+//        }
+//    }
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
         }
     }
     compileOptions {
@@ -47,7 +119,6 @@ dependencies {
     implementation project(path: ':videotrimmer')
     implementation project(path: ':floatingview')
     implementation project(':cameralibrary')
-    implementation project(path: ':ads')
 
     implementation group: 'com.serenegiant', name: 'common', version: '0.0.3'
 
@@ -82,7 +153,7 @@ dependencies {
 
     implementation 'com.googlecode.mp4parser:isoparser:1.1.20'
 
-    implementation 'com.google.android.exoplayer:exoplayer:r2.5.0'
+    implementation 'com.google.android.exoplayer:exoplayer:2.10.1'
 
     implementation 'com.android.support:multidex:1.0.3'
 

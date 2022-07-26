@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.mtg.screenrecorder",
+  "variantName": "vDevelop_Debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 1,
+      "versionName": "develop",
+      "outputFile": "resources-vDevelop_Debug.ap_"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ import com.mtg.screenrecorder.service.layout.LayoutMainLeftManager;
 import com.mtg.screenrecorder.service.layout.LayoutMainRightManager;
 import com.mtg.screenrecorder.service.base.BaseFloatingManager;
 import com.mtg.screenrecorder.service.layout.LayoutToolsManager;
-import com.mtg.screenrecorder.view.main.MainActivity;
+import com.mtg.screenrecorder.view.activity.MainActivity;
 import com.mtg.screenrecorder.utils.Config;
 import com.mtg.screenrecorder.utils.Toolbox;
 

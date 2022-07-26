@@ -1,5 +1,6 @@
 package com.mtg.screenrecorder.utils.notification;
 
+import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -166,7 +167,7 @@ public class ServiceNotificationManager {
     public void showScreenRecordSuccessNotification(String path) {
         Intent openVideoIntent = Toolbox.getIntentActionView(context, path);
         PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
-                openVideoIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+                openVideoIntent, PendingIntent.FLAG_IMMUTABLE);
         createChannel(ID_NOTIFICATION_SCREEN_RECORD_SUCCESS, NotificationManager.IMPORTANCE_DEFAULT);
         Notification notification = new NotificationCompat.Builder(context, String.valueOf(ID_NOTIFICATION_SCREEN_RECORD_SUCCESS))
                 .setContentTitle(context.getString(R.string.screen_recorder))
@@ -187,7 +188,7 @@ public class ServiceNotificationManager {
         Bitmap icon = BitmapFactory.decodeResource(context.getResources(), R.drawable.img_crop);
         Intent openVideoIntent = Toolbox.getIntentActionView(context, path);
         PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
-                openVideoIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+                openVideoIntent, PendingIntent.FLAG_IMMUTABLE);
         createChannel(ID_NOTIFICATION_SCREENSHOT_SUCCESS, NotificationManager.IMPORTANCE_MAX);
         Notification notification = new NotificationCompat.Builder(context, String.valueOf(ID_NOTIFICATION_SCREENSHOT_SUCCESS))
                 .setContentTitle(context.getString(R.string.screen_recorder))
@@ -246,10 +247,11 @@ public class ServiceNotificationManager {
         notificationManager.notify(id, notification);
     }
 
+    @SuppressLint("InlinedApi")
     public PendingIntent onButtonNotificationClick(Context context, @IdRes int id) {
         Intent intent = new Intent(ACTION_NOTIFICATION_VIEW_CLICK);
         intent.putExtra(EXTRA_VIEW_CLICKED, id);
-        return PendingIntent.getBroadcast(context, id, intent, 0);
+        return PendingIntent.getBroadcast(context, id, intent, PendingIntent.FLAG_IMMUTABLE);
     }
 
     public void hidenNotification(int id) {
@@ -257,6 +259,7 @@ public class ServiceNotificationManager {
     }
 
     public BroadcastReceiver receiver = new BroadcastReceiver() {
+        @SuppressLint("MissingPermission")
         @Override
         public void onReceive(Context context, Intent intent) {
             int id = intent.getIntExtra(EXTRA_VIEW_CLICKED, -1);

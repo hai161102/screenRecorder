@@ -1,7 +1,7 @@
 package com.mtg.screenrecorder.utils;
 
 import com.mtg.screenrecorder.R;
-import com.mtg.screenrecorder.view.setting.ItemSelected;
+import com.mtg.screenrecorder.utils.setting.ItemSelected;
 
 public class Config {
 

@@ -16,7 +16,7 @@ import androidx.viewbinding.ViewBinding;
 import com.mtg.screenrecorder.base.rx.CallBackRxBus;
 import com.mtg.screenrecorder.base.rx.CallbackEventView;
 import com.mtg.screenrecorder.base.rx.RxBus;
-import com.mtg.screenrecorder.view.main.MainActivity;
+import com.mtg.screenrecorder.view.activity.MainActivity;
 import com.mtg.screenrecorder.utils.Toolbox;
 import com.mtg.screenrecorder.utils.ViewUtils;
 
