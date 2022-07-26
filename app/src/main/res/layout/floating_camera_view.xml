@@ -27,10 +27,10 @@
             android:layout_height="@dimen/_16sdp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
-            android:tint="@color/white"
             android:layout_margin="@dimen/_4sdp"
             android:padding="@dimen/_5sdp"
-            android:background="@drawable/shape_close" />
+            android:background="@drawable/shape_close"
+            app:tint="@color/white" />
 
         <RelativeLayout
             android:layout_width="match_parent"
