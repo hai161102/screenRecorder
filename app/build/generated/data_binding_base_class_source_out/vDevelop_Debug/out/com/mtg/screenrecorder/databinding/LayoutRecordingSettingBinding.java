@@ -25,16 +25,10 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
   public final ConstraintLayout containerCountDownTimer;
 
   @NonNull
-  public final ConstraintLayout containerFloatingControl;
-
-  @NonNull
   public final ConstraintLayout containerVibrate;
 
   @NonNull
   public final AppCompatImageView imvCountDownTimer;
-
-  @NonNull
-  public final AppCompatImageView imvFloatingControl;
 
   @NonNull
   public final AppCompatImageView imvNextCountDownTimer;
@@ -43,16 +37,10 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
   public final AppCompatImageView imvVibrate;
 
   @NonNull
-  public final SwitchCompat swFloatingControl;
-
-  @NonNull
   public final SwitchCompat swVibrate;
 
   @NonNull
   public final AppCompatTextView tvCountDownTimer;
-
-  @NonNull
-  public final AppCompatTextView tvFloatingControl;
 
   @NonNull
   public final AppCompatTextView tvVibrate;
@@ -61,36 +49,25 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
   public final AppCompatTextView valueCountDownTimer;
 
   @NonNull
-  public final AppCompatTextView valueFloatingControl;
-
-  @NonNull
   public final AppCompatTextView valueVibrate;
 
   private LayoutRecordingSettingBinding(@NonNull LinearLayout rootView,
-      @NonNull ConstraintLayout containerCountDownTimer,
-      @NonNull ConstraintLayout containerFloatingControl,
-      @NonNull ConstraintLayout containerVibrate, @NonNull AppCompatImageView imvCountDownTimer,
-      @NonNull AppCompatImageView imvFloatingControl,
+      @NonNull ConstraintLayout containerCountDownTimer, @NonNull ConstraintLayout containerVibrate,
+      @NonNull AppCompatImageView imvCountDownTimer,
       @NonNull AppCompatImageView imvNextCountDownTimer, @NonNull AppCompatImageView imvVibrate,
-      @NonNull SwitchCompat swFloatingControl, @NonNull SwitchCompat swVibrate,
-      @NonNull AppCompatTextView tvCountDownTimer, @NonNull AppCompatTextView tvFloatingControl,
+      @NonNull SwitchCompat swVibrate, @NonNull AppCompatTextView tvCountDownTimer,
       @NonNull AppCompatTextView tvVibrate, @NonNull AppCompatTextView valueCountDownTimer,
-      @NonNull AppCompatTextView valueFloatingControl, @NonNull AppCompatTextView valueVibrate) {
+      @NonNull AppCompatTextView valueVibrate) {
     this.rootView = rootView;
     this.containerCountDownTimer = containerCountDownTimer;
-    this.containerFloatingControl = containerFloatingControl;
     this.containerVibrate = containerVibrate;
     this.imvCountDownTimer = imvCountDownTimer;
-    this.imvFloatingControl = imvFloatingControl;
     this.imvNextCountDownTimer = imvNextCountDownTimer;
     this.imvVibrate = imvVibrate;
-    this.swFloatingControl = swFloatingControl;
     this.swVibrate = swVibrate;
     this.tvCountDownTimer = tvCountDownTimer;
-    this.tvFloatingControl = tvFloatingControl;
     this.tvVibrate = tvVibrate;
     this.valueCountDownTimer = valueCountDownTimer;
-    this.valueFloatingControl = valueFloatingControl;
     this.valueVibrate = valueVibrate;
   }
 
@@ -127,12 +104,6 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.container_floating_control;
-      ConstraintLayout containerFloatingControl = rootView.findViewById(id);
-      if (containerFloatingControl == null) {
-        break missingId;
-      }
-
       id = R.id.container_vibrate;
       ConstraintLayout containerVibrate = rootView.findViewById(id);
       if (containerVibrate == null) {
@@ -142,12 +113,6 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
       id = R.id.imv_count_down_timer;
       AppCompatImageView imvCountDownTimer = rootView.findViewById(id);
       if (imvCountDownTimer == null) {
-        break missingId;
-      }
-
-      id = R.id.imv_floating_control;
-      AppCompatImageView imvFloatingControl = rootView.findViewById(id);
-      if (imvFloatingControl == null) {
         break missingId;
       }
 
@@ -163,12 +128,6 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.sw_floating_control;
-      SwitchCompat swFloatingControl = rootView.findViewById(id);
-      if (swFloatingControl == null) {
-        break missingId;
-      }
-
       id = R.id.sw_vibrate;
       SwitchCompat swVibrate = rootView.findViewById(id);
       if (swVibrate == null) {
@@ -178,12 +137,6 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
       id = R.id.tv_count_down_timer;
       AppCompatTextView tvCountDownTimer = rootView.findViewById(id);
       if (tvCountDownTimer == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_floating_control;
-      AppCompatTextView tvFloatingControl = rootView.findViewById(id);
-      if (tvFloatingControl == null) {
         break missingId;
       }
 
@@ -199,12 +152,6 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.value_floating_control;
-      AppCompatTextView valueFloatingControl = rootView.findViewById(id);
-      if (valueFloatingControl == null) {
-        break missingId;
-      }
-
       id = R.id.value_vibrate;
       AppCompatTextView valueVibrate = rootView.findViewById(id);
       if (valueVibrate == null) {
@@ -212,9 +159,8 @@ public final class LayoutRecordingSettingBinding implements ViewBinding {
       }
 
       return new LayoutRecordingSettingBinding((LinearLayout) rootView, containerCountDownTimer,
-          containerFloatingControl, containerVibrate, imvCountDownTimer, imvFloatingControl,
-          imvNextCountDownTimer, imvVibrate, swFloatingControl, swVibrate, tvCountDownTimer,
-          tvFloatingControl, tvVibrate, valueCountDownTimer, valueFloatingControl, valueVibrate);
+          containerVibrate, imvCountDownTimer, imvNextCountDownTimer, imvVibrate, swVibrate,
+          tvCountDownTimer, tvVibrate, valueCountDownTimer, valueVibrate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

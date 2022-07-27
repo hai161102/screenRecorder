@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
@@ -23,9 +24,9 @@
             android:layout_height="@dimen/size_floating_icon"
             android:layout_gravity="center"
             android:padding="@dimen/_16sdp"
-            android:tint="@color/white"
             android:src="@drawable/ic_close"
-            android:background="@drawable/shape_floating"/>
+            android:background="@drawable/shape_floating"
+            app:tint="@color/white" />
 
         <TextView
             android:id="@+id/tv_time"
@@ -50,7 +51,8 @@
         android:src="@drawable/ic_tools_app"
         app:layout_constraintCircleRadius="@dimen/margin"
         app:layout_constraintCircle="@id/container_main"
-        app:layout_constraintCircleAngle="300" />
+        app:layout_constraintCircleAngle="300"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imv_record"
@@ -58,11 +60,11 @@
         android:layout_height="@dimen/size_floating_icon_small"
         android:background="@drawable/bgr_item_floating"
         android:clickable="true"
-        android:padding="20dp"
-        android:src="@drawable/ic_floating_record"
+        android:src="@drawable/ic_record_floating"
         app:layout_constraintCircleRadius="@dimen/margin"
         app:layout_constraintCircle="@id/container_main"
-        app:layout_constraintCircleAngle="0"  />
+        app:layout_constraintCircleAngle="0"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imv_home"
@@ -70,11 +72,11 @@
         android:layout_height="@dimen/size_floating_icon_small"
         android:layout_gravity="center"
         android:background="@drawable/bgr_item_floating"
-        android:padding="18dp"
-        android:src="@drawable/ic_floating_home"
+        android:src="@drawable/ic_home_floating"
         app:layout_constraintCircleRadius="@dimen/margin"
         app:layout_constraintCircle="@id/container_main"
-        app:layout_constraintCircleAngle="240"  />
+        app:layout_constraintCircleAngle="240"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imv_setting"
@@ -87,7 +89,8 @@
         app:layout_anchorGravity="center"
         app:layout_constraintCircleRadius="@dimen/margin"
         app:layout_constraintCircle="@id/container_main"
-        app:layout_constraintCircleAngle="180"  />
+        app:layout_constraintCircleAngle="180"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,6 +8,22 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\shape_share.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_screen_shot_unnnon.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_screen_shot_unnnon.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_screenshot.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_screenshot.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_home_floating.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_home_floating.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_image_unnon.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_image_unnon.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_sahpe_delete.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\sahpe_delete.xml"
     },
@@ -18,6 +34,10 @@
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout-land_layout_tools.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout-land\\layout_tools.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_empty_image.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_empty_image.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_floating_record.png.flat",
@@ -40,6 +60,10 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_mic.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\font_roboto_regular.ttf.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\font\\roboto_regular.ttf"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
@@ -58,6 +82,10 @@
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_img_usage_guide.png.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\img_usage_guide.png"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_setting_unnon.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_setting_unnon.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_bit_rate.xml.flat",
@@ -84,8 +112,16 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_share.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_frame.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_frame.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_orientation.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_orientation.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_tab_selector.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\tab_selector.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_layout_tools_ar.xml.flat",
@@ -120,6 +156,10 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\anim\\scale_tv_time.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_hd.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_hd.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_dialog_loading.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\dialog_loading.xml"
     },
@@ -148,6 +188,10 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\layout_notification_recording_rtl.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_selector_brush.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\selector_brush.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_thumb.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_thumb.xml"
     },
@@ -172,8 +216,16 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\img_pointing_hand.png"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_disabled.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_disabled.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_item_selected.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\item_selected.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_record_floating.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_record_floating.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_brush_paint.xml.flat",
@@ -220,12 +272,12 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\layout_notification_main_rtl.xml"
     },
     {
-        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_shape_trash_floating.xml.flat",
-        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\shape_trash_floating.xml"
-    },
-    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_button_check_eraser.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\button_check_eraser.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_shape_trash_floating.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\shape_trash_floating.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_floating_touch.xml.flat",
@@ -272,6 +324,10 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_gif.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_brush_unnon.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_brush_unnon.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_floating_view_brush.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\floating_view_brush.xml"
     },
@@ -290,6 +346,10 @@
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_shape_floating.png.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\shape_floating.png"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_hq.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_hq.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\menu_popup_menu_more.xml.flat",
@@ -332,6 +392,14 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\img_trim.png"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_floating.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_floating.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_app.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_app.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_shape_edit.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\shape_edit.xml"
     },
@@ -342,6 +410,14 @@
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_layout_custom_app.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\layout_custom_app.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_selector_screen_shot.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\selector_screen_shot.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\font_roboto_bold.ttf.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\font\\roboto_bold.ttf"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_shape_dot_right.xml.flat",
@@ -388,6 +464,10 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_shake.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_focused.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_focused.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_dialog_input.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\dialog_input.xml"
     },
@@ -426,6 +506,10 @@
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_item_color.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\item_color.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_floating_ball_non.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_floating_ball_non.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_play.xml.flat",
@@ -488,8 +572,16 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\circle_thumb.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_clock.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_clock.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\xml_file_paths.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_ant_design_file_text_filled.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_ant_design_file_text_filled.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -552,8 +644,16 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\shape_button_usage_guide.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_button_selected_item.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\button_selected_item.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_content_main.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_video_non.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_video_non.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_home_app.png.flat",
@@ -568,12 +668,28 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_edit_unnon.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_edit_unnon.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_layout_floating_recording_right.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\layout\\layout_floating_recording_right.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_shape_dot_left.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\shape_dot_left.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_empty_video.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_empty_video.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_fluent_gif_24_regular.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_fluent_gif_24_regular.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_selector_camera.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\selector_camera.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_frames_per_second.xml.flat",
@@ -644,6 +760,10 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_brush_eraser.xml"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_audio.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_audio.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -654,6 +774,10 @@
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_language.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_language.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\font_roboto_medium.ttf.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\font\\roboto_medium.ttf"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_activity_guide_permission_overlay.xml.flat",
@@ -686,6 +810,10 @@
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_tick.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_tick.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_carbon_text_font.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_carbon_text_font.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_record_dot.png.flat",
@@ -724,12 +852,20 @@
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\img_gif.png"
     },
     {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_camera_unnon.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_camera_unnon.xml"
+    },
+    {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_bgr_header_main.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\bgr_header_main.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_brush_eraser_selected.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_brush_eraser_selected.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_android.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_android.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\layout_fragment_video.xml.flat",
@@ -786,6 +922,10 @@
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_no_video.xml.flat",
         "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\ic_no_video.xml"
+    },
+    {
+        "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_selector_floating.xml.flat",
+        "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\drawable\\selector_floating.xml"
     },
     {
         "merged": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\build\\intermediates\\res\\merged\\vDevelop_\\debug\\drawable_ic_delete.xml.flat",

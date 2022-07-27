@@ -9,9 +9,9 @@ import com.mtg.screenrecorder.base.BaseFragment;
 import com.mtg.screenrecorder.base.rx.RxBusType;
 import com.mtg.screenrecorder.databinding.FragmentSettingBinding;
 import com.mtg.screenrecorder.service.MyService;
-import com.mtg.screenrecorder.view.activity.MainActivity;
 import com.mtg.screenrecorder.utils.Config;
 import com.mtg.screenrecorder.utils.PreferencesHelper;
+import com.mtg.screenrecorder.view.activity.MainActivity;
 import com.mtg.screenrecorder.view.dialog.DialogAppPicker;
 import com.mtg.screenrecorder.view.dialog.DialogInput;
 import com.mtg.screenrecorder.view.dialog.DialogSingleSelected;
@@ -41,7 +41,7 @@ public class SettingFragment extends BaseFragment<FragmentSettingBinding> {
         binding.layoutSaveOptions.valueFileNamePrefix.setText(PreferencesHelper.getString(PreferencesHelper.KEY_FILE_NAME_PREFIX, "recording"));
         binding.layoutLanguage.valueLanguage.setText(Config.getEntry(Config.itemsLanguage, PreferencesHelper.getString(PreferencesHelper.KEY_LANGUAGE, Config.itemsLanguage[0].getValue())));
         binding.layoutRecordingSetting.valueCountDownTimer.setText(Config.getEntry(Config.itemsTimer, PreferencesHelper.getString(PreferencesHelper.KEY_TIMER, Config.itemsTimer[1].getValue())));
-        binding.layoutRecordingSetting.swFloatingControl.setChecked(PreferencesHelper.getBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false));
+//        binding.layoutRecordingSetting.swFloatingControl.setChecked(PreferencesHelper.getBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false));
         binding.layoutRecordingSetting.swVibrate.setChecked(PreferencesHelper.getBoolean(PreferencesHelper.KEY_VIBRATE, false));
         binding.layoutCustomApp.swTargetApp.setChecked(PreferencesHelper.getBoolean(PreferencesHelper.KEY_TARGET_APP, false));
         binding.layoutExperimental.swSaveAsGif.setChecked(PreferencesHelper.getBoolean(PreferencesHelper.KEY_SAVE_AS_GIF, true));
@@ -167,11 +167,11 @@ public class SettingFragment extends BaseFragment<FragmentSettingBinding> {
             dialogAppPicker = new DialogAppPicker(getContext());
             dialogAppPicker.show();
         });
-        binding.layoutRecordingSetting.containerFloatingControl.setOnClickListener(v -> {
-//            PreferencesHelper.putBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, binding.layoutRecordingSetting.swFloatingControl.isChecked());
-            boolean currentState = PreferencesHelper.getBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false);
-            checkFloatingControl(currentState);
-        });
+//        binding.layoutRecordingSetting.containerFloatingControl.setOnClickListener(v -> {
+////            PreferencesHelper.putBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, binding.layoutRecordingSetting.swFloatingControl.isChecked());
+//            boolean currentState = PreferencesHelper.getBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false);
+//            checkFloatingControl(currentState);
+//        });
         binding.layoutRecordingSetting.containerVibrate.setOnClickListener(v -> {
             binding.layoutRecordingSetting.swVibrate.setChecked(!binding.layoutRecordingSetting.swVibrate.isChecked());
             PreferencesHelper.putBoolean(PreferencesHelper.KEY_VIBRATE, binding.layoutRecordingSetting.swVibrate.isChecked());
@@ -193,11 +193,12 @@ public class SettingFragment extends BaseFragment<FragmentSettingBinding> {
             }
         } else {
             PreferencesHelper.putBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false);
-            binding.layoutRecordingSetting.swFloatingControl.setChecked(false);
+//            binding.layoutRecordingSetting.swFloatingControl.setChecked(false);
             Intent intent = new Intent(getActivity(), MyService.class);
             intent.setAction(Config.ACTION_DISABLE_FLOATING);
-            getActivity().startService(intent);
+            requireActivity().startService(intent);
         }
+        ((MainActivity) requireActivity()).onResume();
     }
 
     @Override
@@ -214,7 +215,7 @@ public class SettingFragment extends BaseFragment<FragmentSettingBinding> {
     public void onReceivedEvent(RxBusType type, Object data) {
         switch (type) {
             case PERMISSION_GRANTED:
-                binding.layoutRecordingSetting.swFloatingControl.setChecked(PreferencesHelper.getBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false));
+//                binding.layoutRecordingSetting.swFloatingControl.setChecked(PreferencesHelper.getBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false));
                 break;
         }
     }

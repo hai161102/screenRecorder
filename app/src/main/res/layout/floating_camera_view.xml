@@ -25,12 +25,15 @@
             android:id="@+id/imv_hide_camera"
             android:layout_width="@dimen/_16sdp"
             android:layout_height="@dimen/_16sdp"
-            android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
-            android:tint="@color/white"
-            android:layout_margin="@dimen/_4sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:background="@drawable/shape_close"
             android:padding="@dimen/_5sdp"
-            android:background="@drawable/shape_close" />
+            app:tint="@color/white" />
 
         <RelativeLayout
             android:layout_width="match_parent"

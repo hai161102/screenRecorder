@@ -6,7 +6,12 @@
         <entry key="..\:/Lam Viec/LUBUTEAM/Screen Recoder/screenrecorder_v2/app/src/main/res/layout/item_videos.xml" value="0.245018115942029" />
         <entry key="..\:/Lam Viec/LUBUTEAM/Screen Recoder/screenrecorder_v2/app/src/main/res/layout/layout_notification_main.xml" value="0.33" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/bg_white_radius.xml" value="0.1935" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/button_selected_item.xml" value="0.1935" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/custom_thumb.xml" value="0.2635" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/custom_track.xml" value="0.2635" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/ic_brush.xml" value="0.2635" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/ic_camera.xml" value="0.1935" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/ic_checked.xml" value="0.2635" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/ic_edit.xml" value="0.1935" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/ic_file_name_prefix.xml" value="0.1935" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/ic_floating_camera.xml" value="0.1935" />
@@ -39,8 +44,13 @@
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/seekbar_drawable_video.xml" value="0.1935" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/seekbar_progress.xml" value="0.1935" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/seekbar_style.xml" value="0.1935" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/selector_app_tool.xml" value="0.2635" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/selector_brush.xml" value="0.2635" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/selector_button.xml" value="0.1935" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/selector_camera.xml" value="0.2635" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/selector_screen_shot.xml" value="0.2635" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/shape_background_progress.xml" value="0.1935" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/drawable/tab_selector.xml" value="0.2635" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout-land/layout_preview_media_file.xml" value="0.13333333333333333" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout-land/layout_tools.xml" value="0.3207207207207207" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/activity_guide_permission_overlay.xml" value="0.18541666666666667" />
@@ -52,17 +62,34 @@
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/dialog_ask_permission.xml" value="0.18541666666666667" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/dialog_input.xml" value="0.18541666666666667" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/dialog_list_app.xml" value="0.18541666666666667" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/dialog_loading.xml" value="0.18541666666666667" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/dialog_single_selected.xml" value="0.33" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/floating_camera_view.xml" value="0.33" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/floating_view_brush.xml" value="0.3625" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/floating_view_capture.xml" value="0.18541666666666667" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/floating_view_main.xml" value="0.18541666666666667" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/floating_view_record.xml" value="0.18541666666666667" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/fragment_edit_video.xml" value="0.18541666666666667" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/fragment_picture.xml" value="0.18541666666666667" />
-        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/fragment_video.xml" value="0.18541666666666667" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/fragment_setting.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/fragment_video.xml" value="0.67" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/item_app.xml" value="0.18541666666666667" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/item_color.xml" value="0.18541666666666667" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/item_selected.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/item_videos.xml" value="0.18541666666666667" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_audio_settings.xml" value="0.3625" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_custom_app.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_experimental.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_floating_main_left.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_floating_main_right.xml" value="0.5" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_floating_recording_left.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_floating_recording_right.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_language.xml" value="0.3625" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_main_blur.xml" value="0.3625" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_main_brush.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_notification_main.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_notification_recording.xml" value="0.3625" />
+        <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_notification_recording_rtl.xml" value="0.3625" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_options_brush.xml" value="0.18541666666666667" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_preview_media_file.xml" value="0.18" />
         <entry key="..\:/Screen Recored By LubuTeam/screenrecorder_v2/screenrecorder_v2/app/src/main/res/layout/layout_recording_setting.xml" value="0.33" />

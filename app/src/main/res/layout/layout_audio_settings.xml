@@ -33,7 +33,7 @@
             style="@style/ImageViewSettings"
             android:layout_marginStart="@dimen/_16sdp"
             android:layout_marginLeft="@dimen/_16sdp"
-            android:src="@drawable/ic_mic"
+            android:src="@drawable/ic_audio"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

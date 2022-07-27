@@ -26,18 +26,13 @@ public final class DialogSingleSelectedBinding implements ViewBinding {
   public final AppCompatTextView tvCancel;
 
   @NonNull
-  public final AppCompatTextView tvOk;
-
-  @NonNull
   public final AppCompatTextView tvTitle;
 
   private DialogSingleSelectedBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView rcvData,
-      @NonNull AppCompatTextView tvCancel, @NonNull AppCompatTextView tvOk,
-      @NonNull AppCompatTextView tvTitle) {
+      @NonNull AppCompatTextView tvCancel, @NonNull AppCompatTextView tvTitle) {
     this.rootView = rootView;
     this.rcvData = rcvData;
     this.tvCancel = tvCancel;
-    this.tvOk = tvOk;
     this.tvTitle = tvTitle;
   }
 
@@ -80,20 +75,13 @@ public final class DialogSingleSelectedBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_ok;
-      AppCompatTextView tvOk = rootView.findViewById(id);
-      if (tvOk == null) {
-        break missingId;
-      }
-
       id = R.id.tv_title;
       AppCompatTextView tvTitle = rootView.findViewById(id);
       if (tvTitle == null) {
         break missingId;
       }
 
-      return new DialogSingleSelectedBinding((LinearLayout) rootView, rcvData, tvCancel, tvOk,
-          tvTitle);
+      return new DialogSingleSelectedBinding((LinearLayout) rootView, rcvData, tvCancel, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

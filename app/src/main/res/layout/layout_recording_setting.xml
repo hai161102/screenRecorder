@@ -19,62 +19,62 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/container_floating_control"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_12sdp"
-        android:background="?attr/selectableItemBackground"
-        android:paddingTop="@dimen/_6sdp"
-        android:paddingBottom="@dimen/_6sdp">
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/container_floating_control"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/_12sdp"-->
+<!--        android:background="?attr/selectableItemBackground"-->
+<!--        android:paddingTop="@dimen/_6sdp"-->
+<!--        android:paddingBottom="@dimen/_6sdp">-->
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/imv_floating_control"
-            style="@style/ImageViewSettings"
-            android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginLeft="@dimen/_16sdp"
-            android:src="@drawable/ic_floating_touch"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:id="@+id/imv_floating_control"-->
+<!--            style="@style/ImageViewSettings"-->
+<!--            android:layout_marginStart="@dimen/_16sdp"-->
+<!--            android:layout_marginLeft="@dimen/_16sdp"-->
+<!--            android:src="@drawable/ic_floating_touch"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tv_floating_control"
-            style="@style/TextViewTitle"
-            android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginLeft="@dimen/_16sdp"
-            android:text="@string/floating_control"
-            app:layout_constraintBottom_toTopOf="@id/value_floating_control"
-            app:layout_constraintStart_toEndOf="@id/imv_floating_control"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/tv_floating_control"-->
+<!--            style="@style/TextViewTitle"-->
+<!--            android:layout_marginStart="@dimen/_16sdp"-->
+<!--            android:layout_marginLeft="@dimen/_16sdp"-->
+<!--            android:text="@string/floating_control"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/value_floating_control"-->
+<!--            app:layout_constraintStart_toEndOf="@id/imv_floating_control"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/value_floating_control"
-            style="@style/TextViewDescription"
-            android:layout_width="0dp"
-            android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginLeft="@dimen/_16sdp"
-            android:layout_marginTop="@dimen/_4sdp"
-            android:text="@string/description_floating_control"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/sw_floating_control"
-            app:layout_constraintStart_toEndOf="@id/imv_floating_control"
-            app:layout_constraintTop_toBottomOf="@id/tv_floating_control" />
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/value_floating_control"-->
+<!--            style="@style/TextViewDescription"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_marginStart="@dimen/_16sdp"-->
+<!--            android:layout_marginLeft="@dimen/_16sdp"-->
+<!--            android:layout_marginTop="@dimen/_4sdp"-->
+<!--            android:text="@string/description_floating_control"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@id/sw_floating_control"-->
+<!--            app:layout_constraintStart_toEndOf="@id/imv_floating_control"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tv_floating_control" />-->
 
-        <androidx.appcompat.widget.SwitchCompat
-            android:id="@+id/sw_floating_control"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_16sdp"
-            android:checked="true"
-            android:clickable="false"
-            android:thumb="@drawable/custom_thumb"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:track="@drawable/custom_track" />
+<!--        <androidx.appcompat.widget.SwitchCompat-->
+<!--            android:id="@+id/sw_floating_control"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="@dimen/_16sdp"-->
+<!--            android:checked="true"-->
+<!--            android:clickable="false"-->
+<!--            android:thumb="@drawable/custom_thumb"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:track="@drawable/custom_track" />-->
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container_count_down_timer"
@@ -89,7 +89,7 @@
             style="@style/ImageViewSettings"
             android:layout_marginStart="@dimen/_16sdp"
             android:layout_marginLeft="@dimen/_16sdp"
-            android:src="@drawable/ic_countdown_timer"
+            android:src="@drawable/ic_clock"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

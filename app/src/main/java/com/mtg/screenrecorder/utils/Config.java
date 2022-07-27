@@ -10,6 +10,7 @@ public class Config {
     public static final String ACTION_SCREEN_SHOT_START = "action.screens_shot";
     public static final String ACTION_SCREEN_RECORDING_START = "action.start_recording";
     public static final String ACTION_SHOW_MAIN_FLOATING = "action.show_main_floating";
+    public static final String ACTION_PUT_ACTIVITY = "action.put_activity";
     public static final String ACTION_OPEN_SETTING = "action.open_setting";
     public static final String ACTION_OPEN_MAIN = "action.open_main";
     public static final String ACTION_DISABLE_FLOATING = "action.disable_floating";

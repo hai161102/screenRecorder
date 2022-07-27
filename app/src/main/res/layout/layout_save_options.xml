@@ -89,7 +89,7 @@
             style="@style/ImageViewSettings"
             android:layout_marginStart="@dimen/_16sdp"
             android:layout_marginLeft="@dimen/_16sdp"
-            android:src="@drawable/ic_format_name"
+            android:src="@drawable/ic_carbon_text_font"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -142,7 +142,7 @@
             style="@style/ImageViewSettings"
             android:layout_marginStart="@dimen/_16sdp"
             android:layout_marginLeft="@dimen/_16sdp"
-            android:src="@drawable/ic_file_name_prefix"
+            android:src="@drawable/ic_ant_design_file_text_filled"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

@@ -7,7 +7,7 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="frames_video_height">62dp</dimen>
     <dimen name="size_floating_icon">58dp</dimen>
-    <dimen name="size_floating_icon_small">58dp</dimen>
+    <dimen name="size_floating_icon_small">48dp</dimen>
     <dimen name="circle_radius">58dp</dimen>
     <dimen name="margin">64dp</dimen>
 </resources>

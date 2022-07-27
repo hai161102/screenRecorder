@@ -4,6 +4,9 @@ package com.mtg.screenrecorder.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatTextView;
@@ -25,10 +28,25 @@ public final class AppBarMainBinding implements ViewBinding {
   public final AppBarLayout appbar;
 
   @NonNull
+  public final ImageView brushMain;
+
+  @NonNull
+  public final ImageView cameraMain;
+
+  @NonNull
   public final ContentMainBinding contentMain;
 
   @NonNull
+  public final ImageView floatingMain;
+
+  @NonNull
+  public final ImageView screenshotMain;
+
+  @NonNull
   public final TabLayout tablayout;
+
+  @NonNull
+  public final LinearLayout tool;
 
   @NonNull
   public final Toolbar toolbar;
@@ -36,15 +54,58 @@ public final class AppBarMainBinding implements ViewBinding {
   @NonNull
   public final AppCompatTextView toolbarTitle;
 
+  @NonNull
+  public final TextView tvBrushMain;
+
+  @NonNull
+  public final TextView tvCameraMain;
+
+  @NonNull
+  public final TextView tvFloatingMain;
+
+  @NonNull
+  public final TextView tvScreenShotMain;
+
+  @NonNull
+  public final LinearLayout viewBrush;
+
+  @NonNull
+  public final LinearLayout viewCamera;
+
+  @NonNull
+  public final LinearLayout viewFloating;
+
+  @NonNull
+  public final LinearLayout viewScreenShot;
+
   private AppBarMainBinding(@NonNull ConstraintLayout rootView, @NonNull AppBarLayout appbar,
-      @NonNull ContentMainBinding contentMain, @NonNull TabLayout tablayout,
-      @NonNull Toolbar toolbar, @NonNull AppCompatTextView toolbarTitle) {
+      @NonNull ImageView brushMain, @NonNull ImageView cameraMain,
+      @NonNull ContentMainBinding contentMain, @NonNull ImageView floatingMain,
+      @NonNull ImageView screenshotMain, @NonNull TabLayout tablayout, @NonNull LinearLayout tool,
+      @NonNull Toolbar toolbar, @NonNull AppCompatTextView toolbarTitle,
+      @NonNull TextView tvBrushMain, @NonNull TextView tvCameraMain,
+      @NonNull TextView tvFloatingMain, @NonNull TextView tvScreenShotMain,
+      @NonNull LinearLayout viewBrush, @NonNull LinearLayout viewCamera,
+      @NonNull LinearLayout viewFloating, @NonNull LinearLayout viewScreenShot) {
     this.rootView = rootView;
     this.appbar = appbar;
+    this.brushMain = brushMain;
+    this.cameraMain = cameraMain;
     this.contentMain = contentMain;
+    this.floatingMain = floatingMain;
+    this.screenshotMain = screenshotMain;
     this.tablayout = tablayout;
+    this.tool = tool;
     this.toolbar = toolbar;
     this.toolbarTitle = toolbarTitle;
+    this.tvBrushMain = tvBrushMain;
+    this.tvCameraMain = tvCameraMain;
+    this.tvFloatingMain = tvFloatingMain;
+    this.tvScreenShotMain = tvScreenShotMain;
+    this.viewBrush = viewBrush;
+    this.viewCamera = viewCamera;
+    this.viewFloating = viewFloating;
+    this.viewScreenShot = viewScreenShot;
   }
 
   @Override
@@ -80,6 +141,18 @@ public final class AppBarMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.brushMain;
+      ImageView brushMain = rootView.findViewById(id);
+      if (brushMain == null) {
+        break missingId;
+      }
+
+      id = R.id.cameraMain;
+      ImageView cameraMain = rootView.findViewById(id);
+      if (cameraMain == null) {
+        break missingId;
+      }
+
       id = R.id.content_main;
       View contentMain = rootView.findViewById(id);
       if (contentMain == null) {
@@ -87,9 +160,27 @@ public final class AppBarMainBinding implements ViewBinding {
       }
       ContentMainBinding binding_contentMain = ContentMainBinding.bind(contentMain);
 
+      id = R.id.floatingMain;
+      ImageView floatingMain = rootView.findViewById(id);
+      if (floatingMain == null) {
+        break missingId;
+      }
+
+      id = R.id.screenshotMain;
+      ImageView screenshotMain = rootView.findViewById(id);
+      if (screenshotMain == null) {
+        break missingId;
+      }
+
       id = R.id.tablayout;
       TabLayout tablayout = rootView.findViewById(id);
       if (tablayout == null) {
+        break missingId;
+      }
+
+      id = R.id.tool;
+      LinearLayout tool = rootView.findViewById(id);
+      if (tool == null) {
         break missingId;
       }
 
@@ -105,8 +196,58 @@ public final class AppBarMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new AppBarMainBinding((ConstraintLayout) rootView, appbar, binding_contentMain,
-          tablayout, toolbar, toolbarTitle);
+      id = R.id.tvBrushMain;
+      TextView tvBrushMain = rootView.findViewById(id);
+      if (tvBrushMain == null) {
+        break missingId;
+      }
+
+      id = R.id.tvCameraMain;
+      TextView tvCameraMain = rootView.findViewById(id);
+      if (tvCameraMain == null) {
+        break missingId;
+      }
+
+      id = R.id.tvFloatingMain;
+      TextView tvFloatingMain = rootView.findViewById(id);
+      if (tvFloatingMain == null) {
+        break missingId;
+      }
+
+      id = R.id.tvScreenShotMain;
+      TextView tvScreenShotMain = rootView.findViewById(id);
+      if (tvScreenShotMain == null) {
+        break missingId;
+      }
+
+      id = R.id.viewBrush;
+      LinearLayout viewBrush = rootView.findViewById(id);
+      if (viewBrush == null) {
+        break missingId;
+      }
+
+      id = R.id.viewCamera;
+      LinearLayout viewCamera = rootView.findViewById(id);
+      if (viewCamera == null) {
+        break missingId;
+      }
+
+      id = R.id.viewFloating;
+      LinearLayout viewFloating = rootView.findViewById(id);
+      if (viewFloating == null) {
+        break missingId;
+      }
+
+      id = R.id.viewScreenShot;
+      LinearLayout viewScreenShot = rootView.findViewById(id);
+      if (viewScreenShot == null) {
+        break missingId;
+      }
+
+      return new AppBarMainBinding((ConstraintLayout) rootView, appbar, brushMain, cameraMain,
+          binding_contentMain, floatingMain, screenshotMain, tablayout, tool, toolbar, toolbarTitle,
+          tvBrushMain, tvCameraMain, tvFloatingMain, tvScreenShotMain, viewBrush, viewCamera,
+          viewFloating, viewScreenShot);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

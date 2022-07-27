@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Screen Recorder</string>
     <string name="app_name_firt">Screen</string>
     <string name="app_name_second">Recorder</string>
@@ -10,7 +10,7 @@
     <string name="screen_recorder">Screen Recorder</string>
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
-    <string name="no_video">No video has been recorded</string>
+    <string name="no_video">You don\'t have any videos!</string>
     <string name="video_settings">Videos Settings</string>
     <string name="resolution">Resolution</string>
     <string name="bit_rate">Bit rate</string>
@@ -29,8 +29,8 @@
     <string name="edit">Edit</string>
     <string name="trim">Trim</string>
     <string name="screenshots">Screenshot</string>
-    <string name="camera">Camera</string>
-    <string name="brush">Brush</string>
+    <string name="camera" tools:ignore="DuplicateDefinition">Camera</string>
+    <string name="brush" tools:ignore="DuplicateDefinition">Brush</string>
     <string name="tools">Tools</string>
     <string name="record">Record</string>
     <string name="home">Home</string>
@@ -67,7 +67,7 @@
     <string name="video">Video</string>
     <string name="picture">Image</string>
     <string name="setting">Setting</string>
-    <string name="no_image">No Image</string>
+    <string name="no_image">You don\'t have any photos!</string>
     <string name="close">Close</string>
     <string name="share">Share</string>
     <string name="menu_feedback">Send feedback</string>
@@ -79,7 +79,7 @@
     <string name="record_audio_permission">Grant permission to record with mic</string>
     <string name="external_storage_permission">Grant access to the external storage memory in the device</string>
     <string name="overlay_permission">Grant permission to display on other applications</string>
-    <string name="not_open_video">Can\'t open video</string>
+    <string name="not_open_video" tools:ignore="MissingTranslation">Can\'t open video</string>
 
     // Bit rate
     <string name="bitrate_0">1.0 Mbit (Very low)</string>
@@ -143,7 +143,7 @@
     <string name="language_6">한국어</string>
     <string name="language_7">Türk</string>
     <string name="language_8">French</string>
-    <string name="language_9">Spanish</string>
+    <string name="language_9" translatable="false">Spanish</string>
     <string name="language_10">عربى</string>
 
     // Timer
@@ -152,6 +152,8 @@
     <string name="timer_2">5s</string>
     <string name="timer_3">7s</string>
     <string name="timer_4">10s</string>
-    <string name="cant_trim_video">Can\'n trim this video</string>
+    <string name="cant_trim_video" translatable="false">Can\'n trim this video</string>
+    <string name="floating_ball" translatable="false">Floating Ball</string>
+    <string name="screenshot" translatable="false">ScreenShot</string>
 
 </resources>

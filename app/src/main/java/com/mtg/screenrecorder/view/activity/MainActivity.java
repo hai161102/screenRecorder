@@ -5,8 +5,8 @@ import static com.mtg.screenrecorder.utils.Config.ACTION_SHOW_MAIN_FLOATING;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Point;
-import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Handler;
@@ -17,7 +17,6 @@ import android.view.ViewGroup;
 import android.view.WindowInsets;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.widget.Toolbar;
@@ -32,8 +31,13 @@ import com.mtg.screenrecorder.base.rx.RxBusHelper;
 import com.mtg.screenrecorder.base.rx.RxBusType;
 import com.mtg.screenrecorder.databinding.ActivityMainBinding;
 import com.mtg.screenrecorder.service.MyService;
+import com.mtg.screenrecorder.service.floating.FloatingBrushManager;
+import com.mtg.screenrecorder.service.floating.FloatingCameraViewManager;
+import com.mtg.screenrecorder.service.floating.FloatingMainManager;
+import com.mtg.screenrecorder.service.floating.FloatingScreenShotManager;
 import com.mtg.screenrecorder.utils.Config;
 import com.mtg.screenrecorder.utils.MyTab;
+import com.mtg.screenrecorder.utils.MyTabChange;
 import com.mtg.screenrecorder.utils.PreferencesHelper;
 import com.mtg.screenrecorder.utils.Toolbox;
 import com.mtg.screenrecorder.view.activity.guide.GuidePermissionOverlayActivity;
@@ -54,7 +58,8 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
     private MainViewPagerAdapter mainViewPagerAdapter;
     private ActionBarDrawerToggle toggle;
     private DialogSingleSelected dialogLanguge;
-    private WindowInsets windowInsets;
+    public static WindowInsets windowInsets;
+    private FloatingCameraViewManager floatingCameraViewManager;
     private static final int REQUEST_SETTING_OVERLAY_PERMISSION = 290;
     private DialogAskPermission dialogAskPermission;
 
@@ -64,10 +69,16 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
     }
 
     public MyTab[] tabArr = {
-            new MyTab(R.string.video, new VideoFragment(), R.drawable.ic_tab_video),
+            new MyTab(R.string.video, new VideoFragment(), R.drawable.ic_video_non),
             new MyTab(R.string.picture, new PictureFragment(), R.drawable.ic_image),
             new MyTab(R.string.edit, new EditVideoFragment(), R.drawable.ic_edit),
             new MyTab(R.string.setting, new SettingFragment(), R.drawable.ic_setting),
+    };
+    public MyTabChange[] tabChanges = {
+            new MyTabChange(R.string.video, new VideoFragment(), R.drawable.ic_video_non, R.drawable.ic_video, false),
+            new MyTabChange(R.string.picture, new PictureFragment(), R.drawable.ic_image, R.drawable.ic_image_unnon, false),
+            new MyTabChange(R.string.edit, new EditVideoFragment(), R.drawable.ic_edit, R.drawable.ic_edit_unnon, false),
+            new MyTabChange(R.string.setting, new SettingFragment(), R.drawable.ic_setting, R.drawable.ic_setting_unnon, false),
     };
 
     @SuppressLint("ObsoleteSdkInt")
@@ -79,6 +90,36 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
         PreferencesHelper.putString(PreferencesHelper.KEY_DEFAULT_RESOLUTION, outSize.x + "x" + outSize.y);
 //        AdmobHelp.getInstance().loadBanner(this);
 //        MyApp.getInstance().appOpenManager.showAdIfAvailable();
+        initViewMain();
+
+        checkActionIntent();
+        askPermissionOverlay();
+        askPermissionStorageMain();
+        setViewTools();
+        setActionEvent();
+        FloatingMainManager.getInstance(this, FloatingViewManager.findCutoutSafeArea(windowInsets)).setMainActivity(this);
+        FloatingScreenShotManager.getInstance(this, FloatingViewManager.findCutoutSafeArea(windowInsets)).setMainActivity(this);
+        FloatingBrushManager.getInstance(this, FloatingViewManager.findCutoutSafeArea(windowInsets)).setMainActivity(this);
+
+    }
+
+
+    public void setViewTools() {
+        boolean isFloatMain = PreferencesHelper.getBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false);
+        boolean isCameraMain = PreferencesHelper.getBoolean(PreferencesHelper.PREFS_TOOLS_CAMERA, false);
+        boolean isScreenShotMain = PreferencesHelper.getBoolean(PreferencesHelper.PREFS_TOOLS_SCREEN_SHOT, false);
+        boolean isBrush = PreferencesHelper.getBoolean(PreferencesHelper.PREFS_TOOLS_BRUSH, false);
+        binding.appBarMain.floatingMain.setImageResource(isFloatMain ? R.drawable.ic_floating : R.drawable.ic_floating_ball_non);
+        binding.appBarMain.tvFloatingMain.setTextColor(isFloatMain ? ContextCompat.getColor(this, R.color.color_3c3c3c) : ContextCompat.getColor(this, R.color.color_94979D));
+        binding.appBarMain.cameraMain.setImageResource(isCameraMain ? R.drawable.ic_camera_unnon : R.drawable.ic_camera);
+        binding.appBarMain.tvCameraMain.setTextColor(isCameraMain ? ContextCompat.getColor(this, R.color.color_3c3c3c) : ContextCompat.getColor(this, R.color.color_94979D));
+        binding.appBarMain.screenshotMain.setImageResource(isScreenShotMain ? R.drawable.ic_screen_shot_unnnon : R.drawable.ic_screenshot);
+        binding.appBarMain.tvScreenShotMain.setTextColor(isScreenShotMain ? ContextCompat.getColor(this, R.color.color_3c3c3c) : ContextCompat.getColor(this, R.color.color_94979D));
+        binding.appBarMain.brushMain.setImageResource(isBrush ? R.drawable.ic_brush_unnon : R.drawable.ic_brush);
+        binding.appBarMain.tvBrushMain.setTextColor(isBrush ? ContextCompat.getColor(this, R.color.color_3c3c3c) : ContextCompat.getColor(this, R.color.color_94979D));
+    }
+
+    private void initViewMain() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && Toolbox.getHeightStatusBar(this) > 0) {
             binding.appBarMain.appbar.setPadding(0, Toolbox.getHeightStatusBar(this), 0, 0);
         }
@@ -103,7 +144,6 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
                 for (int i = 0; i < binding.appBarMain.tablayout.getTabCount(); i++) {
                     TextView tv = (TextView) (((ViewGroup) ((ViewGroup) binding.appBarMain.tablayout.getChildAt(0)).getChildAt(i)).getChildAt(1));
                 }
-
             }
 
             @Override
@@ -111,37 +151,143 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
 
             }
         });
-
+//        ColorStateList colorStateList = new ColorStateList()
+//        binding.appBarMain.tablayout.setTabIconTint();
         binding.appBarMain.tablayout.setupWithViewPager(binding.appBarMain.contentMain.viewpager);
         for (int i = 0; i < binding.appBarMain.tablayout.getTabCount(); i++) {
             binding.appBarMain.tablayout.getTabAt(i).setIcon(tabArr[i].getmIcon());
+            if (i == 0) {
+                binding.appBarMain.tablayout.getTabAt(i).getIcon().setTint(Color.parseColor("#FB8500"));
+            }
             TextView tv = (TextView) (((ViewGroup) ((ViewGroup) binding.appBarMain.tablayout.getChildAt(0)).getChildAt(i)).getChildAt(1));
         }
-        checkActionIntent();
-        askPermissionOverlay();
-        askPermissionStorageMain();
-        binding.appBarMain.tablayout.setOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(binding.appBarMain.contentMain.viewpager){
+        binding.appBarMain.tablayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
-            public void onTabSelected(@NonNull TabLayout.Tab tab) {
-                super.onTabSelected(tab);
-
+            public void onTabSelected(TabLayout.Tab tab) {
+                tab.getIcon().setTint(Color.parseColor("#FB8500"));
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
-                super.onTabUnselected(tab);
-                int tabColor = ContextCompat.getColor(MainActivity.this, R.color.color_94979D);
-                tab.getIcon().setColorFilter(tabColor, PorterDuff.Mode.ADD);
+                tab.getIcon().setTint(Color.parseColor("#94979D"));
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-                super.onTabReselected(tab);
-                int tabColor = ContextCompat.getColor(MainActivity.this, R.color.color_FB8500);
-                tab.getIcon().setColorFilter(tabColor, PorterDuff.Mode.ADD);
+                tab.getIcon().setTint(Color.parseColor("#FB8500"));
             }
         });
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        setViewTools();
+    }
+
+    private void setActionEvent() {
+        binding.appBarMain.viewFloating.setOnClickListener(v -> {
+            boolean isFloating = PreferencesHelper.getBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false);
+            if (!isFloating) {
+                PreferencesHelper.putBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, true);
+                startService();
+
+            } else {
+                PreferencesHelper.putBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false);
+                putAction(Config.ACTION_DISABLE_FLOATING);
+            }
+            binding.appBarMain.floatingMain.setImageResource(isFloating ? R.drawable.ic_floating_ball_non : R.drawable.ic_floating);
+            binding.appBarMain.tvFloatingMain.setTextColor(
+                    isFloating ? ContextCompat.getColor(this, R.color.color_94979D)
+                            : ContextCompat.getColor(this, R.color.color_3c3c3c)
+            );
+            FloatingMainManager.getInstance(this, FloatingViewManager.findCutoutSafeArea(windowInsets)).setMainActivity(this);
+
+        });
+        binding.appBarMain.viewCamera.setOnClickListener(v -> {
+            boolean isCamera = PreferencesHelper.getBoolean(PreferencesHelper.PREFS_TOOLS_CAMERA, false);
+            PreferencesHelper.putBoolean(PreferencesHelper.PREFS_TOOLS_CAMERA, !isCamera);
+            if (!isCamera){
+                floatingCameraViewManager = new FloatingCameraViewManager(this, this);
+            }else {
+                floatingCameraViewManager.onFinishFloatingView();
+            }
+//            RxBusHelper.sendCheckedTools(RxBusType.TOOLS_CAMERA, !isCamera);
+            binding.appBarMain.cameraMain.setImageResource(isCamera ? R.drawable.ic_camera : R.drawable.ic_camera_unnon);
+            binding.appBarMain.tvCameraMain.setTextColor(
+                    isCamera ? ContextCompat.getColor(this, R.color.color_94979D)
+                            : ContextCompat.getColor(this, R.color.color_3c3c3c)
+            );
+        });
+        binding.appBarMain.viewScreenShot.setOnClickListener(v -> {
+            boolean isScreenShot = PreferencesHelper.getBoolean(PreferencesHelper.PREFS_TOOLS_SCREEN_SHOT, false);
+            PreferencesHelper.putBoolean(PreferencesHelper.PREFS_TOOLS_SCREEN_SHOT, !isScreenShot);
+            RxBusHelper.sendCheckedTools(RxBusType.TOOLS_SCREEN_SHOT, !isScreenShot);
+//            RxBusHelper.sendCheckedTools(RxBusType.TOOLS_SCREEN_SHOT, !isScreenShot);
+            binding.appBarMain.screenshotMain.setImageResource(isScreenShot ? R.drawable.ic_screenshot : R.drawable.ic_screen_shot_unnnon);
+            binding.appBarMain.tvScreenShotMain.setTextColor(
+                    isScreenShot ? ContextCompat.getColor(this, R.color.color_94979D)
+                            : ContextCompat.getColor(this, R.color.color_3c3c3c)
+            );
+            FloatingScreenShotManager.getInstance(this, FloatingViewManager.findCutoutSafeArea(windowInsets)).setMainActivity(this);
+
+        });
+        binding.appBarMain.viewBrush.setOnClickListener(v -> {
+            boolean isBrush = PreferencesHelper.getBoolean(PreferencesHelper.PREFS_TOOLS_BRUSH, false);
+            PreferencesHelper.putBoolean(PreferencesHelper.PREFS_TOOLS_BRUSH, !isBrush);
+            RxBusHelper.sendCheckedTools(RxBusType.TOOLS_BRUSH, !isBrush);
+            binding.appBarMain.brushMain.setImageResource(isBrush ? R.drawable.ic_brush : R.drawable.ic_brush_unnon);
+            binding.appBarMain.tvBrushMain.setTextColor(
+                    isBrush ? ContextCompat.getColor(this, R.color.color_94979D)
+                            : ContextCompat.getColor(this, R.color.color_3c3c3c)
+            );
+            FloatingBrushManager.getInstance(this, FloatingViewManager.findCutoutSafeArea(windowInsets)).setMainActivity(this);
+
+        });
+    }
+
+    private void putAction(String action) {
+        Intent intent = new Intent(this, MyService.class);
+        intent.setAction(action);
+        startService(intent);
+    }
+
+//    private void setIcon(TabLayout.Tab tab, int currentItem) {
+//        switch (currentItem){
+//            case 0:
+//                if (tab.isSelected()){
+//                    tab.setIcon(R.drawable.ic_video);
+//                }
+//                else {
+//                    tab.setIcon(R.drawable.ic_video_non);
+//                }
+//                break;
+//            case 1:
+//                if (tab.isSelected()){
+//                    tab.setIcon(R.drawable.ic_image_unnon);
+//                }
+//                else {
+//                    tab.setIcon(R.drawable.ic_image);
+//                }
+//                break;
+//            case 2:
+//                if (tab.isSelected()){
+//                    tab.setIcon(R.drawable.ic_edit_unnon);
+//                }
+//                else {
+//                    tab.setIcon(R.drawable.ic_edit);
+//                }
+//                break;
+//            case 3:
+//                if (tab.isSelected()){
+//                    tab.setIcon(R.drawable.ic_setting_unnon);
+//                }
+//                else {
+//                    tab.setIcon(R.drawable.ic_setting);
+//                }
+//                break;
+//        }
+//    }
 
     private void checkActionIntent() {
         if (getIntent() != null && getIntent().getAction() != null) {

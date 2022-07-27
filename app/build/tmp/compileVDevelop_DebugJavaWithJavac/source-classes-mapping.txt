@@ -6,10 +6,10 @@ com/mtg/screenrecorder/utils/PreferencesHelper.java
  com.mtg.screenrecorder.utils.PreferencesHelper
 com/mtg/screenrecorder/utils/setting/ItemSelected.java
  com.mtg.screenrecorder.utils.setting.ItemSelected
-com/mtg/screenrecorder/utils/ViewUtils.java
- com.mtg.screenrecorder.utils.ViewUtils
-com/mtg/screenrecorder/utils/keyboard/KeyboardHeightProvider.java
- com.mtg.screenrecorder.utils.keyboard.KeyboardHeightProvider
+com/mtg/screenrecorder/base/rx/RxBusType.java
+ com.mtg.screenrecorder.base.rx.RxBusType
+com/mtg/screenrecorder/utils/trimlib/TrimVideoUtils.java
+ com.mtg.screenrecorder.utils.trimlib.TrimVideoUtils
 com/mtg/screenrecorder/utils/LocaleManager.java
  com.mtg.screenrecorder.utils.LocaleManager
 com/mtg/screenrecorder/base/rx/CallBackRxBus.java
@@ -18,18 +18,15 @@ com/mtg/screenrecorder/view/activity/cameraview/CameraActivity.java
  com.mtg.screenrecorder.view.activity.cameraview.CameraActivity
 com/mtg/screenrecorder/utils/trimlib/VideoFile.java
  com.mtg.screenrecorder.utils.trimlib.VideoFile
-com/mtg/screenrecorder/base/BaseRecyclerAdapter.java
- com.mtg.screenrecorder.base.BaseRecyclerAdapter
- com.mtg.screenrecorder.base.BaseRecyclerAdapter$CallBackAdapter
-com/mtg/screenrecorder/base/BaseViewHolder.java
- com.mtg.screenrecorder.base.BaseViewHolder
+com/mtg/screenrecorder/utils/ShakeEventManager.java
+ com.mtg.screenrecorder.utils.ShakeEventManager
+ com.mtg.screenrecorder.utils.ShakeEventManager$ShakeListener
+com/mtg/screenrecorder/utils/ViewUtils.java
+ com.mtg.screenrecorder.utils.ViewUtils
 com/mtg/screenrecorder/base/rx/CallbackEventView.java
  com.mtg.screenrecorder.base.rx.CallbackEventView
-com/mtg/screenrecorder/view/adapter/VideoAdapter.java
- com.mtg.screenrecorder.view.adapter.VideoAdapter
- com.mtg.screenrecorder.view.adapter.VideoAdapter$CallBackVideo
- com.mtg.screenrecorder.view.adapter.VideoAdapter$HeaderViewHolder
- com.mtg.screenrecorder.view.adapter.VideoAdapter$VideoViewHolder
+com/mtg/screenrecorder/utils/trimlib/Utility.java
+ com.mtg.screenrecorder.utils.trimlib.Utility
 com/mtg/screenrecorder/utils/trimlib/OnRangeSeekBarChangeListener.java
  com.mtg.screenrecorder.utils.trimlib.OnRangeSeekBarChangeListener
 com/mtg/screenrecorder/base/BaseDialog.java
@@ -43,13 +40,14 @@ com/mtg/screenrecorder/view/adapter/ColorAdapter.java
  com.mtg.screenrecorder.view.adapter.ColorAdapter$ViewHolder
 com/mtg/screenrecorder/base/rx/BusEvent.java
  com.mtg.screenrecorder.base.rx.BusEvent
-com/mtg/screenrecorder/BuildConfig.java
- com.mtg.screenrecorder.BuildConfig
-com/mtg/screenrecorder/view/dialog/DialogSingleSelected.java
- com.mtg.screenrecorder.view.dialog.DialogSingleSelected
- com.mtg.screenrecorder.view.dialog.DialogSingleSelected$CallBackDialog
-com/mtg/screenrecorder/utils/trimlib/Utility.java
- com.mtg.screenrecorder.utils.trimlib.Utility
+com/mtg/screenrecorder/base/BaseViewHolder.java
+ com.mtg.screenrecorder.base.BaseViewHolder
+com/mtg/screenrecorder/service/MyService.java
+ com.mtg.screenrecorder.service.MyService
+ com.mtg.screenrecorder.service.MyService$1
+com/mtg/screenrecorder/base/BaseRecyclerAdapter.java
+ com.mtg.screenrecorder.base.BaseRecyclerAdapter
+ com.mtg.screenrecorder.base.BaseRecyclerAdapter$CallBackAdapter
 com/mtg/screenrecorder/base/BaseActivity.java
  com.mtg.screenrecorder.base.BaseActivity
 com/mtg/screenrecorder/view/adapter/settings/ListAppAdapter.java
@@ -70,24 +68,24 @@ com/mtg/screenrecorder/utils/ScreenShotHelper.java
  com.mtg.screenrecorder.utils.ScreenShotHelper$ImageAvailableListener
 com/mtg/screenrecorder/utils/media/MediaMuxerWrapper.java
  com.mtg.screenrecorder.utils.media.MediaMuxerWrapper
+com/mtg/screenrecorder/utils/encoder/GifEncoder.java
+ com.mtg.screenrecorder.utils.encoder.GifEncoder
+ com.mtg.screenrecorder.utils.encoder.LZWEncoder
+ com.mtg.screenrecorder.utils.encoder.NeuQuant
 com/mtg/screenrecorder/utils/media/MediaAudioEncoder.java
  com.mtg.screenrecorder.utils.media.MediaAudioEncoder
  com.mtg.screenrecorder.utils.media.MediaAudioEncoder$1
  com.mtg.screenrecorder.utils.media.MediaAudioEncoder$AudioThread
  com.mtg.screenrecorder.utils.media.MediaAudioEncoder$AudioThread2
-com/mtg/screenrecorder/utils/encoder/GifEncoder.java
- com.mtg.screenrecorder.utils.encoder.GifEncoder
- com.mtg.screenrecorder.utils.encoder.LZWEncoder
- com.mtg.screenrecorder.utils.encoder.NeuQuant
-com/mtg/screenrecorder/utils/media/MediaVideoEncoderBase.java
- com.mtg.screenrecorder.utils.media.MediaVideoEncoderBase
+com/mtg/screenrecorder/utils/keyboard/KeyboardHeightProvider.java
+ com.mtg.screenrecorder.utils.keyboard.KeyboardHeightProvider
 com/mtg/screenrecorder/view/activity/tools/ToolsActivity.java
  com.mtg.screenrecorder.view.activity.tools.ToolsActivity
 com/mtg/screenrecorder/view/adapter/EditAdapter.java
  com.mtg.screenrecorder.view.adapter.EditAdapter
  com.mtg.screenrecorder.view.adapter.EditAdapter$ViewHolder
-com/mtg/screenrecorder/utils/keyboard/KeyboardHeightObserver.java
- com.mtg.screenrecorder.utils.keyboard.KeyboardHeightObserver
+com/mtg/screenrecorder/utils/media/MediaVideoEncoderBase.java
+ com.mtg.screenrecorder.utils.media.MediaVideoEncoderBase
 com/mtg/screenrecorder/view/dialog/DialogAppPicker.java
  com.mtg.screenrecorder.view.dialog.DialogAppPicker
  com.mtg.screenrecorder.view.dialog.DialogAppPicker$1
@@ -97,9 +95,10 @@ com/mtg/screenrecorder/utils/encoder/Mp4toGIFConverter.java
  com.mtg.screenrecorder.utils.encoder.Mp4toGIFConverter$TaskSaveGIF
 com/mtg/screenrecorder/view/activity/record/RecordActivity.java
  com.mtg.screenrecorder.view.activity.record.RecordActivity
-com/mtg/screenrecorder/view/adapter/settings/SelectedAdapter.java
- com.mtg.screenrecorder.view.adapter.settings.SelectedAdapter
- com.mtg.screenrecorder.view.adapter.settings.SelectedAdapter$ViewHolder
+com/mtg/screenrecorder/utils/MyTabChange.java
+ com.mtg.screenrecorder.utils.MyTabChange
+com/mtg/screenrecorder/base/BaseFragment.java
+ com.mtg.screenrecorder.base.BaseFragment
 com/mtg/screenrecorder/view/adapter/PictureAdapter.java
  com.mtg.screenrecorder.view.adapter.PictureAdapter
  com.mtg.screenrecorder.view.adapter.PictureAdapter$ViewHolder
@@ -108,21 +107,25 @@ com/mtg/screenrecorder/utils/media/MediaEncoder.java
  com.mtg.screenrecorder.utils.media.MediaEncoder$MediaEncoderListener
 com/mtg/screenrecorder/view/adapter/MainViewPagerAdapter.java
  com.mtg.screenrecorder.view.adapter.MainViewPagerAdapter
-com/mtg/screenrecorder/base/rx/RxBusType.java
- com.mtg.screenrecorder.base.rx.RxBusType
+com/mtg/screenrecorder/view/adapter/VideoAdapter.java
+ com.mtg.screenrecorder.view.adapter.VideoAdapter
+ com.mtg.screenrecorder.view.adapter.VideoAdapter$CallBackVideo
+ com.mtg.screenrecorder.view.adapter.VideoAdapter$HeaderViewHolder
+ com.mtg.screenrecorder.view.adapter.VideoAdapter$VideoViewHolder
 com/mtg/screenrecorder/utils/media/MediaScreenEncoder.java
  com.mtg.screenrecorder.utils.media.MediaScreenEncoder
  com.mtg.screenrecorder.utils.media.MediaScreenEncoder$1
  com.mtg.screenrecorder.utils.media.MediaScreenEncoder$DrawTask
  com.mtg.screenrecorder.utils.media.MediaScreenEncoder$DrawTask$1
  com.mtg.screenrecorder.utils.media.MediaScreenEncoder$DrawTask$2
-com/mtg/screenrecorder/utils/trimlib/TrimVideoUtils.java
- com.mtg.screenrecorder.utils.trimlib.TrimVideoUtils
+com/mtg/screenrecorder/BuildConfig.java
+ com.mtg.screenrecorder.BuildConfig
 com/mtg/screenrecorder/base/rx/RxBus.java
  com.mtg.screenrecorder.base.rx.RxBus
-com/mtg/screenrecorder/utils/ShakeEventManager.java
- com.mtg.screenrecorder.utils.ShakeEventManager
- com.mtg.screenrecorder.utils.ShakeEventManager$ShakeListener
+com/mtg/screenrecorder/utils/keyboard/KeyboardHeightObserver.java
+ com.mtg.screenrecorder.utils.keyboard.KeyboardHeightObserver
+com/mtg/screenrecorder/view/activity/splash/SplashActivity.java
+ com.mtg.screenrecorder.view.activity.splash.SplashActivity
 com/mtg/screenrecorder/databinding/ItemSelectedBinding.java
  com.mtg.screenrecorder.databinding.ItemSelectedBinding
 com/mtg/screenrecorder/databinding/ActivitySplashBinding.java
@@ -131,8 +134,6 @@ com/mtg/screenrecorder/databinding/ItemAppBinding.java
  com.mtg.screenrecorder.databinding.ItemAppBinding
 com/mtg/screenrecorder/databinding/DialogAskPermissionBinding.java
  com.mtg.screenrecorder.databinding.DialogAskPermissionBinding
-com/mtg/screenrecorder/base/BaseFragment.java
- com.mtg.screenrecorder.base.BaseFragment
 com/mtg/screenrecorder/service/layout/LayoutToolsManager.java
  com.mtg.screenrecorder.service.layout.LayoutToolsManager
 com/mtg/screenrecorder/databinding/LayoutNotificationMainBinding.java
@@ -219,10 +220,10 @@ com/mtg/screenrecorder/databinding/LayoutCustomAppBinding.java
  com.mtg.screenrecorder.databinding.LayoutCustomAppBinding
 com/mtg/screenrecorder/databinding/LayoutFloatingMainLeftBinding.java
  com.mtg.screenrecorder.databinding.LayoutFloatingMainLeftBinding
-com/mtg/screenrecorder/utils/trimlib/BarThumb.java
- com.mtg.screenrecorder.utils.trimlib.BarThumb
 com/mtg/screenrecorder/databinding/AppBarMainBinding.java
  com.mtg.screenrecorder.databinding.AppBarMainBinding
+com/mtg/screenrecorder/utils/trimlib/BarThumb.java
+ com.mtg.screenrecorder.utils.trimlib.BarThumb
 com/mtg/screenrecorder/databinding/LayoutPreviewMediaFileBinding.java
  com.mtg.screenrecorder.databinding.LayoutPreviewMediaFileBinding
 com/mtg/screenrecorder/databinding/LayoutVideoSettingsBinding.java
@@ -235,16 +236,16 @@ com/mtg/screenrecorder/service/floating/FloatingBrushManager.java
  com.mtg.screenrecorder.service.floating.FloatingBrushManager
 com/mtg/screenrecorder/databinding/ActivityVideoTrimBinding.java
  com.mtg.screenrecorder.databinding.ActivityVideoTrimBinding
-com/mtg/screenrecorder/view/activity/MainActivity.java
- com.mtg.screenrecorder.view.activity.MainActivity
- com.mtg.screenrecorder.view.activity.MainActivity$1
- com.mtg.screenrecorder.view.activity.MainActivity$2
- com.mtg.screenrecorder.view.activity.MainActivity$3
+com/mtg/screenrecorder/service/layout/LayoutRecordLeftManager.java
+ com.mtg.screenrecorder.service.layout.LayoutRecordLeftManager
+ com.mtg.screenrecorder.service.layout.LayoutRecordLeftManager$Callback
 com/mtg/screenrecorder/databinding/LayoutFloatingMainRightBinding.java
  com.mtg.screenrecorder.databinding.LayoutFloatingMainRightBinding
 com/mtg/screenrecorder/service/layout/LayoutBlurManager.java
  com.mtg.screenrecorder.service.layout.LayoutBlurManager
  com.mtg.screenrecorder.service.layout.LayoutBlurManager$Callback
+com/mtg/screenrecorder/databinding/FloatingCameraViewBinding.java
+ com.mtg.screenrecorder.databinding.FloatingCameraViewBinding
 com/mtg/screenrecorder/databinding/LayoutLanguageBinding.java
  com.mtg.screenrecorder.databinding.LayoutLanguageBinding
 com/mtg/screenrecorder/databinding/NavHeaderMainBinding.java
@@ -264,9 +265,8 @@ com/mtg/screenrecorder/view/dialog/LoadingDialog.java
  com.mtg.screenrecorder.view.dialog.LoadingDialog
 com/mtg/screenrecorder/databinding/FloatingViewMainBinding.java
  com.mtg.screenrecorder.databinding.FloatingViewMainBinding
-com/mtg/screenrecorder/view/fragment/SettingFragment.java
- com.mtg.screenrecorder.view.fragment.SettingFragment
- com.mtg.screenrecorder.view.fragment.SettingFragment$1
+com/mtg/screenrecorder/databinding/ActivityMainBinding.java
+ com.mtg.screenrecorder.databinding.ActivityMainBinding
 com/mtg/screenrecorder/databinding/LayoutMainBrushBinding.java
  com.mtg.screenrecorder.databinding.LayoutMainBrushBinding
 com/mtg/screenrecorder/databinding/ItemEditBinding.java
@@ -307,15 +307,12 @@ com/mtg/screenrecorder/databinding/LayoutNotificationRecordingBinding.java
 com/mtg/screenrecorder/service/layout/LayoutMainLeftManager.java
  com.mtg.screenrecorder.service.layout.LayoutMainLeftManager
  com.mtg.screenrecorder.service.layout.LayoutMainLeftManager$CallBack
-com/mtg/screenrecorder/view/activity/splash/SplashActivity.java
- com.mtg.screenrecorder.view.activity.splash.SplashActivity
 com/mtg/screenrecorder/databinding/FloatingViewCaptureBinding.java
  com.mtg.screenrecorder.databinding.FloatingViewCaptureBinding
+com/mtg/screenrecorder/service/floating/FloatingScreenShotManager.java
+ com.mtg.screenrecorder.service.floating.FloatingScreenShotManager
 com/mtg/screenrecorder/databinding/ItemDateBinding.java
  com.mtg.screenrecorder.databinding.ItemDateBinding
-com/mtg/screenrecorder/service/MyService.java
- com.mtg.screenrecorder.service.MyService
- com.mtg.screenrecorder.service.MyService$1
 com/mtg/screenrecorder/utils/trimlib/CustomRangeSeekBar.java
  com.mtg.screenrecorder.utils.trimlib.CustomRangeSeekBar
 com/mtg/screenrecorder/databinding/LayoutFloatingRecordingRightBinding.java
@@ -323,8 +320,9 @@ com/mtg/screenrecorder/databinding/LayoutFloatingRecordingRightBinding.java
 com/mtg/screenrecorder/service/layout/LayoutRecordRightManager.java
  com.mtg.screenrecorder.service.layout.LayoutRecordRightManager
  com.mtg.screenrecorder.service.layout.LayoutRecordRightManager$Callback
-com/mtg/screenrecorder/databinding/DialogSingleSelectedBinding.java
- com.mtg.screenrecorder.databinding.DialogSingleSelectedBinding
+com/mtg/screenrecorder/view/fragment/SettingFragment.java
+ com.mtg.screenrecorder.view.fragment.SettingFragment
+ com.mtg.screenrecorder.view.fragment.SettingFragment$1
 com/mtg/screenrecorder/databinding/LayoutToolsBinding.java
  com.mtg.screenrecorder.databinding.LayoutToolsBinding
 com/mtg/screenrecorder/databinding/ActivityGuidePermissionOverlayBinding.java
@@ -333,12 +331,16 @@ com/mtg/screenrecorder/databinding/ItemColorBinding.java
  com.mtg.screenrecorder.databinding.ItemColorBinding
 com/mtg/screenrecorder/utils/Toolbox.java
  com.mtg.screenrecorder.utils.Toolbox
-com/mtg/screenrecorder/service/floating/FloatingScreenShotManager.java
- com.mtg.screenrecorder.service.floating.FloatingScreenShotManager
-com/mtg/screenrecorder/databinding/FloatingCameraViewBinding.java
- com.mtg.screenrecorder.databinding.FloatingCameraViewBinding
-com/mtg/screenrecorder/service/layout/LayoutRecordLeftManager.java
- com.mtg.screenrecorder.service.layout.LayoutRecordLeftManager
- com.mtg.screenrecorder.service.layout.LayoutRecordLeftManager$Callback
-com/mtg/screenrecorder/databinding/ActivityMainBinding.java
- com.mtg.screenrecorder.databinding.ActivityMainBinding
+com/mtg/screenrecorder/view/activity/MainActivity.java
+ com.mtg.screenrecorder.view.activity.MainActivity
+ com.mtg.screenrecorder.view.activity.MainActivity$1
+ com.mtg.screenrecorder.view.activity.MainActivity$2
+ com.mtg.screenrecorder.view.activity.MainActivity$3
+com/mtg/screenrecorder/databinding/DialogSingleSelectedBinding.java
+ com.mtg.screenrecorder.databinding.DialogSingleSelectedBinding
+com/mtg/screenrecorder/view/adapter/settings/SelectedAdapter.java
+ com.mtg.screenrecorder.view.adapter.settings.SelectedAdapter
+ com.mtg.screenrecorder.view.adapter.settings.SelectedAdapter$ViewHolder
+com/mtg/screenrecorder/view/dialog/DialogSingleSelected.java
+ com.mtg.screenrecorder.view.dialog.DialogSingleSelected
+ com.mtg.screenrecorder.view.dialog.DialogSingleSelected$CallBackDialog

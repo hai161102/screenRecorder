@@ -1,5 +1,7 @@
 package com.mtg.screenrecorder.service.floating;
 
+import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
+
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Rect;
@@ -8,16 +10,16 @@ import android.os.Build;
 import com.mtg.screenrecorder.R;
 import com.mtg.screenrecorder.base.rx.RxBusHelper;
 import com.mtg.screenrecorder.service.base.BaseFloatingManager;
-import com.mtg.screenrecorder.view.activity.screenshot.ScreenShotActivity;
 import com.mtg.screenrecorder.utils.PreferencesHelper;
 import com.mtg.screenrecorder.utils.ScreenRecordHelper;
 import com.mtg.screenrecorder.utils.ScreenShotHelper;
 import com.mtg.screenrecorder.utils.Toolbox;
-
-import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
+import com.mtg.screenrecorder.view.activity.MainActivity;
+import com.mtg.screenrecorder.view.activity.screenshot.ScreenShotActivity;
 
 public class FloatingScreenShotManager extends BaseFloatingManager {
     private ScreenShotHelper screenShotHelper;
+    private MainActivity mainActivity;
 
     private static FloatingScreenShotManager instance;
 
@@ -28,9 +30,24 @@ public class FloatingScreenShotManager extends BaseFloatingManager {
         return instance;
     }
 
-    public FloatingScreenShotManager(Context context,Rect rect) {
+    public void setMainActivity(MainActivity mainActivity) {
+        this.mainActivity = mainActivity;
+    }
+
+    public FloatingScreenShotManager(Context context, Rect rect) {
         super(context,rect);
         screenShotHelper = new ScreenShotHelper(context, windowManager, metrics);
+    }
+
+    @Override
+    public void onTouchFinished(boolean isFinishing, int x, int y) {
+        super.onTouchFinished(isFinishing, x, y);
+        if (isFinishing){
+            PreferencesHelper.putBoolean(PreferencesHelper.PREFS_TOOLS_SCREEN_SHOT, false);
+            if (mainActivity != null){
+                mainActivity.setViewTools();
+            }
+        }
     }
 
     @Override

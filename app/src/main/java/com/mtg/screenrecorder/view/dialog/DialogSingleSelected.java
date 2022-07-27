@@ -21,18 +21,20 @@ public class DialogSingleSelected extends BaseDialog<DialogSingleSelectedBinding
         this.callBackDialog = callBackDialog;
         binding.tvTitle.setText(title);
         selectedAdapter = new SelectedAdapter(itemSelecteds, getContext(), selected);
+        selectedAdapter.setDialogSingleSelected(this);
+        selectedAdapter.setCallBackDialog(callBackDialog);
         binding.rcvData.setAdapter(selectedAdapter);
     }
 
     @Override
     protected void initData() {
         binding.tvCancel.setOnClickListener(v -> dismiss());
-        binding.tvOk.setOnClickListener(v -> {
-            if (callBackDialog != null) {
-                callBackDialog.onOK(selectedAdapter.getSelected());
-                dismiss();
-            }
-        });
+//        binding.tvOk.setOnClickListener(v -> {
+//            if (callBackDialog != null) {
+//                callBackDialog.onOK(selectedAdapter.getSelected());
+//                dismiss();
+//            }
+//        });
     }
 
     @Override

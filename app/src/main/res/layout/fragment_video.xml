@@ -32,7 +32,7 @@
         android:layout_width="@dimen/_100sdp"
         android:layout_height="@dimen/_100sdp"
         android:layout_marginBottom="@dimen/_16sdp"
-        android:src="@drawable/ic_no_video"
+        android:src="@drawable/ic_empty_video"
         app:layout_constraintBottom_toTopOf="@id/tv_no_data"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -43,7 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/_16sdp"
         android:text="@string/no_video"
-        android:textColor="@color/color_828282"
+        android:textColor="@color/color_94979D"
+        android:fontFamily="@font/roboto_regular"
         android:textSize="@dimen/_14sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,5 +1,6 @@
 package com.mtg.screenrecorder.view.adapter.settings;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -12,11 +13,22 @@ import com.mtg.screenrecorder.base.BaseRecyclerAdapter;
 import com.mtg.screenrecorder.base.BaseViewHolder;
 import com.mtg.screenrecorder.databinding.ItemSelectedBinding;
 import com.mtg.screenrecorder.utils.setting.ItemSelected;
+import com.mtg.screenrecorder.view.dialog.DialogSingleSelected;
 
 import java.util.List;
 
 public class SelectedAdapter extends BaseRecyclerAdapter<ItemSelected> {
     private String selected = "";
+    private DialogSingleSelected.CallBackDialog callBackDialog;
+    private DialogSingleSelected dialogSingleSelected;
+
+    public void setCallBackDialog(DialogSingleSelected.CallBackDialog callBackDialog) {
+        this.callBackDialog = callBackDialog;
+    }
+
+    public void setDialogSingleSelected(DialogSingleSelected dialogSingleSelected) {
+        this.dialogSingleSelected = dialogSingleSelected;
+    }
 
     public String getSelected() {
         return selected;
@@ -40,6 +52,7 @@ public class SelectedAdapter extends BaseRecyclerAdapter<ItemSelected> {
         }
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     public void binData(ItemSelected item, ViewHolder viewHolder) {
         if (item == null)
             return;
@@ -57,8 +70,10 @@ public class SelectedAdapter extends BaseRecyclerAdapter<ItemSelected> {
 
         viewHolder.binding.getRoot().setOnClickListener(v -> {
             selected = item.getValue();
-            notifyDataSetChanged();
             onClickItem(item);
+            callBackDialog.onOK(selected);
+            dialogSingleSelected.dismiss();
+            notifyDataSetChanged();
         });
     }
 

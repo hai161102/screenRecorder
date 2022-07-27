@@ -1,26 +1,33 @@
 package com.mtg.screenrecorder.service.floating;
 
+import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
+
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Rect;
+import android.util.Log;
 
 import com.mtg.screenrecorder.R;
 import com.mtg.screenrecorder.base.rx.RxBusHelper;
+import com.mtg.screenrecorder.service.base.BaseFloatingManager;
 import com.mtg.screenrecorder.service.layout.LayoutBlurManager;
 import com.mtg.screenrecorder.service.layout.LayoutMainLeftManager;
 import com.mtg.screenrecorder.service.layout.LayoutMainRightManager;
-import com.mtg.screenrecorder.service.base.BaseFloatingManager;
 import com.mtg.screenrecorder.service.layout.LayoutToolsManager;
-import com.mtg.screenrecorder.view.activity.MainActivity;
 import com.mtg.screenrecorder.utils.Config;
+import com.mtg.screenrecorder.utils.PreferencesHelper;
 import com.mtg.screenrecorder.utils.Toolbox;
-
-import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
+import com.mtg.screenrecorder.view.activity.MainActivity;
 
 public class FloatingMainManager extends BaseFloatingManager {
     private LayoutMainLeftManager layoutMainLeftManager;
     private LayoutMainRightManager layoutMainRightManager;
     private LayoutBlurManager layoutBlurManager;
+    private MainActivity mainActivity;
+
+    public void setMainActivity(MainActivity mainActivity) {
+        this.mainActivity = mainActivity;
+    }
 
     private static FloatingMainManager instance;
 
@@ -31,9 +38,26 @@ public class FloatingMainManager extends BaseFloatingManager {
         return instance;
     }
 
-    public FloatingMainManager(Context context,Rect rect) {
+    @Override
+    public void onTouchFinished(boolean isFinishing, int x, int y) {
+        super.onTouchFinished(isFinishing, x, y);
+        Log.d("android_log_1", "onTouchFinished: " + isFinishing);
+        if (isFinishing) {
+            PreferencesHelper.putBoolean(PreferencesHelper.KEY_FLOATING_CONTROL, false);
+            if (mainActivity != null){
+                mainActivity.setViewTools();
+            }
+            clearStateShowMainLayout();
+            instance = null;
+        }
+    }
+
+    public FloatingMainManager(Context context, Rect rect) {
         super(context,rect);
         addFloatingView();
+        if (mainActivity != null){
+            mainActivity.onResume();
+        }
     }
 
     protected void initLayout() {
@@ -176,4 +200,5 @@ public class FloatingMainManager extends BaseFloatingManager {
         instance = null;
         super.onFinishFloatingView();
     }
+
 }

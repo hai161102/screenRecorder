@@ -1,5 +1,6 @@
 package com.mtg.screenrecorder.service.floating;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.PixelFormat;
 import android.os.Build;
@@ -13,12 +14,14 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.master.cameralibrary.CameraView;
 import com.mtg.screenrecorder.R;
 import com.mtg.screenrecorder.utils.PreferencesHelper;
-import com.master.cameralibrary.CameraView;
+import com.mtg.screenrecorder.view.activity.MainActivity;
 
 public class FloatingCameraViewManager {
     private final Context context;
+    private MainActivity mainActivity;
     private LinearLayout mFloatingView;
     private ImageView imvResizeOverlay;
     private ImageView imvHideCamera;
@@ -42,6 +45,12 @@ public class FloatingCameraViewManager {
         handler = new Handler();
         initLayout();
     }
+    public FloatingCameraViewManager(Context context, MainActivity mainActivity) {
+        this.context = context;
+        this.mainActivity = mainActivity;
+        handler = new Handler();
+        initLayout();
+    }
 
     private void initLayout() {
         LayoutInflater li = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -56,11 +65,10 @@ public class FloatingCameraViewManager {
         imvSwitchCamera.setOnClickListener(v -> {
             if (cameraView.getFacing() == CameraView.FACING_BACK) {
                 cameraView.setFacing(CameraView.FACING_FRONT);
-                cameraView.setAutoFocus(true);
             } else {
                 cameraView.setFacing(CameraView.FACING_BACK);
-                cameraView.setAutoFocus(true);
             }
+            cameraView.setAutoFocus(true);
         });
 
         imvHideCamera.setOnClickListener(v -> {
@@ -90,6 +98,7 @@ public class FloatingCameraViewManager {
         setupDragListener();
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     private void setupDragListener() {
         mFloatingView.setOnTouchListener(new View.OnTouchListener() {
             private final WindowManager.LayoutParams paramsF = params;
@@ -180,6 +189,10 @@ public class FloatingCameraViewManager {
             mFloatingView = null;
         }
         PreferencesHelper.putBoolean(PreferencesHelper.PREFS_TOOLS_CAMERA, false);
+        if (mainActivity != null){
+            mainActivity.setViewTools();
+            mainActivity = null;
+        }
     }
 
     private int getXPos() {
