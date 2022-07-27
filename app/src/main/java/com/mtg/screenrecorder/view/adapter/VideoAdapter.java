@@ -1,20 +1,27 @@
 package com.mtg.screenrecorder.view.adapter;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.FileProvider;
 
 import com.bumptech.glide.Glide;
 import com.mtg.screenrecorder.base.BaseRecyclerAdapter;
 import com.mtg.screenrecorder.base.BaseViewHolder;
 import com.mtg.screenrecorder.databinding.ItemDateBinding;
 import com.mtg.screenrecorder.databinding.ItemVideosBinding;
+import com.mtg.screenrecorder.utils.Config;
 import com.mtg.screenrecorder.utils.trimlib.VideoFile;
 import com.mtg.screenrecorder.utils.Toolbox;
+import com.mtg.screenrecorder.view.activity.VideoTrimActivity;
+
+import java.io.File;
 import java.util.List;
 
 import wseemann.media.FFmpegMediaMetadataRetriever;
@@ -68,6 +75,12 @@ public class VideoAdapter extends BaseRecyclerAdapter<VideoFile> {
             Glide.with(context).load(item.getPath()).into(((VideoViewHolder) holder).binding.imvVideo);
             ((VideoViewHolder) holder).binding.getRoot().setOnClickListener(v -> callBackVideo.onClickItem(item));
             ((VideoViewHolder) holder).binding.imvMore.setOnClickListener(v -> callBackVideo.onCLickMore(item, holder.getAdapterPosition(), v));
+            ((VideoViewHolder) holder).binding.shareItem.setOnClickListener(v -> {
+                shareMedia(item.getPath(), v.getContext());
+            });
+            ((VideoViewHolder) holder).binding.editItem.setOnClickListener(v -> {
+                openEditVideo(item.getPath(), v.getContext());
+            });
         }
     }
 
@@ -91,5 +104,21 @@ public class VideoAdapter extends BaseRecyclerAdapter<VideoFile> {
         void onCLickMore(VideoFile item, int pos, View view);
     }
 
-
+    private void shareMedia(String filePath, Context context) {
+        Uri fileUri = FileProvider.getUriForFile(
+                context, context.getPackageName() + ".provider",
+                new File(filePath));
+        Intent shareIntent = new Intent()
+                .setAction(Intent.ACTION_SEND)
+                .putExtra(Intent.EXTRA_STREAM, fileUri)
+                .setType(filePath.endsWith(".mp4") ? "video/mp4" : "image/*");
+        shareIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(shareIntent);
+    }
+    private void openEditVideo(String filePath, Context context) {
+        Intent intent = new Intent(context, VideoTrimActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra(Config.EXTRA_PATH, filePath);
+        context.startActivity(intent);
+    }
 }

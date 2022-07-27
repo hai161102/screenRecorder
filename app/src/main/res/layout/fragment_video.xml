@@ -14,8 +14,9 @@
             android:id="@+id/rcv_video"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingHorizontal="@dimen/_8sdp"
             android:orientation="vertical"
-            android:visibility="gone"
+            android:visibility="visible"
             app:spanCount="1"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             tools:listitem="@layout/item_videos" />

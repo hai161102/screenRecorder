@@ -4,19 +4,19 @@
     tools:showIn="navigation_view">
     <group>
         <item
-            android:icon="@drawable/ic_rating"
+            android:icon="@drawable/ic_rate"
             android:id="@+id/nav_rate"
             android:title="@string/menu_rate_us" />
         <item
-            android:icon="@drawable/ic_feedback"
+            android:icon="@drawable/ic_feedback_menu"
             android:id="@+id/nav_feedback"
             android:title="@string/menu_feedback" />
         <item
-            android:icon="@drawable/ic_share_social"
+            android:icon="@drawable/ic_share_menu"
             android:id="@+id/nav_share"
             android:title="@string/menu_share" />
         <item
-            android:icon="@drawable/ic_language"
+            android:icon="@drawable/ic_language_menu"
             android:id="@+id/nav_language"
             android:title="@string/menu_language" />
     </group>

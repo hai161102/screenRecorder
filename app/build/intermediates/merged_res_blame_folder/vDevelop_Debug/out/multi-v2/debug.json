@@ -3134,11 +3134,9 @@
                 {
                     "source": "D:\\Screen Recored By LubuTeam\\screenrecorder_v2\\screenrecorder_v2\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,9",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,4",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,463",
-                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,55",
-                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,514"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "2217,2218,2231,2302,2306,2478,2713,2714,2736,2737",

@@ -4,10 +4,12 @@ package com.mtg.screenrecorder.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.mtg.screenrecorder.R;
@@ -20,10 +22,19 @@ public final class ItemVideosBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final CardView cardImage;
+
+  @NonNull
+  public final ImageView editItem;
+
+  @NonNull
   public final AppCompatImageView imvMore;
 
   @NonNull
   public final AppCompatImageView imvVideo;
+
+  @NonNull
+  public final ImageView shareItem;
 
   @NonNull
   public final AppCompatTextView tvDuration;
@@ -37,13 +48,17 @@ public final class ItemVideosBinding implements ViewBinding {
   @NonNull
   public final AppCompatTextView tvSize;
 
-  private ItemVideosBinding(@NonNull ConstraintLayout rootView, @NonNull AppCompatImageView imvMore,
-      @NonNull AppCompatImageView imvVideo, @NonNull AppCompatTextView tvDuration,
-      @NonNull AppCompatTextView tvName, @NonNull AppCompatTextView tvResolution,
-      @NonNull AppCompatTextView tvSize) {
+  private ItemVideosBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardImage,
+      @NonNull ImageView editItem, @NonNull AppCompatImageView imvMore,
+      @NonNull AppCompatImageView imvVideo, @NonNull ImageView shareItem,
+      @NonNull AppCompatTextView tvDuration, @NonNull AppCompatTextView tvName,
+      @NonNull AppCompatTextView tvResolution, @NonNull AppCompatTextView tvSize) {
     this.rootView = rootView;
+    this.cardImage = cardImage;
+    this.editItem = editItem;
     this.imvMore = imvMore;
     this.imvVideo = imvVideo;
+    this.shareItem = shareItem;
     this.tvDuration = tvDuration;
     this.tvName = tvName;
     this.tvResolution = tvResolution;
@@ -77,6 +92,18 @@ public final class ItemVideosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardImage;
+      CardView cardImage = rootView.findViewById(id);
+      if (cardImage == null) {
+        break missingId;
+      }
+
+      id = R.id.edit_item;
+      ImageView editItem = rootView.findViewById(id);
+      if (editItem == null) {
+        break missingId;
+      }
+
       id = R.id.imv_more;
       AppCompatImageView imvMore = rootView.findViewById(id);
       if (imvMore == null) {
@@ -86,6 +113,12 @@ public final class ItemVideosBinding implements ViewBinding {
       id = R.id.imv_video;
       AppCompatImageView imvVideo = rootView.findViewById(id);
       if (imvVideo == null) {
+        break missingId;
+      }
+
+      id = R.id.share_item;
+      ImageView shareItem = rootView.findViewById(id);
+      if (shareItem == null) {
         break missingId;
       }
 
@@ -113,8 +146,8 @@ public final class ItemVideosBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemVideosBinding((ConstraintLayout) rootView, imvMore, imvVideo, tvDuration,
-          tvName, tvResolution, tvSize);
+      return new ItemVideosBinding((ConstraintLayout) rootView, cardImage, editItem, imvMore,
+          imvVideo, shareItem, tvDuration, tvName, tvResolution, tvSize);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,5 +1,6 @@
 package com.mtg.screenrecorder.utils;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
@@ -218,7 +219,7 @@ public class Toolbox {
             return 0;
         }
         try {
-            Field mAttachInfoField = View.class.getDeclaredField("mAttachInfo");
+            @SuppressLint("SoonBlockedPrivateApi") Field mAttachInfoField = View.class.getDeclaredField("mAttachInfo");
             mAttachInfoField.setAccessible(true);
             Object mAttachInfo = mAttachInfoField.get(view);
             if (mAttachInfo != null) {

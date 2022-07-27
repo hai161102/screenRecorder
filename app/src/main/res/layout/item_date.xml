@@ -14,8 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/color_8A000000"
-        android:textSize="@dimen/_16sdp"
-        android:textStyle="bold"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="normal"
+        android:fontFamily="@font/roboto_bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="Wednesday, 27 Jan" />

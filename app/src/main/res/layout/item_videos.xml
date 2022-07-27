@@ -4,34 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?attr/selectableItemBackground"
-    android:paddingStart="@dimen/_16sdp"
-    android:paddingTop="@dimen/_10sdp"
-    android:paddingEnd="@dimen/_16sdp"
-    android:paddingBottom="@dimen/_10sdp">
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/imv_video"
-        android:layout_width="@dimen/_80sdp"
-        android:layout_height="@dimen/_80sdp"
-        android:scaleType="centerCrop"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_duration"
-        android:layout_width="0dp"
+    android:background="@drawable/shape_item"
+    android:paddingStart="@dimen/_8sdp"
+    android:paddingTop="@dimen/_8sdp"
+    android:paddingBottom="@dimen/_8sdp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardImage"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/bgr_duration_video"
-        android:paddingStart="@dimen/_6sdp"
-        android:paddingTop="@dimen/_2sdp"
-        android:paddingBottom="@dimen/_2sdp"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_8sdp"
-        app:layout_constraintBottom_toBottomOf="@id/imv_video"
-        app:layout_constraintEnd_toEndOf="@id/imv_video"
-        app:layout_constraintStart_toStartOf="@id/imv_video"
-        tools:text="00:20" />
+        android:elevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="@dimen/_8sdp">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imv_video"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:scaleType="centerCrop"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgr_duration_video"
+            android:paddingStart="@dimen/_6sdp"
+            android:paddingTop="@dimen/_2sdp"
+            android:paddingBottom="@dimen/_2sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_8sdp"
+            tools:text="00:20" />
+
+    </androidx.cardview.widget.CardView>
+
+
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imv_more"
@@ -39,9 +44,9 @@
         android:layout_height="@dimen/_24sdp"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:padding="@dimen/_4sdp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_8sdp"
         app:srcCompat="@drawable/ic_more_item" />
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -50,37 +55,58 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_16sdp"
         android:layout_marginEnd="@dimen/_8sdp"
+        android:fontFamily="@font/roboto_bold"
         android:textColor="@color/color_11111"
-        android:textSize="@dimen/_15sdp"
+        android:textSize="@dimen/_12sdp"
         app:layout_constraintEnd_toStartOf="@id/imv_more"
-        app:layout_constraintStart_toEndOf="@id/imv_video"
+        app:layout_constraintStart_toEndOf="@id/cardImage"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Recording.mp4" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_resolution"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginEnd="@dimen/_8sdp"
-        android:textColor="@color/color_8A000000"
-        android:textSize="@dimen/_12sdp"
-        app:layout_constraintBottom_toTopOf="@id/tv_size"
-        app:layout_constraintEnd_toStartOf="@id/imv_more"
-        app:layout_constraintStart_toEndOf="@id/imv_video"
-        app:layout_constraintTop_toBottomOf="@id/tv_name"
-        tools:text="1920x1080" />
+        app:layout_constraintLeft_toRightOf="@id/cardImage"
+        app:layout_constraintBottom_toBottomOf="@id/cardImage"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_8sdp">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_resolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:textColor="@color/color_8A000000"
+            android:textSize="@dimen/_12sdp"
+            tools:text="1920x1080" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_size"
-        android:layout_width="0dp"
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:textColor="@color/color_8A000000"
+            android:textSize="@dimen/_12sdp"
+            tools:text="3.2MB" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_16sdp"
+        android:orientation="horizontal"
         android:layout_marginEnd="@dimen/_8sdp"
-        android:textColor="@color/color_8A000000"
-        android:textSize="@dimen/_12sdp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/imv_more"
-        app:layout_constraintStart_toEndOf="@id/imv_video"
-        tools:text="3.2MB" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <ImageView
+            android:id="@+id/edit_item"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:src="@drawable/ic_edit_item"/>
+        <ImageView
+            android:id="@+id/share_item"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_share"/>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

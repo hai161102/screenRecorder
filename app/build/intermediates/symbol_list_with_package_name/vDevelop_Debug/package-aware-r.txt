@@ -4122,10 +4122,12 @@ drawable ic_cut_line_right
 drawable ic_delete
 drawable ic_disabled
 drawable ic_edit
+drawable ic_edit_item
 drawable ic_edit_unnon
 drawable ic_empty_image
 drawable ic_empty_video
 drawable ic_feedback
+drawable ic_feedback_menu
 drawable ic_file_name_prefix
 drawable ic_floating
 drawable ic_floating_ball_non
@@ -4152,6 +4154,7 @@ drawable ic_image_unnon
 drawable ic_install
 drawable ic_keyboard_black_24dp
 drawable ic_language
+drawable ic_language_menu
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_m3_chip_check
@@ -4172,6 +4175,7 @@ drawable ic_orientation
 drawable ic_pause
 drawable ic_play
 drawable ic_play_circle
+drawable ic_rate
 drawable ic_rating
 drawable ic_record
 drawable ic_record_dot
@@ -4182,8 +4186,10 @@ drawable ic_screen_shot_unnnon
 drawable ic_screenshot
 drawable ic_setting
 drawable ic_setting_unnon
+drawable ic_settings_floatting
 drawable ic_shake
 drawable ic_share
+drawable ic_share_menu
 drawable ic_share_social
 drawable ic_star_active_blue
 drawable ic_star_empty
@@ -4199,6 +4205,7 @@ drawable ic_tab_video
 drawable ic_target_app
 drawable ic_thumb
 drawable ic_tick
+drawable ic_tools
 drawable ic_tools_app
 drawable ic_tools_brush
 drawable ic_tools_camera
@@ -4290,6 +4297,7 @@ drawable shape_floating_camera
 drawable shape_floating_main
 drawable shape_gradient_button
 drawable shape_imv_preview
+drawable shape_item
 drawable shape_item_floating
 drawable shape_share
 drawable shape_time
@@ -4462,6 +4470,7 @@ id cameraMain
 id cameraView
 id cancel_action
 id cancel_button
+id cardImage
 id carryVelocity
 id center
 id centerBottom
@@ -4578,6 +4587,7 @@ id easeInOut
 id easeOut
 id east
 id edit
+id edit_item
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
@@ -4997,6 +5007,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id share
+id share_item
 id sharedValueSet
 id sharedValueUnset
 id shimmer_container
